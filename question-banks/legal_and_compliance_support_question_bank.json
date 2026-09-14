@@ -1,0 +1,1171 @@
+{
+  "track": "LEGAL & COMPLIANCE SUPPORT",
+  "import_instruction": "Import these questions only. Preserve wording, answers, skill labels and eligibility flags. Replace this track’s placeholders; leave other tracks unchanged. Flag missing skill labels or confidence baselines together before changing them. Keep updates and the final summary brief.",
+  "questions": [
+    {
+      "id": "legal_and_compliance_support_t1_q01",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Legal Research",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in legal research (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q02",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Legal Writing",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in legal writing (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q03",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Contract Management",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in contract management (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q04",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Contract Review",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in reviewing contracts (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q05",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Compliance Management",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in compliance management (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q06",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Regulatory Research",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in regulatory research (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q07",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Risk & Compliance Analysis",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in identifying legal and compliance risks (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q08",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Policy Development",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in developing and reviewing organizational policies (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q09",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Legal Documentation",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in preparing legal and compliance documentation (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q10",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Due Diligence",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in legal or commercial due diligence (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q11",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Corporate Governance",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in corporate governance concepts (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q12",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Privacy & Data Protection",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in privacy and data-protection compliance (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q13",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Compliance Auditing",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in compliance audits and assessments (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q14",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Regulatory Compliance",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in regulatory compliance (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t1_q15",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Dispute / Issue Management",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in managing legal or compliance issues (1–10)."
+    },
+    {
+      "id": "legal_and_compliance_support_t2a_q01",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Legal Research",
+      "question_type": "project_count",
+      "question": "How many projects, assignments, cases, or real work experiences have you completed involving legal research?"
+    },
+    {
+      "id": "legal_and_compliance_support_t2a_q02",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Contract Review / Management",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving contract review or contract management?"
+    },
+    {
+      "id": "legal_and_compliance_support_t2a_q03",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Compliance Management",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving compliance or regulatory work?"
+    },
+    {
+      "id": "legal_and_compliance_support_t2a_q04",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Legal / Compliance Risk",
+      "question_type": "project_count",
+      "question": "How many projects, cases, or real work experiences have you completed involving legal or compliance risk analysis?"
+    },
+    {
+      "id": "legal_and_compliance_support_t2a_q05",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Due Diligence / Governance",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving due diligence, governance, or related legal review?"
+    },
+    {
+      "id": "legal_and_compliance_support_t2b_q01",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "Briefly describe one legal, compliance, contract, regulatory, or governance project you completed."
+    },
+    {
+      "id": "legal_and_compliance_support_t2b_q02",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much of the work did you complete yourself versus with a team?"
+    },
+    {
+      "id": "legal_and_compliance_support_t2b_q03",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much did you rely on AI tools such as ChatGPT or Copilot while completing the work?"
+    },
+    {
+      "id": "legal_and_compliance_support_t2b_q04",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "What was the hardest legal or compliance problem you encountered?"
+    },
+    {
+      "id": "legal_and_compliance_support_t2b_q05",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How confident are you explaining the sources, reasoning, risks, and final recommendation to someone else?"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q01",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the primary purpose of legal research?",
+      "options": {
+        "A": "Identify and evaluate relevant legal authorities for a particular issue",
+        "B": "Find any source that supports the preferred conclusion",
+        "C": "Replace legal judgment entirely",
+        "D": "Avoid reading primary authorities"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q02",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "scenario\\_judgment",
+      "question": "When evaluating a legal source, why is jurisdiction important?",
+      "options": {
+        "A": "The authority's relevance and binding effect can depend on the jurisdiction involved",
+        "B": "Jurisdiction only affects document formatting",
+        "C": "Jurisdiction never matters in legal research",
+        "D": "Jurisdiction determines the font used in the decision"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q03",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "scenario\\_judgment",
+      "question": "A researcher finds an old case that supports a conclusion. What should be checked?",
+      "options": {
+        "A": "Whether it remains valid and how later authorities have treated it",
+        "B": "Only the case title",
+        "C": "Only the date it was published",
+        "D": "Whether the opinion is visually well formatted"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q04",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a primary authority generally?",
+      "options": {
+        "A": "A source such as legislation, regulations, or judicial decisions that itself carries legal authority",
+        "B": "A blog summarizing the law",
+        "C": "A general news article",
+        "D": "A social-media post"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q05",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should legal researchers distinguish binding from persuasive authority?",
+      "options": {
+        "A": "They have different levels of legal force in a given context",
+        "B": "They are always equally binding",
+        "C": "Persuasive authority is always stronger",
+        "D": "Binding authority can never be challenged"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q06",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "scenario\\_judgment",
+      "question": "A statute appears relevant to an issue, but an exception may apply. What should the researcher do?",
+      "options": {
+        "A": "Read the relevant provisions, definitions, exceptions, and related authorities carefully",
+        "B": "Ignore the exception",
+        "C": "Quote only the first paragraph",
+        "D": "Assume the statute applies completely"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q07",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is precise issue-spotting important?",
+      "options": {
+        "A": "The applicable law can depend on the specific facts and legal question being analyzed",
+        "B": "Every legal issue has the same rule",
+        "C": "It reduces the need for sources",
+        "D": "It guarantees one result"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q08",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "scenario\\_judgment",
+      "question": "A secondary source cites a case, but the researcher needs to rely on the case itself. What should they do?",
+      "options": {
+        "A": "Locate and review the underlying authority",
+        "B": "Cite only the summary",
+        "C": "Assume the summary is complete",
+        "D": "Avoid checking the case"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q09",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is citation accuracy important in legal research?",
+      "options": {
+        "A": "It allows others to locate and verify the authority supporting the analysis",
+        "B": "It makes a legal argument automatically correct",
+        "C": "It replaces reasoning",
+        "D": "It eliminates the need for primary sources"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q10",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Research",
+      "question_type": "project\\_verification",
+      "question": "A student claims substantial legal-research experience. What should they be able to explain?",
+      "options": {
+        "A": "The legal issue, research strategy, authorities considered, how validity was checked, and how the authorities supported the conclusion",
+        "B": "Only the research database used",
+        "C": "Only the number of cases found",
+        "D": "Only the final answer"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q11",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Review",
+      "question_type": "scenario\\_judgment",
+      "question": "What should a contract reviewer pay particular attention to?",
+      "options": {
+        "A": "Rights, obligations, definitions, conditions, deadlines, risks, and remedies",
+        "B": "Only the document length",
+        "C": "Only the title",
+        "D": "Only the formatting"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q12",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Review",
+      "question_type": "scenario\\_judgment",
+      "question": "A contract contains a payment clause that conflicts with another section. What should the reviewer do?",
+      "options": {
+        "A": "Identify and resolve the inconsistency before treating the terms as clear",
+        "B": "Ignore the conflict",
+        "C": "Choose whichever clause appears first",
+        "D": "Assume both clauses apply equally"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q13",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Management",
+      "question_type": "scenario\\_judgment",
+      "question": "What is contract management primarily concerned with after a contract is signed?",
+      "options": {
+        "A": "Tracking obligations, milestones, changes, risks, and performance",
+        "B": "Rewriting the contract every week",
+        "C": "Removing all deadlines",
+        "D": "Avoiding communication with the other party"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q14",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Review",
+      "question_type": "scenario\\_judgment",
+      "question": "Why are defined terms important in contracts?",
+      "options": {
+        "A": "They establish specific meanings used throughout the agreement",
+        "B": "They are only decorative",
+        "C": "They replace operative clauses",
+        "D": "They make contracts automatically enforceable"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q15",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Management",
+      "question_type": "scenario\\_judgment",
+      "question": "A vendor misses a contractual milestone. What should contract management review first?",
+      "options": {
+        "A": "The relevant obligation, deadline, notice requirements, and available remedies",
+        "B": "The vendor's logo",
+        "C": "Only the invoice total",
+        "D": "Ignore the missed milestone"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q16",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Review",
+      "question_type": "scenario\\_judgment",
+      "question": "Why are termination provisions important?",
+      "options": {
+        "A": "They establish circumstances and procedures under which the agreement may end",
+        "B": "They guarantee the contract will end",
+        "C": "They replace all other obligations",
+        "D": "They only describe payment amounts"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q17",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Review",
+      "question_type": "scenario\\_judgment",
+      "question": "A contract requires written notice for certain changes. A team member makes the change informally. What is the concern?",
+      "options": {
+        "A": "The required contractual process may not have been followed",
+        "B": "Informal changes are always valid",
+        "C": "Notice provisions are optional",
+        "D": "The contract automatically changes"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q18",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Management",
+      "question_type": "scenario\\_judgment",
+      "question": "Why maintain a contract-obligation tracker?",
+      "options": {
+        "A": "It helps monitor responsibilities, dates, deliverables, and compliance",
+        "B": "It replaces the contract",
+        "C": "It eliminates risk",
+        "D": "It guarantees performance"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q19",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Review",
+      "question_type": "scenario\\_judgment",
+      "question": "A proposed limitation-of-liability clause is unusually broad. What should a reviewer consider?",
+      "options": {
+        "A": "Scope, risk allocation, exceptions, and the consequences for the organization",
+        "B": "Only clause length",
+        "C": "Only formatting",
+        "D": "Ignore the provision"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q20",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Contract Review / Management",
+      "question_type": "project\\_verification",
+      "question": "A student claims real contract-review experience. What should they be able to explain?",
+      "options": {
+        "A": "How they identified material obligations, risks, inconsistencies, commercial points, and follow-up actions",
+        "B": "Only the contract-management software",
+        "C": "Only the contract value",
+        "D": "Only the number of pages"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Contract Review / Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q21",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the primary purpose of a compliance program?",
+      "options": {
+        "A": "Help an organization identify, manage, and monitor applicable legal or regulatory obligations",
+        "B": "Guarantee that violations can never occur",
+        "C": "Replace management decisions",
+        "D": "Eliminate internal controls"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q22",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Regulatory Research",
+      "question_type": "scenario\\_judgment",
+      "question": "A new regulation may affect a company's operations. What should compliance staff determine first?",
+      "options": {
+        "A": "Whether and how the rule applies to the organization's activities and obligations",
+        "B": "Assume every provision applies identically",
+        "C": "Ignore the regulation until an audit",
+        "D": "Change policies without analysis"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q23",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should compliance obligations be mapped to responsible owners?",
+      "options": {
+        "A": "Clear ownership supports accountability and monitoring",
+        "B": "Ownership is unnecessary",
+        "C": "It removes the need for policies",
+        "D": "It guarantees perfect compliance"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q24",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Regulatory Research",
+      "question_type": "scenario\\_judgment",
+      "question": "A regulation has been amended. What should a compliance team do?",
+      "options": {
+        "A": "Assess the changes, affected obligations, and required updates",
+        "B": "Continue using the old interpretation automatically",
+        "C": "Ignore the amendment",
+        "D": "Delete the regulation from records"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q25",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "Why are compliance controls documented?",
+      "options": {
+        "A": "To establish how obligations are operationally addressed and monitored",
+        "B": "To increase paperwork only",
+        "C": "To replace regulations",
+        "D": "To guarantee there will be no violations"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q26",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Regulatory Research",
+      "question_type": "scenario\\_judgment",
+      "question": "A business operates across multiple jurisdictions. Why might compliance requirements differ?",
+      "options": {
+        "A": "Different jurisdictions can impose different legal and regulatory obligations",
+        "B": "Laws are always identical",
+        "C": "Only tax rates differ",
+        "D": "Jurisdiction never matters"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q27",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "A control exists on paper but employees do not actually follow it. What does this indicate?",
+      "options": {
+        "A": "A potential gap between documented controls and operational compliance",
+        "B": "Successful compliance by definition",
+        "C": "Stronger controls automatically",
+        "D": "No risk"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q28",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Regulatory Research",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should regulatory research use authoritative sources wherever possible?",
+      "options": {
+        "A": "They provide a stronger basis for determining applicable requirements",
+        "B": "All online summaries are equally authoritative",
+        "C": "Secondary summaries always override primary rules",
+        "D": "Authoritative sources are only needed after a violation"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q29",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "A compliance requirement has no identified internal owner. What is the main risk?",
+      "options": {
+        "A": "The obligation may not be consistently implemented or monitored",
+        "B": "The requirement becomes optional",
+        "C": "The regulation disappears",
+        "D": "Audits become unnecessary"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q30",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance / Regulatory Research",
+      "question_type": "project\\_verification",
+      "question": "A student claims real compliance experience. What should they be able to explain?",
+      "options": {
+        "A": "The requirement, applicable source, affected process, controls, owner, monitoring, and gaps identified",
+        "B": "Only the compliance software",
+        "C": "Only the regulation title",
+        "D": "Only the audit date"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q31",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Risk & Compliance Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the purpose of legal or compliance risk assessment?",
+      "options": {
+        "A": "Identify potential legal or regulatory exposures and evaluate their significance",
+        "B": "Guarantee zero risk",
+        "C": "Replace all legal research",
+        "D": "Focus only on financial profit"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q32",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Risk Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "A compliance risk is both highly likely and potentially severe. What should generally happen?",
+      "options": {
+        "A": "Prioritize mitigation and monitoring",
+        "B": "Ignore it because it has not happened yet",
+        "C": "Remove it from the risk register",
+        "D": "Wait for an external complaint"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q33",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Risk Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "A contract contains an obligation the organization may not be able to meet. What should be considered?",
+      "options": {
+        "A": "Feasibility, consequences, alternatives, and possible contractual changes",
+        "B": "Sign immediately regardless of feasibility",
+        "C": "Ignore the obligation",
+        "D": "Assume the other party will waive it"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q34",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Risk Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "A business collects more personal information than it appears to need. What should compliance consider?",
+      "options": {
+        "A": "Whether the collection is necessary, authorized, appropriately protected, and consistent with applicable requirements",
+        "B": "Collect more data to be safe",
+        "C": "Publish the information",
+        "D": "Ignore the issue"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q35",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Risk & Compliance Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should risk assessments include both likelihood and impact?",
+      "options": {
+        "A": "A risk's priority depends on both how likely it is and how serious the consequences could be",
+        "B": "Likelihood is the only factor that matters",
+        "C": "Impact is irrelevant",
+        "D": "Every risk is equally important"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q36",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Risk Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "A legal issue can affect several business functions. What should the organization consider?",
+      "options": {
+        "A": "The cross-functional impact and coordination required to manage the risk",
+        "B": "Only the legal department's workload",
+        "C": "Only financial impact",
+        "D": "Only customer communications"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q37",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Risk Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "A control reduces risk but is not tested regularly. What is the concern?",
+      "options": {
+        "A": "The organization may not know whether the control continues to operate effectively",
+        "B": "Controls do not need testing",
+        "C": "Testing guarantees compliance",
+        "D": "The control becomes stronger automatically"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q38",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Risk Management",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a risk register useful for?",
+      "options": {
+        "A": "Track identified risks, owners, ratings, responses, and status",
+        "B": "Replace contracts",
+        "C": "Guarantee no incidents",
+        "D": "Store marketing leads"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q39",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Risk Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "A new business arrangement creates an unfamiliar legal exposure. What is appropriate?",
+      "options": {
+        "A": "Assess the issue using relevant law, facts, controls, and expert input where required",
+        "B": "Assume it is acceptable because the business opportunity is large",
+        "C": "Ignore it until a dispute occurs",
+        "D": "Remove it from consideration"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q40",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal / Compliance Risk",
+      "question_type": "project\\_verification",
+      "question": "A student claims legal-risk assessment experience. What should they be able to explain?",
+      "options": {
+        "A": "The issue, applicable requirements, risk assessment, controls, mitigation, stakeholders, and remaining exposure",
+        "B": "Only the risk score",
+        "C": "Only the legal software used",
+        "D": "Only the project duration"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal / Compliance Risk"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q41",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Privacy & Data Protection",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should access to sensitive personal data be restricted?",
+      "options": {
+        "A": "To reduce unauthorized access and use",
+        "B": "To make information harder for authorized users to use",
+        "C": "To eliminate all records",
+        "D": "To guarantee there can never be a breach"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q42",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Privacy & Data Protection",
+      "question_type": "scenario\\_judgment",
+      "question": "An organization collects personal data for a defined purpose. Why should it avoid unnecessary collection?",
+      "options": {
+        "A": "Excessive collection can create additional privacy and compliance risk",
+        "B": "More data is always safer",
+        "C": "Data minimization makes records useless",
+        "D": "Personal data has no compliance implications"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q43",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Policy Development",
+      "question_type": "scenario\\_judgment",
+      "question": "What makes an internal compliance policy useful?",
+      "options": {
+        "A": "It clearly defines expected behavior, responsibilities, procedures, and escalation where relevant",
+        "B": "It contains broad statements without ownership",
+        "C": "It is never updated",
+        "D": "It ignores applicable requirements"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q44",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Policy Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A policy conflicts with a newly applicable regulation. What should happen?",
+      "options": {
+        "A": "Review and update the policy to align with the applicable requirement",
+        "B": "Keep the policy unchanged",
+        "C": "Ignore the regulation",
+        "D": "Delete the policy entirely"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q45",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Corporate Governance",
+      "question_type": "scenario\\_judgment",
+      "question": "What is corporate governance primarily concerned with?",
+      "options": {
+        "A": "Oversight, accountability, decision rights, controls, and responsible organizational management",
+        "B": "Marketing campaigns",
+        "C": "Product packaging",
+        "D": "Employee scheduling only"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Due Diligence / Governance"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q46",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Corporate Governance",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is clear decision authority important in governance?",
+      "options": {
+        "A": "It establishes who can make, approve, or oversee important decisions",
+        "B": "It eliminates accountability",
+        "C": "It makes all decisions unanimous",
+        "D": "It removes the need for policies"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Due Diligence / Governance"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q47",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Privacy & Data Protection",
+      "question_type": "scenario\\_judgment",
+      "question": "A staff member wants to export sensitive data to a personal device to work from home. What should they consider first?",
+      "options": {
+        "A": "Whether the transfer is authorized and complies with applicable security and privacy requirements",
+        "B": "Whether the file is convenient",
+        "C": "Whether the employee has enough storage",
+        "D": "Whether the data looks important"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q48",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Policy Development",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should policies be communicated and trained?",
+      "options": {
+        "A": "Employees need to understand the expected behavior and how to follow the policy",
+        "B": "Publishing alone guarantees compliance",
+        "C": "Training is unrelated to policy",
+        "D": "Policies should remain unknown to employees"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q49",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Governance",
+      "question_type": "scenario\\_judgment",
+      "question": "A compliance committee receives reports but has no defined authority or follow-up process. What is the concern?",
+      "options": {
+        "A": "Governance responsibilities and accountability may be unclear",
+        "B": "More reports will solve the problem automatically",
+        "C": "Committees never need decision rights",
+        "D": "Governance only concerns finance"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Due Diligence / Governance"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q50",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Governance / Privacy",
+      "question_type": "project\\_verification",
+      "question": "A student claims practical governance or privacy-compliance experience. What should they be able to explain?",
+      "options": {
+        "A": "The requirement, policy or control, responsibilities, data or decision flows, monitoring, and issues handled",
+        "B": "Only the policy title",
+        "C": "Only the software platform",
+        "D": "Only the organization size"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Due Diligence / Governance"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q51",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Due Diligence",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the purpose of due diligence?",
+      "options": {
+        "A": "Investigate relevant facts, risks, obligations, and other material considerations before a decision",
+        "B": "Guarantee an investment will succeed",
+        "C": "Replace all contracts",
+        "D": "Avoid asking questions"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Due Diligence / Governance"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q52",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Due Diligence",
+      "question_type": "scenario\\_judgment",
+      "question": "A potential business partner refuses to provide important compliance documentation. What should be considered?",
+      "options": {
+        "A": "The missing information as a potential risk requiring further investigation or escalation",
+        "B": "Ignore the missing documents",
+        "C": "Approve the partnership automatically",
+        "D": "Create the documents yourself"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Due Diligence / Governance"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q53",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Auditing",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the purpose of a compliance audit?",
+      "options": {
+        "A": "Assess whether relevant controls or practices meet applicable requirements and internal standards",
+        "B": "Guarantee there are no future violations",
+        "C": "Replace all policies",
+        "D": "Identify only financial profits"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q54",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Auditing",
+      "question_type": "scenario\\_judgment",
+      "question": "An audit finds that a required control is not operating consistently. What should follow?",
+      "options": {
+        "A": "Document the finding, assess its significance, identify corrective action, and monitor remediation",
+        "B": "Delete the audit finding",
+        "C": "Ignore it if no incident occurred",
+        "D": "Close the audit immediately"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q55",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Documentation",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should legal documentation clearly identify relevant dates, parties, obligations, and sources where applicable?",
+      "options": {
+        "A": "Clear documentation supports accuracy, traceability, and review",
+        "B": "It makes documents longer",
+        "C": "Dates are rarely relevant",
+        "D": "Sources should never be recorded"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q56",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Auditing",
+      "question_type": "scenario\\_judgment",
+      "question": "A compliance audit sample shows several failures. What should the auditor consider?",
+      "options": {
+        "A": "Whether the pattern indicates a broader control problem and requires expanded testing",
+        "B": "Ignore the sample",
+        "C": "Assume the remaining population is compliant",
+        "D": "Delete the failed cases"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q57",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Due Diligence",
+      "question_type": "scenario\\_judgment",
+      "question": "A due-diligence review finds a material contractual obligation that was not previously disclosed. What should happen?",
+      "options": {
+        "A": "Assess its legal, financial, operational, and commercial impact before proceeding",
+        "B": "Ignore it because it was discovered late",
+        "C": "Remove it from the report",
+        "D": "Assume it has no effect"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Due Diligence / Governance"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q58",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal Documentation",
+      "question_type": "scenario\\_judgment",
+      "question": "A legal memo reaches a conclusion but does not explain the supporting authorities. What is the main weakness?",
+      "options": {
+        "A": "The reasoning cannot be properly evaluated or verified from the document",
+        "B": "The memo is automatically invalid",
+        "C": "Legal memos never need citations",
+        "D": "More formatting is the only fix"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Legal Research"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q59",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Compliance Auditing",
+      "question_type": "scenario\\_judgment",
+      "question": "After corrective actions are implemented, why should remediation be retested?",
+      "options": {
+        "A": "To determine whether the corrective action actually addressed the identified gap",
+        "B": "Because remediation is never effective",
+        "C": "To create more paperwork",
+        "D": "To replace the original audit"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Compliance Management"
+    },
+    {
+      "id": "legal_and_compliance_support_t3_q60",
+      "track": "LEGAL & COMPLIANCE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Legal / Compliance Project Verification",
+      "question_type": "project\\_verification",
+      "question": "A student claims substantial legal/compliance experience. Which question best verifies genuine practical experience?",
+      "options": {
+        "A": "Ask them to walk through a real matter from issue identification and research through risk assessment, documentation, stakeholder handling, and final recommendation",
+        "B": "Ask only which legal database they used",
+        "C": "Ask only how many documents they reviewed",
+        "D": "Ask only which organization they worked for"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Due Diligence / Governance"
+    }
+  ]
+}

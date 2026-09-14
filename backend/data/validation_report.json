@@ -1,0 +1,163 @@
+{
+  "jobs": 18030,
+  "dimensions": 282,
+  "salary_jobs": 5701,
+  "checks": {
+    "backend": {
+      "matches": 10,
+      "quiz_checks": 15,
+      "top_title": "Python Developer_AWS Lambda"
+    },
+    "frontend": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "UI/UX Developer"
+    },
+    "data-ml": {
+      "matches": 10,
+      "quiz_checks": 15,
+      "top_title": "Natural Language Processing (NLP) Data Scientist."
+    },
+    "cloud-devops": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "DevOps Manager"
+    },
+    "qa-testing": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Mainframe Developer"
+    },
+    "business-marketing": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Growth Marketing Manager"
+    },
+    "business-sales": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Business Development Manager"
+    },
+    "hr": {
+      "matches": 10,
+      "quiz_checks": 15,
+      "top_title": "Administrative Assistant"
+    },
+    "business-finance": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Director of Finance & Controller"
+    },
+    "business-operations": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Superintendent"
+    },
+    "ui-ux": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "User Experience Design Specialist"
+    },
+    "graphic": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Sr. Graphic Designer"
+    },
+    "product-design": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "User Experience Design Specialist"
+    },
+    "mechanical": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Quality Engineer (W2 only)"
+    },
+    "civil": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Project Manager"
+    },
+    "electrical": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Producci\u00f3n General"
+    },
+    "electronics": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Autonomy Robotics Engineer II"
+    },
+    "accounting": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Vice President Finance"
+    },
+    "financial-analysis": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Financial Analyst - Wellness Hospitality"
+    },
+    "banking": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Assistant Controller"
+    },
+    "marketing": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Marketing Director 300k+"
+    },
+    "sales-track": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Business Development Manager"
+    },
+    "logistics": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Superintendent"
+    },
+    "project-operations": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Project Manager"
+    },
+    "clinical": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Healthcare Assistant-6N Med Surg -Sharp Memorial Hospital-Night Shift-Part-Time"
+    },
+    "health-admin": {
+      "matches": 10,
+      "quiz_checks": 15,
+      "top_title": "CNA - Medical"
+    },
+    "health-it": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Staff Pharmacist Store 423 \u2013 Modified Hours **Relocation Available** Hilton Head, SC"
+    },
+    "general": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Customer Service Representative"
+    },
+    "education-track": {
+      "matches": 10,
+      "quiz_checks": 2,
+      "top_title": "Special Education Teacher \u2192 $2500 Sign-on Bonus!"
+    },
+    "legal-support": {
+      "matches": 10,
+      "quiz_checks": 15,
+      "top_title": "Legal Assistant Paralegal"
+    },
+    "business-development": {
+      "matches": 10,
+      "quiz_checks": 15,
+      "top_title": "Software Sales Consultant"
+    }
+  },
+  "test_scope": "Functional integrity and example-quiz smoke checks, not measured recommendation accuracy."
+}

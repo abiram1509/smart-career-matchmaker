@@ -1,0 +1,1171 @@
+{
+  "track": "DATA / ML",
+  "import_instruction": "Import these questions only. Preserve wording, answers, skill labels and eligibility flags. Replace this track’s placeholders; leave other tracks unchanged. Flag missing skill labels or confidence baselines together before changing them. Keep updates and the final summary brief.",
+  "questions": [
+    {
+      "id": "data_ml_t1_q01",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Python for Data Science",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in Python for data science and machine learning (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q02",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "SQL",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your SQL proficiency for data work (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q03",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "NumPy",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency with NumPy (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q04",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Pandas",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency with Pandas (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q05",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Data Cleaning",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in cleaning and preparing datasets (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q06",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Exploratory Data Analysis",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in EDA (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q07",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Statistics",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in statistics for data analysis (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q08",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Data Visualization",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in creating and interpreting data visualizations (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q09",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Feature Engineering",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in feature engineering (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q10",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Machine Learning",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in supervised and unsupervised machine learning (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q11",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Model Evaluation",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in evaluating machine-learning models (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q12",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Deep Learning",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in deep learning (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q13",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "NLP",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in natural language processing (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q14",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Model Deployment",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in deploying machine-learning models (1–10)."
+    },
+    {
+      "id": "data_ml_t1_q15",
+      "track": "DATA / ML",
+      "tier": "Tier 1",
+      "skill": "Git / ML Workflow",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency with version control and reproducible ML workflows (1–10)."
+    },
+    {
+      "id": "data_ml_t2a_q01",
+      "track": "DATA / ML",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Python for Data Science",
+      "question_type": "project_count",
+      "question": "How many projects or assignments have you completed using Python for data analysis or ML?"
+    },
+    {
+      "id": "data_ml_t2a_q02",
+      "track": "DATA / ML",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "SQL",
+      "question_type": "project_count",
+      "question": "How many projects or assignments have you completed involving SQL and data querying?"
+    },
+    {
+      "id": "data_ml_t2a_q03",
+      "track": "DATA / ML",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Data Cleaning / EDA",
+      "question_type": "project_count",
+      "question": "How many projects or assignments have you completed involving data cleaning or exploratory data analysis?"
+    },
+    {
+      "id": "data_ml_t2a_q04",
+      "track": "DATA / ML",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Machine Learning",
+      "question_type": "project_count",
+      "question": "How many projects or assignments have you completed involving machine-learning models?"
+    },
+    {
+      "id": "data_ml_t2a_q05",
+      "track": "DATA / ML",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Model Deployment",
+      "question_type": "project_count",
+      "question": "How many projects or assignments have you completed involving deployment of a data or ML solution?"
+    },
+    {
+      "id": "data_ml_t2b_q01",
+      "track": "DATA / ML",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "Briefly describe one data or machine-learning project you worked on."
+    },
+    {
+      "id": "data_ml_t2b_q02",
+      "track": "DATA / ML",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much of the project did you build yourself versus with a team?"
+    },
+    {
+      "id": "data_ml_t2b_q03",
+      "track": "DATA / ML",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much did you rely on AI tools such as ChatGPT or Copilot while completing the project?"
+    },
+    {
+      "id": "data_ml_t2b_q04",
+      "track": "DATA / ML",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "What was the hardest technical or analytical part of the project?"
+    },
+    {
+      "id": "data_ml_t2b_q05",
+      "track": "DATA / ML",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How confident are you explaining your data-processing, modeling, and evaluation decisions to someone else?"
+    },
+    {
+      "id": "data_ml_t3_q01",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "code\\_output\\_prediction",
+      "question": "What does this print?\n\n```python\nnums = [1, 2, 3]\nresult = [x * 2 for x in nums]\nprint(result)\n\n```",
+      "options": {
+        "A": "`[1, 2, 3]`",
+        "B": "`[2, 4, 6]`",
+        "C": "`[1, 4, 9]`",
+        "D": "`[2, 3, 4]`"
+      },
+      "correct_answer": "B",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q02",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "code\\_output\\_prediction",
+      "question": "What does `len(data)` return?\n\n```python\ndata = {\"a\": 10, \"b\": 20, \"c\": 30}\n\n```",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "30",
+        "D": "60"
+      },
+      "correct_answer": "B",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q03",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "code\\_output\\_prediction",
+      "question": "What does this produce?\n\n```python\nvalues = [1, 2, 3, 4]\nresult = [x for x in values if x % 2 == 0]\n\n```",
+      "options": {
+        "A": "`[1, 3]`",
+        "B": "`[2, 4]`",
+        "C": "`[1, 2]`",
+        "D": "`[3, 4]`"
+      },
+      "correct_answer": "B",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q04",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "scenario\\_judgment",
+      "question": "Which Python structure is generally most appropriate for storing key-value pairs?",
+      "options": {
+        "A": "Dictionary",
+        "B": "List",
+        "C": "Tuple",
+        "D": "Set"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q05",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "scenario\\_judgment",
+      "question": "Why are functions useful in a data-processing pipeline?",
+      "options": {
+        "A": "They make reusable logic easier to organize and test",
+        "B": "They eliminate the need for datasets",
+        "C": "They automatically improve model accuracy",
+        "D": "They replace SQL"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q06",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "code\\_output\\_prediction",
+      "question": "What is the result?\n\n```python\na = [1, 2]\na.append(3)\nprint(a)\n\n```",
+      "options": {
+        "A": "`[1, 2]`",
+        "B": "`[1, 2, 3]`",
+        "C": "`[3, 1, 2]`",
+        "D": "`3`"
+      },
+      "correct_answer": "B",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q07",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "scenario\\_judgment",
+      "question": "A data-processing function can fail when an input file is missing. What is good practice?",
+      "options": {
+        "A": "Handle the exception appropriately",
+        "B": "Hide the error and return fake data",
+        "C": "Shut down the entire application",
+        "D": "Ignore the failure"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q08",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "scenario\\_judgment",
+      "question": "Why would a data scientist use a virtual environment?",
+      "options": {
+        "A": "To isolate project dependencies",
+        "B": "To increase dataset size",
+        "C": "To replace Git",
+        "D": "To automatically train models"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q09",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "scenario\\_judgment",
+      "question": "A loop processes millions of records one at a time and is very slow. What should you investigate?",
+      "options": {
+        "A": "Whether vectorized or more efficient operations can replace repeated Python-level loops",
+        "B": "Whether to add more comments",
+        "C": "Whether to rename variables",
+        "D": "Whether to use more print statements"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q10",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Python for Data Science",
+      "question_type": "project\\_verification",
+      "question": "A student claims they built a Python data pipeline. Which question best verifies practical understanding?",
+      "options": {
+        "A": "Ask how they handled missing values, transformations, errors, and reproducibility",
+        "B": "Ask which Python logo they prefer",
+        "C": "Ask them to define Python in one sentence",
+        "D": "Ask which editor they used"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Python for Data Science"
+    },
+    {
+      "id": "data_ml_t3_q11",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "SQL",
+      "question_type": "code\\_output\\_prediction",
+      "question": "Which query calculates the average salary for each department?",
+      "options": {
+        "A": "`SELECT department, AVG(salary) FROM employees GROUP BY department;`",
+        "B": "`SELECT AVG(salary) FROM employees;`",
+        "C": "`SELECT department, salary FROM employees GROUP BY salary;`",
+        "D": "`SELECT department FROM employees WHERE AVG(salary);`"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q12",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "SQL",
+      "question_type": "scenario\\_judgment",
+      "question": "Which clause filters rows before grouping?",
+      "options": {
+        "A": "WHERE",
+        "B": "HAVING",
+        "C": "ORDER BY",
+        "D": "LIMIT"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q13",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "SQL",
+      "question_type": "scenario\\_judgment",
+      "question": "Which clause filters grouped results?",
+      "options": {
+        "A": "WHERE",
+        "B": "HAVING",
+        "C": "FROM",
+        "D": "JOIN"
+      },
+      "correct_answer": "B",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q14",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "SQL",
+      "question_type": "code\\_output\\_prediction",
+      "question": "Which query returns the top three highest salaries?",
+      "options": {
+        "A": "`SELECT salary FROM employees ORDER BY salary DESC LIMIT 3;`",
+        "B": "`SELECT salary FROM employees GROUP BY salary LIMIT 3;`",
+        "C": "`SELECT TOP salary FROM employees;`",
+        "D": "`SELECT salary FROM employees WHERE salary LIMIT 3;`"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q15",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "SQL",
+      "question_type": "scenario\\_judgment",
+      "question": "What does an INNER JOIN return?",
+      "options": {
+        "A": "Matching rows between the joined tables",
+        "B": "Every possible combination of rows",
+        "C": "Only unmatched rows",
+        "D": "Only the first table"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q16",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "SQL",
+      "question_type": "scenario\\_judgment",
+      "question": "A query on a large table frequently filters by `customer_id`. What can improve lookup performance?",
+      "options": {
+        "A": "An appropriate index",
+        "B": "Removing the primary key",
+        "C": "Adding more duplicate rows",
+        "D": "Sorting the frontend"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q17",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "SQL",
+      "question_type": "scenario\\_judgment",
+      "question": "Which constraint ensures that a column cannot contain NULL?",
+      "options": {
+        "A": "NOT NULL",
+        "B": "UNIQUE",
+        "C": "PRIMARY KEY only",
+        "D": "DEFAULT"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q18",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "SQL",
+      "question_type": "scenario\\_judgment",
+      "question": "A dataset contains duplicate customer rows. What SQL operation might help identify duplicates based on selected fields?",
+      "options": {
+        "A": "GROUP BY with an aggregate such as COUNT(\\*)",
+        "B": "DROP TABLE",
+        "C": "TRUNCATE",
+        "D": "CREATE VIEW only"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q19",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "SQL",
+      "question_type": "scenario\\_judgment",
+      "question": "Why are transactions useful in relational databases?",
+      "options": {
+        "A": "They help keep related changes consistent as a unit",
+        "B": "They automatically train ML models",
+        "C": "They increase screen resolution",
+        "D": "They remove the need for backups"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q20",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Data Engineering / SQL",
+      "question_type": "project\\_verification",
+      "question": "A student says they built a data warehouse query pipeline. What is a strong verification question?",
+      "options": {
+        "A": "Ask how they handled joins, aggregations, duplicates, nulls, and query performance",
+        "B": "Ask which SQL logo they like",
+        "C": "Ask them to define a database only",
+        "D": "Ask which keyboard they use"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "SQL"
+    },
+    {
+      "id": "data_ml_t3_q21",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Data Cleaning",
+      "question_type": "scenario\\_judgment",
+      "question": "A numeric column contains missing values. What should be done first?",
+      "options": {
+        "A": "Understand why values are missing and decide on an appropriate treatment",
+        "B": "Replace every value with zero automatically",
+        "C": "Delete the whole dataset",
+        "D": "Ignore them without inspection"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q22",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Data Cleaning",
+      "question_type": "scenario\\_judgment",
+      "question": "A date column contains both `2026-01-02` and `02/01/2026`. What is a sensible preprocessing step?",
+      "options": {
+        "A": "Standardize the date representation after determining the intended format",
+        "B": "Treat all dates as strings forever",
+        "C": "Delete the column",
+        "D": "Replace dates with random values"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q23",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "EDA",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a primary purpose of exploratory data analysis?",
+      "options": {
+        "A": "Understand distributions, relationships, anomalies, and patterns in the data",
+        "B": "Guarantee model accuracy",
+        "C": "Replace validation",
+        "D": "Automatically deploy a model"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q24",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "EDA",
+      "question_type": "scenario\\_judgment",
+      "question": "Which visualization is generally useful for inspecting the distribution of a numeric feature?",
+      "options": {
+        "A": "Histogram",
+        "B": "Pie chart only",
+        "C": "Network diagram",
+        "D": "Flowchart"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q25",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "EDA",
+      "question_type": "scenario\\_judgment",
+      "question": "What is an outlier?",
+      "options": {
+        "A": "An observation unusually distant from the general pattern of the data",
+        "B": "Any missing value",
+        "C": "A duplicated column",
+        "D": "A categorical variable"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q26",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Data Cleaning",
+      "question_type": "scenario\\_judgment",
+      "question": "A dataset contains duplicate rows. What should you do?",
+      "options": {
+        "A": "Determine whether they are genuine repeated observations or data errors before removing them",
+        "B": "Always remove them automatically",
+        "C": "Always keep them without investigation",
+        "D": "Replace them with zeros"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q27",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "EDA",
+      "question_type": "scenario\\_judgment",
+      "question": "A target variable is heavily imbalanced. What should you investigate?",
+      "options": {
+        "A": "Class distribution and its implications for analysis and modeling",
+        "B": "Only the column names",
+        "C": "The operating system",
+        "D": "The Git branch name"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q28",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Data Cleaning",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should categorical values such as Male, male, and MALE often be standardized?",
+      "options": {
+        "A": "They may represent the same category but otherwise be treated as different values",
+        "B": "It makes the dataset larger",
+        "C": "It guarantees normality",
+        "D": "It removes all outliers"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q29",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "EDA",
+      "question_type": "scenario\\_judgment",
+      "question": "A scatter plot shows two variables moving upward together. What might that suggest?",
+      "options": {
+        "A": "A positive association",
+        "B": "Guaranteed causation",
+        "C": "No relationship",
+        "D": "A data type error"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q30",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "EDA",
+      "question_type": "project\\_verification",
+      "question": "A student claims they performed EDA on a real dataset. What should they be able to explain?",
+      "options": {
+        "A": "How they checked missingness, distributions, outliers, relationships, and key findings",
+        "B": "Only which plotting library they installed",
+        "C": "Only how many rows the dataset had",
+        "D": "Which laptop they used"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Data Cleaning / EDA"
+    },
+    {
+      "id": "data_ml_t3_q31",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Statistics",
+      "question_type": "numerical\\_case",
+      "question": "A dataset contains 2, 4, 6, and 8. What is the mean?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "20"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q32",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Statistics",
+      "question_type": "scenario\\_judgment",
+      "question": "When is the median often more robust than the mean?",
+      "options": {
+        "A": "When the data contains strong outliers or is highly skewed",
+        "B": "When every value is identical",
+        "C": "When the dataset has no numeric values",
+        "D": "When there are only categorical labels"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q33",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Statistics",
+      "question_type": "scenario\\_judgment",
+      "question": "What does standard deviation describe?",
+      "options": {
+        "A": "The spread of observations around the mean",
+        "B": "The number of rows",
+        "C": "The number of categories",
+        "D": "The maximum value only"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q34",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Statistics",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a correlation coefficient intended to describe?",
+      "options": {
+        "A": "The strength and direction of association between variables",
+        "B": "Guaranteed causal impact",
+        "C": "The number of missing values",
+        "D": "The training time of a model"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q35",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Statistics",
+      "question_type": "scenario\\_judgment",
+      "question": "What does a p-value generally help assess in a hypothesis-testing framework?",
+      "options": {
+        "A": "How compatible the observed data are with a null hypothesis under the specified test assumptions",
+        "B": "The exact probability that the null hypothesis is true",
+        "C": "The model's accuracy",
+        "D": "The sample size only"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q36",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Statistics",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is sampling important in statistical analysis?",
+      "options": {
+        "A": "Conclusions are often based on a sample used to learn about a larger population",
+        "B": "It removes the need for measurement",
+        "C": "It guarantees unbiased results",
+        "D": "It guarantees causality"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q37",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Statistics",
+      "question_type": "scenario\\_judgment",
+      "question": "What is variance?",
+      "options": {
+        "A": "A measure of squared spread around the mean",
+        "B": "The largest observation",
+        "C": "The number of variables",
+        "D": "The median value"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q38",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Statistics",
+      "question_type": "scenario\\_judgment",
+      "question": "A sample estimate has high variance across repeated samples. What does that suggest?",
+      "options": {
+        "A": "The estimate is unstable across samples",
+        "B": "The estimate is always correct",
+        "C": "The population has no variation",
+        "D": "The sample must be larger than the population"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q39",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Hypothesis Testing",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is a null hypothesis used?",
+      "options": {
+        "A": "It provides a baseline claim against which evidence can be evaluated",
+        "B": "It guarantees the alternative hypothesis",
+        "C": "It removes sampling error",
+        "D": "It replaces descriptive statistics"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q40",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Statistics",
+      "question_type": "project\\_verification",
+      "question": "A student claims substantial statistical-analysis experience. What should they be able to explain?",
+      "options": {
+        "A": "Why they chose a method, what assumptions mattered, how uncertainty was handled, and how the result was interpreted",
+        "B": "Only the name of a statistics library",
+        "C": "Only the sample size",
+        "D": "Only the final number"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q41",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "scenario\\_judgment",
+      "question": "What is supervised learning?",
+      "options": {
+        "A": "Learning from labeled examples",
+        "B": "Learning without any data",
+        "C": "Only clustering data",
+        "D": "Only generating text"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q42",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "scenario\\_judgment",
+      "question": "Which is a classification problem?",
+      "options": {
+        "A": "Predict whether a transaction is fraudulent or legitimate",
+        "B": "Predict tomorrow's temperature as a continuous value",
+        "C": "Group customers without labels",
+        "D": "Reduce dimensionality"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q43",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "scenario\\_judgment",
+      "question": "Which is a regression problem?",
+      "options": {
+        "A": "Predict a house price",
+        "B": "Predict whether an email is spam",
+        "C": "Group similar customers",
+        "D": "Detect unlabeled clusters"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q44",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "scenario\\_judgment",
+      "question": "What is overfitting?",
+      "options": {
+        "A": "A model fits training data very well but generalizes poorly to unseen data",
+        "B": "A model performs poorly on both training and test data",
+        "C": "A dataset contains no labels",
+        "D": "A model has too few features"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q45",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "scenario\\_judgment",
+      "question": "Why use a separate test set?",
+      "options": {
+        "A": "To estimate performance on unseen data after model development",
+        "B": "To increase the training dataset automatically",
+        "C": "To remove missing values",
+        "D": "To replace cross-validation in every situation"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q46",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "scenario\\_judgment",
+      "question": "What is cross-validation commonly used for?",
+      "options": {
+        "A": "Estimate model performance across different train-validation splits",
+        "B": "Remove all outliers",
+        "C": "Convert categories to numbers",
+        "D": "Deploy an application"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q47",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a hyperparameter?",
+      "options": {
+        "A": "A model-setting chosen outside the learned parameter optimization process",
+        "B": "A missing value",
+        "C": "A target label",
+        "D": "A database index"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q48",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "scenario\\_judgment",
+      "question": "What is feature scaling useful for?",
+      "options": {
+        "A": "Put features on comparable numeric scales when algorithms benefit from it",
+        "B": "Guarantee higher accuracy",
+        "C": "Remove categorical variables automatically",
+        "D": "Prevent all overfitting"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q49",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should preprocessing parameters such as a scaler generally be fitted using training data only?",
+      "options": {
+        "A": "To avoid leaking information from validation or test data into training",
+        "B": "To make the test set larger",
+        "C": "To increase the number of features",
+        "D": "To remove the target variable"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q50",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Machine Learning",
+      "question_type": "project\\_verification",
+      "question": "A student claims they trained an ML model on a real problem. Which question best verifies practical knowledge?",
+      "options": {
+        "A": "Ask how they split the data, selected features/model, tuned it, evaluated it, and checked for leakage or overfitting",
+        "B": "Ask which ML logo they prefer",
+        "C": "Ask only how many lines of code they wrote",
+        "D": "Ask which laptop they used"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q51",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Model Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "For a highly imbalanced binary classification problem, why can accuracy be misleading?",
+      "options": {
+        "A": "A model can achieve high accuracy by mostly predicting the majority class",
+        "B": "Accuracy cannot be calculated for classification",
+        "C": "Accuracy is always lower than precision",
+        "D": "Accuracy only measures regression"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q52",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Model Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "What does precision measure?",
+      "options": {
+        "A": "Among predicted positives, the proportion that are actually positive",
+        "B": "Among actual positives, the proportion detected",
+        "C": "The number of training examples",
+        "D": "The variance of the target"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q53",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Model Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "What does recall measure?",
+      "options": {
+        "A": "Among actual positives, the proportion correctly identified",
+        "B": "Among predicted positives, the proportion correct",
+        "C": "The number of false positives only",
+        "D": "The mean squared error"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q54",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Model Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "Which metric is commonly used for regression error?",
+      "options": {
+        "A": "Mean absolute error",
+        "B": "Precision",
+        "C": "Recall",
+        "D": "F1-score"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q55",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Feature Engineering",
+      "question_type": "scenario\\_judgment",
+      "question": "What is feature engineering?",
+      "options": {
+        "A": "Creating or transforming input variables to better represent useful information for a model",
+        "B": "Only removing rows",
+        "C": "Deploying a model",
+        "D": "Selecting a database"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q56",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Feature Engineering",
+      "question_type": "scenario\\_judgment",
+      "question": "A timestamp contains date and time, but the model may benefit from day-of-week and hour. Creating those variables is an example of:",
+      "options": {
+        "A": "Feature engineering",
+        "B": "Model deployment",
+        "C": "Hyperparameter tuning only",
+        "D": "Database normalization"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q57",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Model Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "A model performs very well during training but poorly on validation data. What should you investigate?",
+      "options": {
+        "A": "Overfitting and whether the model or features are too complex",
+        "B": "Only the dataset filename",
+        "C": "Whether the training set exists",
+        "D": "Whether the model has any parameters"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q58",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Model Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "What is data leakage?",
+      "options": {
+        "A": "Using information during model development that would not legitimately be available at prediction time",
+        "B": "Losing a CSV file",
+        "C": "Removing duplicate rows",
+        "D": "Scaling numeric features"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q59",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Model Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should evaluation metrics be selected based on the actual business or analytical objective?",
+      "options": {
+        "A": "Different metrics capture different types of errors and priorities",
+        "B": "All metrics always give the same result",
+        "C": "Metrics are only used for presentation",
+        "D": "The choice has no effect on interpretation"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    },
+    {
+      "id": "data_ml_t3_q60",
+      "track": "DATA / ML",
+      "tier": "Tier 3",
+      "skill": "Model Evaluation",
+      "question_type": "project\\_verification",
+      "question": "A student claims they evaluated an ML model in a real project. What should they be able to explain?",
+      "options": {
+        "A": "Why the chosen metrics matched the problem, what errors mattered, and how the model behaved on unseen data",
+        "B": "Only the final accuracy number",
+        "C": "Only the training time",
+        "D": "Only the model name"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Machine Learning"
+    }
+  ]
+}

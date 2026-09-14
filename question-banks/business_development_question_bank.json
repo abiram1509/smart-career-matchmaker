@@ -1,0 +1,1171 @@
+{
+  "track": "BUSINESS DEVELOPMENT",
+  "import_instruction": "Import these questions only. Preserve wording, answers, skill labels and eligibility flags. Replace this track’s placeholders; leave other tracks unchanged. Flag missing skill labels or confidence baselines together before changing them. Keep updates and the final summary brief.",
+  "questions": [
+    {
+      "id": "business_development_t1_q01",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Business Development",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in business development (1–10)."
+    },
+    {
+      "id": "business_development_t1_q02",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Lead Generation",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in generating business leads (1–10)."
+    },
+    {
+      "id": "business_development_t1_q03",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Lead Qualification",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in qualifying leads and opportunities (1–10)."
+    },
+    {
+      "id": "business_development_t1_q04",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Market Expansion",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in identifying and entering new markets (1–10)."
+    },
+    {
+      "id": "business_development_t1_q05",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Partnership Development",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in developing strategic partnerships (1–10)."
+    },
+    {
+      "id": "business_development_t1_q06",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Client Relationship Management",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in managing business relationships with clients (1–10)."
+    },
+    {
+      "id": "business_development_t1_q07",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Sales Prospecting",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in prospecting for potential customers (1–10)."
+    },
+    {
+      "id": "business_development_t1_q08",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Business Pitching",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in pitching products, services, or partnerships (1–10)."
+    },
+    {
+      "id": "business_development_t1_q09",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Negotiation",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in business negotiation (1–10)."
+    },
+    {
+      "id": "business_development_t1_q10",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Competitive Analysis",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in analyzing competitors and market positioning (1–10)."
+    },
+    {
+      "id": "business_development_t1_q11",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Proposal Development",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in preparing business proposals (1–10)."
+    },
+    {
+      "id": "business_development_t1_q12",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Account Growth",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in identifying account-growth opportunities (1–10)."
+    },
+    {
+      "id": "business_development_t1_q13",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "CRM Management",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in managing business-development activity in a CRM (1–10)."
+    },
+    {
+      "id": "business_development_t1_q14",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Revenue Opportunity Analysis",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in evaluating revenue opportunities (1–10)."
+    },
+    {
+      "id": "business_development_t1_q15",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 1",
+      "skill": "Strategic Partnerships",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in building and managing strategic partnerships (1–10)."
+    },
+    {
+      "id": "business_development_t2a_q01",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Lead Generation / Prospecting",
+      "question_type": "project_count",
+      "question": "How many projects, campaigns, or real work experiences have you completed involving lead generation or prospecting?"
+    },
+    {
+      "id": "business_development_t2a_q02",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Lead Qualification",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving qualification of business opportunities?"
+    },
+    {
+      "id": "business_development_t2a_q03",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Partnership Development",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving partnerships or business alliances?"
+    },
+    {
+      "id": "business_development_t2a_q04",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Business Pitching",
+      "question_type": "project_count",
+      "question": "How many projects, competitions, or real work experiences have you completed involving pitching a business, product, service, or proposal?"
+    },
+    {
+      "id": "business_development_t2a_q05",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Negotiation",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving business negotiation?"
+    },
+    {
+      "id": "business_development_t2b_q01",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "Briefly describe one business-development project, client opportunity, pitch, partnership, or work task you completed."
+    },
+    {
+      "id": "business_development_t2b_q02",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much of the work did you complete yourself versus with a team?"
+    },
+    {
+      "id": "business_development_t2b_q03",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much did you rely on AI tools such as ChatGPT or Copilot while completing the work?"
+    },
+    {
+      "id": "business_development_t2b_q04",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "What was the hardest business or relationship problem you encountered?"
+    },
+    {
+      "id": "business_development_t2b_q05",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How confident are you explaining your prospecting, qualification, negotiation, and final business decision?"
+    },
+    {
+      "id": "business_development_t3_q01",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Generation",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the primary purpose of lead generation?",
+      "options": {
+        "A": "Identify potential customers or business opportunities that may be relevant",
+        "B": "Close every lead immediately",
+        "C": "Replace customer support",
+        "D": "Guarantee revenue"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q02",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Sales Prospecting",
+      "question_type": "scenario\\_judgment",
+      "question": "A company sells specialized software to hospitals. Which prospecting approach is most appropriate?",
+      "options": {
+        "A": "Target organizations and contacts that fit the product's relevant industry and use case",
+        "B": "Contact every person on social media",
+        "C": "Ignore industry relevance",
+        "D": "Send the same message to every possible company without research"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q03",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Generation",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is defining an ideal customer profile useful?",
+      "options": {
+        "A": "It helps focus prospecting on organizations or people likely to have relevant needs and fit",
+        "B": "It guarantees every contacted lead will buy",
+        "C": "It removes the need for qualification",
+        "D": "It makes market research unnecessary"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q04",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Sales Prospecting",
+      "question_type": "scenario\\_judgment",
+      "question": "A prospecting list contains thousands of companies but no information about their size, industry, or relevance. What should happen first?",
+      "options": {
+        "A": "Enrich or segment the list using relevant qualification criteria",
+        "B": "Contact everyone immediately",
+        "C": "Delete half the list randomly",
+        "D": "Assume every company is equally valuable"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q05",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Generation",
+      "question_type": "scenario\\_judgment",
+      "question": "Which is more useful when assessing a lead source?",
+      "options": {
+        "A": "Qualified opportunities generated relative to the effort and cost involved",
+        "B": "Raw lead count alone",
+        "C": "Number of emails sent alone",
+        "D": "Number of names in the database"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q06",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Sales Prospecting",
+      "question_type": "scenario\\_judgment",
+      "question": "A prospect responds that they are interested but provides no details about their need. What should the salesperson do?",
+      "options": {
+        "A": "Ask discovery questions to understand the need, fit, and context",
+        "B": "Send a contract immediately",
+        "C": "Close the lead as won",
+        "D": "Stop communicating"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q07",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Generation",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is personalized prospecting often more effective than completely generic outreach?",
+      "options": {
+        "A": "It can connect the message to the prospect's relevant context or problem",
+        "B": "It guarantees a response",
+        "C": "It eliminates the need for a product",
+        "D": "It makes qualification unnecessary"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q08",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Generation",
+      "question_type": "scenario\\_judgment",
+      "question": "A lead source produces many leads but almost no qualified opportunities. What should be investigated?",
+      "options": {
+        "A": "Lead quality, targeting, qualification criteria, and source relevance",
+        "B": "Only the total number of leads",
+        "C": "Only email subject lines",
+        "D": "Only sales-call duration"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q09",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Sales Prospecting",
+      "question_type": "scenario\\_judgment",
+      "question": "A salesperson wants to prioritize outreach among 100 prospects. Which approach is strongest?",
+      "options": {
+        "A": "Rank prospects using fit, need, potential value, intent, and relevant timing",
+        "B": "Contact them in alphabetical order only",
+        "C": "Choose randomly",
+        "D": "Contact only the companies with the largest logos"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q10",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Generation",
+      "question_type": "project\\_verification",
+      "question": "A student claims substantial prospecting experience. What should they be able to explain?",
+      "options": {
+        "A": "How they identified prospects, sourced information, prioritized outreach, contacted them, and measured results",
+        "B": "Only the CRM they used",
+        "C": "Only the number of leads generated",
+        "D": "Only the email tool used"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q11",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the main purpose of lead qualification?",
+      "options": {
+        "A": "Determine whether an opportunity has sufficient fit, need, and potential to justify further effort",
+        "B": "Close every lead immediately",
+        "C": "Increase lead volume",
+        "D": "Avoid speaking with prospects"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q12",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "scenario\\_judgment",
+      "question": "A prospect needs a problem your product solves, but has no budget and no authority to purchase. What should be investigated?",
+      "options": {
+        "A": "The buying process, timing, stakeholders, and whether there is a realistic path to purchase",
+        "B": "Immediately mark the lead as won",
+        "C": "Ignore budget and authority",
+        "D": "Send an invoice"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q13",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "scenario\\_judgment",
+      "question": "Which is a useful qualification signal?",
+      "options": {
+        "A": "A real business need that fits the product or service",
+        "B": "The prospect's logo size",
+        "C": "The prospect's social-media follower count only",
+        "D": "The number of employees with no context"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q14",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "scenario\\_judgment",
+      "question": "A prospect says, \"This looks interesting,\" but cannot identify a problem they need solved. How should the salesperson respond?",
+      "options": {
+        "A": "Explore the prospect's current situation and needs before treating it as a qualified opportunity",
+        "B": "Immediately create a proposal",
+        "C": "Mark it as a high-value deal",
+        "D": "Ask for payment"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q15",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is buying authority relevant during qualification?",
+      "options": {
+        "A": "A contact may be interested but not able to approve or influence the purchase sufficiently",
+        "B": "Only CEOs can buy products",
+        "C": "Authority guarantees budget",
+        "D": "Authority guarantees product fit"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q16",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "scenario\\_judgment",
+      "question": "A qualified opportunity has a strong need and fit but the buyer's timeline is 18 months away. What should the salesperson do?",
+      "options": {
+        "A": "Record the timing and plan an appropriate follow-up rather than treating it as an immediate deal",
+        "B": "Mark it as closed-won",
+        "C": "Ignore the opportunity permanently",
+        "D": "Send a contract every week"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q17",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a qualification framework useful for?",
+      "options": {
+        "A": "Apply consistent criteria when evaluating opportunities",
+        "B": "Guarantee a purchase",
+        "C": "Eliminate customer conversations",
+        "D": "Replace market research"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q18",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "scenario\\_judgment",
+      "question": "A prospect fits the industry but has no identifiable need. What should happen?",
+      "options": {
+        "A": "Continue discovery before investing heavily in the opportunity",
+        "B": "Treat it as fully qualified",
+        "C": "Mark it as won",
+        "D": "Increase the contract price"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q19",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is timing useful as a qualification dimension?",
+      "options": {
+        "A": "It helps determine when an opportunity can realistically progress",
+        "B": "Timing always predicts deal size",
+        "C": "Timing replaces need",
+        "D": "Timing is only relevant after closing"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q20",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Lead Qualification",
+      "question_type": "project\\_verification",
+      "question": "A student claims real lead-qualification experience. What should they be able to explain?",
+      "options": {
+        "A": "How they evaluated fit, need, authority, timing, value, and next steps for actual prospects",
+        "B": "Only the qualification framework name",
+        "C": "Only the number of leads",
+        "D": "Only the CRM used"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q21",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Pitching",
+      "question_type": "scenario\\_judgment",
+      "question": "What should a strong business pitch primarily communicate?",
+      "options": {
+        "A": "The problem, proposed value, evidence, differentiation, and desired next step",
+        "B": "Every feature in maximum detail",
+        "C": "The company's history only",
+        "D": "Internal technical terminology"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q22",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Pitching",
+      "question_type": "scenario\\_judgment",
+      "question": "A pitch contains many product features but never explains the customer's problem. What is the main weakness?",
+      "options": {
+        "A": "It focuses on the solution without establishing customer value",
+        "B": "It has too much customer research",
+        "C": "It contains too few features",
+        "D": "It has excessive qualification"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q23",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Proposal Development",
+      "question_type": "scenario\\_judgment",
+      "question": "What should a business proposal normally include?",
+      "options": {
+        "A": "Relevant problem, proposed solution, scope, value, assumptions, and commercial or next-step information",
+        "B": "Only the company logo",
+        "C": "Only a product brochure",
+        "D": "Only the final price"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q24",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Pitching",
+      "question_type": "scenario\\_judgment",
+      "question": "A prospect asks, \"Why should we choose you instead of another provider?\" What should the response focus on?",
+      "options": {
+        "A": "Relevant differentiation supported by evidence and tied to the customer's needs",
+        "B": "Criticizing competitors without evidence",
+        "C": "Listing every internal employee",
+        "D": "Changing the subject"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q25",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Pitching",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should a pitch be adapted to its audience?",
+      "options": {
+        "A": "Different stakeholders care about different business outcomes, risks, and decision criteria",
+        "B": "Every buyer has identical priorities",
+        "C": "Adaptation reduces credibility",
+        "D": "A pitch should always use the same language"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q26",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Proposal Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A proposal promises outcomes that the company cannot realistically deliver. What is the main risk?",
+      "options": {
+        "A": "Loss of trust and potential delivery or contractual problems",
+        "B": "Faster closing automatically",
+        "C": "Better qualification",
+        "D": "Lower customer expectations"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q27",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Pitching",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a good response when a prospect raises a difficult objection during a pitch?",
+      "options": {
+        "A": "Understand the concern, clarify it, and respond with relevant evidence or explanation",
+        "B": "Ignore the objection",
+        "C": "Change the subject immediately",
+        "D": "Argue with the prospect"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q28",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Proposal Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A proposal is technically strong but uses unfamiliar internal terminology. What should be improved?",
+      "options": {
+        "A": "Use language appropriate to the audience and decision context",
+        "B": "Add more internal terminology",
+        "C": "Remove all explanation",
+        "D": "Increase technical detail regardless of audience"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q29",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Pitching",
+      "question_type": "scenario\\_judgment",
+      "question": "A pitch ends without a clear next step. What is missing?",
+      "options": {
+        "A": "A specific call to action or agreed follow-up",
+        "B": "More company history",
+        "C": "More product features",
+        "D": "More branding"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q30",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Pitching",
+      "question_type": "project\\_verification",
+      "question": "A student claims real pitching experience. What should they be able to explain?",
+      "options": {
+        "A": "The audience, problem, pitch structure, objections, value proposition, evidence, and outcome",
+        "B": "Only the presentation software",
+        "C": "Only the number of slides",
+        "D": "Only the pitch duration"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q31",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Partnership Development",
+      "question_type": "scenario\\_judgment",
+      "question": "What makes a strategic partnership potentially valuable?",
+      "options": {
+        "A": "Both parties can gain meaningful value from complementary capabilities, audiences, resources, or distribution",
+        "B": "The partnership has a long contract only",
+        "C": "The companies have identical capabilities",
+        "D": "One party receives all the value"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q32",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Partnership Development",
+      "question_type": "scenario\\_judgment",
+      "question": "Two potential partners are interested but have different goals. What should be clarified first?",
+      "options": {
+        "A": "Shared objectives, responsibilities, value exchange, and success criteria",
+        "B": "The logo colors",
+        "C": "Office locations only",
+        "D": "The number of employees"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q33",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Strategic Partnerships",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is partner fit important?",
+      "options": {
+        "A": "Misaligned capabilities, customers, incentives, or strategy can reduce partnership value",
+        "B": "Any two companies are automatically compatible",
+        "C": "Large companies are always better partners",
+        "D": "Partnerships do not require shared value"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q34",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Partnership Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A partner can provide distribution but wants exclusivity. What should the business-development team evaluate?",
+      "options": {
+        "A": "Expected value, strategic implications, alternatives, risks, and contractual constraints",
+        "B": "Accept exclusivity immediately",
+        "C": "Reject every partnership with exclusivity",
+        "D": "Ignore the request"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q35",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Strategic Partnerships",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a useful partnership success metric?",
+      "options": {
+        "A": "A measurable outcome tied to the partnership's agreed objective",
+        "B": "Number of meetings only",
+        "C": "Number of emails sent",
+        "D": "Length of the contract"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q36",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Partnership Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A partnership generates activity but no meaningful business results. What should be reviewed?",
+      "options": {
+        "A": "Whether the partnership's activities are actually connected to its intended outcomes",
+        "B": "Only the number of meetings",
+        "C": "Only the partner's logo",
+        "D": "Only contract length"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q37",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Partnership Development",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should responsibilities be clearly defined in a partnership?",
+      "options": {
+        "A": "To reduce ambiguity around ownership, delivery, and accountability",
+        "B": "To make communication harder",
+        "C": "To increase overlap",
+        "D": "To avoid measuring results"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q38",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Strategic Partnerships",
+      "question_type": "scenario\\_judgment",
+      "question": "Two teams disagree about how partnership revenue should be attributed. What should happen?",
+      "options": {
+        "A": "Define the commercial model and attribution rules explicitly",
+        "B": "Split revenue randomly",
+        "C": "Ignore the issue",
+        "D": "Let the larger company decide automatically"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q39",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Partnership Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A strategic partner repeatedly misses its commitments. What should the partnership owner do?",
+      "options": {
+        "A": "Review agreed obligations, impact, root causes, and available corrective actions",
+        "B": "Ignore missed commitments",
+        "C": "Increase the partner's scope",
+        "D": "Remove all measurements"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q40",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Partnership Development",
+      "question_type": "project\\_verification",
+      "question": "A student claims experience building business partnerships. What should they be able to explain?",
+      "options": {
+        "A": "How they identified the partner, established mutual value, negotiated responsibilities, managed execution, and measured results",
+        "B": "Only the partner's name",
+        "C": "Only the contract length",
+        "D": "Only the number of meetings"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q41",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Negotiation",
+      "question_type": "scenario\\_judgment",
+      "question": "What is an important principle in business negotiation?",
+      "options": {
+        "A": "Understand each party's interests, constraints, alternatives, and desired outcomes",
+        "B": "Always make the first concession",
+        "C": "Focus only on price",
+        "D": "Avoid asking questions"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Negotiation"
+    },
+    {
+      "id": "business_development_t3_q42",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Negotiation",
+      "question_type": "scenario\\_judgment",
+      "question": "A customer asks for a large discount with no additional commitment. What should a salesperson consider?",
+      "options": {
+        "A": "Whether the concession can be exchanged for value such as volume, term, scope, or commitment",
+        "B": "Give the discount immediately",
+        "C": "End the relationship immediately",
+        "D": "Ignore the request"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Negotiation"
+    },
+    {
+      "id": "business_development_t3_q43",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Negotiation",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is an alternative option important in negotiation?",
+      "options": {
+        "A": "It affects the leverage and minimum acceptable outcome of a party",
+        "B": "Alternatives make negotiation impossible",
+        "C": "Alternatives only matter after a deal closes",
+        "D": "Alternatives guarantee a higher price"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Negotiation"
+    },
+    {
+      "id": "business_development_t3_q44",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Competitive Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the purpose of competitive analysis?",
+      "options": {
+        "A": "Understand competitors' positioning, capabilities, strengths, weaknesses, and market approach",
+        "B": "Copy every competitor feature",
+        "C": "Guarantee market leadership",
+        "D": "Replace customer research"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q45",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Competitive Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "A competitor has a lower price but significantly weaker service levels. What should the business-development team communicate?",
+      "options": {
+        "A": "The relevant value difference and why it matters to the customer's priorities",
+        "B": "Only that the competitor is bad",
+        "C": "Ignore the competitor",
+        "D": "Lower price automatically"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q46",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Account Growth",
+      "question_type": "scenario\\_judgment",
+      "question": "An existing customer uses one product but has several adjacent needs. What should the account team do first?",
+      "options": {
+        "A": "Understand the customer's needs and identify relevant expansion opportunities",
+        "B": "Immediately sell every product",
+        "C": "Increase the customer's price without discussion",
+        "D": "Ignore the additional needs"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q47",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Account Growth",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a useful signal for an account-expansion opportunity?",
+      "options": {
+        "A": "A newly identified customer need that fits an existing product or service capability",
+        "B": "The customer's company logo",
+        "C": "Number of emails sent",
+        "D": "Contract length alone"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q48",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "CRM Management",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is accurate CRM data important in business development?",
+      "options": {
+        "A": "It supports reliable pipeline visibility, follow-up, forecasting, and account management",
+        "B": "It guarantees closed deals",
+        "C": "It replaces sales conversations",
+        "D": "It removes qualification"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q49",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Revenue Opportunity Analysis",
+      "question_type": "numerical\\_case",
+      "question": "A sales pipeline contains three opportunities worth ₹2 lakh each with an estimated 50% probability of closing. What is their simple weighted pipeline value?",
+      "options": {
+        "A": "₹3 lakh",
+        "B": "₹6 lakh",
+        "C": "₹1.5 lakh",
+        "D": "₹2 lakh"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q50",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Competitive / Account Strategy",
+      "question_type": "project\\_verification",
+      "question": "A student claims experience managing competitive deals or growing customer accounts. What should they be able to explain?",
+      "options": {
+        "A": "The customer need, competitive situation, account strategy, commercial decisions, and measurable outcome",
+        "B": "Only the CRM name",
+        "C": "Only the deal size",
+        "D": "Only the competitor name"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q51",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "CRM Management",
+      "question_type": "scenario\\_judgment",
+      "question": "A CRM contains hundreds of opportunities with no recent updates. What is the most important issue?",
+      "options": {
+        "A": "Pipeline data quality and opportunity freshness",
+        "B": "Number of CRM colors",
+        "C": "Number of dashboard tabs",
+        "D": "Font choice"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q52",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "CRM Management",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a sales-stage definition useful for?",
+      "options": {
+        "A": "Create consistent criteria for understanding where an opportunity is in the process",
+        "B": "Guarantee closing",
+        "C": "Replace customer discovery",
+        "D": "Remove the need for forecasting"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    },
+    {
+      "id": "business_development_t3_q53",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Revenue Opportunity Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "A company has many opportunities but limited sales capacity. Which opportunities should receive greater attention?",
+      "options": {
+        "A": "Those with stronger fit, need, value, probability, and timely next steps",
+        "B": "Only the oldest opportunities",
+        "C": "Only the largest company names",
+        "D": "Random opportunities"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q54",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Account Growth",
+      "question_type": "scenario\\_judgment",
+      "question": "An existing customer has low product adoption. What should happen before attempting an upsell?",
+      "options": {
+        "A": "Understand adoption barriers and customer outcomes",
+        "B": "Immediately add products",
+        "C": "Increase pricing",
+        "D": "Ignore adoption"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q55",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Revenue Opportunity Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should pipeline forecasts include probability or confidence estimates?",
+      "options": {
+        "A": "Different opportunities have different likelihoods of reaching the expected outcome",
+        "B": "Every opportunity has equal likelihood",
+        "C": "Probability guarantees revenue",
+        "D": "Forecasts do not need assumptions"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q56",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Strategic Business Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A company wants to enter a new market through a local partner. What should be evaluated?",
+      "options": {
+        "A": "Market demand, partner fit, capabilities, economics, risks, and route to market",
+        "B": "Partner popularity only",
+        "C": "Office size only",
+        "D": "Number of meetings"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q57",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Strategic Business Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A potential partner can provide access to customers but has poor operational capability. What should the team consider?",
+      "options": {
+        "A": "Whether the expected customer access outweighs execution and reputation risks",
+        "B": "Ignore the operational weakness",
+        "C": "Sign immediately",
+        "D": "Reject every partnership"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Partnership Development"
+    },
+    {
+      "id": "business_development_t3_q58",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Development Strategy",
+      "question_type": "scenario\\_judgment",
+      "question": "A company has three possible growth opportunities but resources for only one. What is a strong decision process?",
+      "options": {
+        "A": "Compare expected value, strategic fit, resources, risks, and time to impact",
+        "B": "Choose the opportunity with the longest presentation",
+        "C": "Choose randomly",
+        "D": "Choose only by company size"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Business Pitching"
+    },
+    {
+      "id": "business_development_t3_q59",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Development Strategy",
+      "question_type": "scenario\\_judgment",
+      "question": "A new opportunity looks large but has no clear customer need or buying process. What should happen?",
+      "options": {
+        "A": "Continue discovery before treating the opportunity as strategically attractive",
+        "B": "Assume the revenue is guaranteed",
+        "C": "Mark it closed-won",
+        "D": "Immediately hire a large team"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Qualification"
+    },
+    {
+      "id": "business_development_t3_q60",
+      "track": "BUSINESS DEVELOPMENT",
+      "tier": "Tier 3",
+      "skill": "Business Development / Project Verification",
+      "question_type": "project\\_verification",
+      "question": "A student claims substantial business-development experience. Which question best verifies genuine practical experience?",
+      "options": {
+        "A": "Ask them to walk through a real opportunity from prospecting and qualification through pitch, negotiation, relationship management, and measurable outcome",
+        "B": "Ask only which CRM they used",
+        "C": "Ask only how many leads they generated",
+        "D": "Ask only the final deal value"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Lead Generation / Prospecting"
+    }
+  ]
+}

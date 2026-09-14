@@ -1,0 +1,9 @@
+{
+  "kind": "Deterministic fixed skill-vector cosine index",
+  "records": 18030,
+  "dimensions": 282,
+  "csv_sha256": "8cade392f9b7817f3ea6d04c92ec623195079b3ec235b305ae2c6ea4f91b0a75",
+  "index_file": "skill_vectors.npz",
+  "proficiency_labels": "Description targets 6/7 and category targets 5 are heuristic, not employer-stated proficiency.",
+  "salary_prediction": false
+}

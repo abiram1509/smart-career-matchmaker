@@ -1,0 +1,57 @@
+{
+  "prepared_at": "2026-09-12T15:05:49.980695+00:00",
+  "jobs": 18030,
+  "unique_skills": 179,
+  "extracted_skills": 178,
+  "counts": {
+    "job_postings.csv:input": 15886,
+    "description_parsed": 16693,
+    "job_postings.csv:retained": 13906,
+    "category_template": 1337,
+    "duplicates": 4823,
+    "fewer_than_two_skills": 819,
+    "invalid_or_short": 141,
+    "linkdin_Job_data.csv:input": 7927,
+    "linkdin_Job_data.csv:retained": 4124
+  },
+  "fields": {
+    "Sales & customer service": 2095,
+    "Finance & accounting": 1322,
+    "Other fields": 2593,
+    "Marketing & creative work": 1033,
+    "HR & administration": 776,
+    "Education & training": 587,
+    "Engineering, operations & logistics": 4673,
+    "Healthcare support": 1250,
+    "Technology & data": 3425,
+    "Legal & compliance support": 276
+  },
+  "salary_jobs": 5701,
+  "salary_by_field": {
+    "sales": 723,
+    "people": 352,
+    "healthcare": 376,
+    "other": 564,
+    "technology": 572,
+    "operations": 1741,
+    "education": 231,
+    "legal": 138,
+    "creative": 390,
+    "finance": 614
+  },
+  "source_sha256": {
+    "job_postings.csv": "d782e95f35cbd5f658ad7124021c938f5c8c1656f1c059b6dc9d402d1eaa195f",
+    "linkdin_Job_data.csv": "c2a423cb2dc9eb0e2d09b1de49cabeca09f1af759dd2acd29afaccc0346536ec"
+  },
+  "method": "Deterministic cosine similarity over shared skill axes. Description mentions use heuristic 6/7 targets; category fallback uses disclosed 5 targets. Company/category joins use supplied IDs.",
+  "excluded_sources": {
+    "clean_data.parquet": "1,415,533 rows but inspected samples contain skill/benefit fragments in title/description, no role IDs, salary, employer or location. Held out rather than represented as reliable job listings.",
+    "employee_income.csv": "50 age/experience/income rows without currency, pay period, role or location. Not suitable for role-based salary prediction; age is not used in matching.",
+    "linkdin_Job_data.xlsx": "Duplicate-format source of the supplied LinkedIn CSV; not double-counted.",
+    "job_industries.csv": "Industry ID lookup not supplied. Company industry labels used where a company ID joins.",
+    "company_specialities.csv": "Employer specialties do not prove requirements of an individual role.",
+    "employee_counts.csv": "Company size is not an individual skill requirement.",
+    "Largest_Companies.csv": "No compatible company ID join; not used to invent company names.",
+    "skill_taxonomy.json": "Original technology-heavy extraction counts are not proficiency labels. Demand counts recomputed from the prepared corpus."
+  }
+}

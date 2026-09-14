@@ -1,0 +1,913 @@
+{
+  "status": "partial_skill_coverage",
+  "validation": {
+    "Essential Skills": {
+      "numeric_ratings": {
+        "IM": 9100,
+        "LV": 9100
+      },
+      "examples": [
+        {
+          "O*NET-SOC Code": "11-1011.00",
+          "Element Name": "Reading Comprehension",
+          "Scale ID": "IM",
+          "Data Value": 4.12
+        },
+        {
+          "O*NET-SOC Code": "11-1011.00",
+          "Element Name": "Reading Comprehension",
+          "Scale ID": "LV",
+          "Data Value": 4.62
+        }
+      ]
+    },
+    "Transferable Skills": {
+      "numeric_ratings": {
+        "IM": 22750,
+        "LV": 22750
+      },
+      "examples": [
+        {
+          "O*NET-SOC Code": "11-1011.00",
+          "Element Name": "Social Perceptiveness",
+          "Scale ID": "IM",
+          "Data Value": 4.12
+        },
+        {
+          "O*NET-SOC Code": "11-1011.00",
+          "Element Name": "Social Perceptiveness",
+          "Scale ID": "LV",
+          "Data Value": 4.25
+        }
+      ]
+    },
+    "Knowledge": {
+      "numeric_ratings": {
+        "IM": 30030,
+        "LV": 30030
+      },
+      "examples": [
+        {
+          "O*NET-SOC Code": "11-1011.00",
+          "Element Name": "Administration and Management",
+          "Scale ID": "IM",
+          "Data Value": 4.78
+        },
+        {
+          "O*NET-SOC Code": "11-1011.00",
+          "Element Name": "Administration and Management",
+          "Scale ID": "LV",
+          "Data Value": 6.5
+        }
+      ]
+    },
+    "Task Ratings": {
+      "numeric_importance_rows": 18420
+    }
+  },
+  "retained_occupations": 42,
+  "mapped_astra_skills": 66,
+  "coverage": {
+    "Tech": {
+      "occupations": 11,
+      "mapped_skills": 21,
+      "tracks_with_coverage": [
+        "backend",
+        "cloud-devops",
+        "data-ml",
+        "frontend",
+        "qa-testing"
+      ],
+      "tracks_without_coverage": []
+    },
+    "Business / Management": {
+      "occupations": 7,
+      "mapped_skills": 18,
+      "tracks_with_coverage": [
+        "hr"
+      ],
+      "tracks_without_coverage": [
+        "business-development",
+        "business-finance",
+        "business-marketing",
+        "business-operations",
+        "business-sales"
+      ]
+    },
+    "Design": {
+      "occupations": 2,
+      "mapped_skills": 1,
+      "tracks_with_coverage": [
+        "graphic",
+        "product-design"
+      ],
+      "tracks_without_coverage": [
+        "ui-ux"
+      ]
+    },
+    "Core Engineering": {
+      "occupations": 6,
+      "mapped_skills": 6,
+      "tracks_with_coverage": [
+        "civil",
+        "electrical",
+        "electronics",
+        "mechanical"
+      ],
+      "tracks_without_coverage": []
+    },
+    "Finance / Commerce": {
+      "occupations": 2,
+      "mapped_skills": 1,
+      "tracks_with_coverage": [
+        "banking"
+      ],
+      "tracks_without_coverage": [
+        "accounting",
+        "financial-analysis"
+      ]
+    },
+    "Marketing / Sales": {
+      "occupations": 4,
+      "mapped_skills": 12,
+      "tracks_with_coverage": [
+        "marketing",
+        "sales-track"
+      ],
+      "tracks_without_coverage": []
+    },
+    "Operations": {
+      "occupations": 0,
+      "mapped_skills": 0,
+      "tracks_with_coverage": [],
+      "tracks_without_coverage": [
+        "logistics",
+        "project-operations"
+      ]
+    },
+    "Healthcare": {
+      "occupations": 4,
+      "mapped_skills": 9,
+      "tracks_with_coverage": [
+        "health-admin",
+        "health-it"
+      ],
+      "tracks_without_coverage": [
+        "clinical"
+      ]
+    },
+    "Other": {
+      "occupations": 6,
+      "mapped_skills": 6,
+      "tracks_with_coverage": [
+        "general",
+        "legal-support"
+      ],
+      "tracks_without_coverage": [
+        "education-track"
+      ]
+    }
+  },
+  "occupation_approval_required": [],
+  "approved_assignments": {
+    "15-1251.00": [
+      "backend",
+      "frontend"
+    ],
+    "15-1252.00": [
+      "backend",
+      "frontend"
+    ],
+    "15-1254.00": [
+      "backend",
+      "frontend"
+    ],
+    "15-1243.00": [
+      "backend",
+      "data-ml"
+    ],
+    "11-2021.00": [
+      "marketing"
+    ],
+    "13-1161.00": [
+      "marketing"
+    ],
+    "11-2022.00": [
+      "sales-track"
+    ],
+    "41-3091.00": [
+      "sales-track"
+    ],
+    "15-1255.00": [
+      "frontend"
+    ],
+    "11-3131.00": [
+      "hr"
+    ],
+    "13-1151.00": [
+      "hr"
+    ],
+    "29-2072.00": [
+      "health-admin",
+      "health-it"
+    ]
+  },
+  "held_occupations": [
+    {
+      "code": "13-2011.00",
+      "title": "Accountants and Auditors",
+      "reason": "Finance occupation held by user until an authored track is available."
+    },
+    {
+      "code": "13-2051.00",
+      "title": "Financial and Investment Analysts",
+      "reason": "Finance occupation held by user until an authored track is available."
+    },
+    {
+      "code": "13-1081.00",
+      "title": "Logisticians",
+      "reason": "Operations occupation held by user until an authored track is available."
+    },
+    {
+      "code": "13-1082.00",
+      "title": "Project Management Specialists",
+      "reason": "Operations occupation held by user until an authored track is available."
+    }
+  ],
+  "deferred_interface_tracks": [
+    "ui-ux",
+    "product-design"
+  ],
+  "bank_issues": [
+    "Sharing an occupation does not share questions. Bank counts are available from the assessment catalog and SQLite questions table."
+  ],
+  "ambiguous_title_count": 551,
+  "zero_coverage_skills": [
+    "A/B Testing",
+    "API Integration",
+    "Accessibility",
+    "Account Growth",
+    "Account Management",
+    "Accounting",
+    "Adaptability",
+    "Adaptive / Project Context",
+    "Adobe Suite",
+    "Agile",
+    "Algorithms",
+    "Analytics",
+    "Angular",
+    "Assessment Design",
+    "Auditing",
+    "Authentication",
+    "Automation Testing",
+    "Azure",
+    "Backend Testing",
+    "Big Data",
+    "Bookkeeping",
+    "Brand Management",
+    "Budgeting",
+    "Business Development",
+    "Business Development / Project Verification",
+    "Business Development Strategy",
+    "Business Pitching",
+    "C#",
+    "CAD",
+    "CI/CD",
+    "CRM",
+    "CRM Management",
+    "Candidate Experience",
+    "Care Coordination",
+    "Case Management",
+    "Cassandra",
+    "Circuit Design",
+    "Classroom Management",
+    "Client Relationship Management",
+    "Collaboration",
+    "Color Theory",
+    "Communication",
+    "Competitive / Account Strategy",
+    "Competitive Analysis",
+    "Compliance",
+    "Compliance / Regulatory Research",
+    "Compliance Auditing",
+    "Compliance Governance",
+    "Compliance Management",
+    "Compliance Risk Analysis",
+    "Computer Literacy",
+    "Computer Vision",
+    "Confidentiality",
+    "Conflict Resolution",
+    "Content Marketing",
+    "Content Strategy",
+    "Content Writing",
+    "Contract Management",
+    "Contract Review / Management",
+    "Conversion Rate Optimization",
+    "Copywriting",
+    "Corporate Governance",
+    "Critical Thinking",
+    "Curriculum Development",
+    "Customer Service",
+    "Cybersecurity",
+    "Data Cleaning / EDA",
+    "Data Engineering",
+    "Data Engineering / SQL",
+    "Data Entry",
+    "Data Science",
+    "Data Structures",
+    "Debugging",
+    "Deep Learning",
+    "Deployment",
+    "Digital Electronics",
+    "Dispute / Issue Management",
+    "Django",
+    "Documentation",
+    "Due Diligence",
+    "Due Diligence / Governance",
+    "DynamoDB",
+    "EDA",
+    "ETL",
+    "Elasticsearch",
+    "Embedded Systems",
+    "Employee Engagement",
+    "Error Handling",
+    "Exploratory Data Analysis",
+    "Express",
+    "FastAPI",
+    "Financial Analysis",
+    "Financial Modeling",
+    "Financial Reporting",
+    "Flask",
+    "Forms & Validation",
+    "GCP",
+    "GD&T",
+    "Git / ML Workflow",
+    "Go",
+    "Governance / Privacy",
+    "Graphic Design",
+    "HR Analytics / Project Verification",
+    "HR Management",
+    "HTML/CSS",
+    "Hadoop",
+    "Health Records",
+    "Healthcare Administration",
+    "Healthcare Quality",
+    "Healthcare Support / Project Verification",
+    "Healthcare Technology",
+    "Healthcare Workflow",
+    "Hypothesis Testing",
+    "Infection Prevention",
+    "Interview Evaluation",
+    "Inventory Management",
+    "Java",
+    "Java / Node.js",
+    "Jenkins",
+    "Kafka",
+    "Kotlin",
+    "Lead Generation",
+    "Lead Generation / Prospecting",
+    "Lead Qualification",
+    "Leadership",
+    "Legal / Compliance Project Verification",
+    "Legal / Compliance Risk",
+    "Legal Risk Analysis",
+    "Lesson Planning",
+    "Logistics",
+    "Machine Learning",
+    "Maintenance",
+    "Manual Testing",
+    "Manufacturing",
+    "Market Expansion",
+    "Marketing Analytics / Project Verification",
+    "Marketing Communications",
+    "Marketing Strategy / Project Verification",
+    "Medical Records / Data",
+    "Medical Terminology",
+    "Model Deployment",
+    "MongoDB",
+    "MySQL",
+    "NLP",
+    "Networking",
+    "Next.js",
+    "Node.js",
+    "Office Administration",
+    "PHP",
+    "PLC Programming",
+    "Paid Search",
+    "Pandas",
+    "Partnership Development",
+    "Patient Communication",
+    "Patient Safety",
+    "Patient Safety / Quality",
+    "Patient Support",
+    "Payroll",
+    "Performance",
+    "Performance Management / Engagement",
+    "Policy Development",
+    "PostgreSQL",
+    "Power BI",
+    "Power Systems",
+    "Presentation",
+    "Privacy & Data Protection",
+    "Problem Solving",
+    "Process Optimization",
+    "Procurement",
+    "Project Management",
+    "Project-Informed API Integration",
+    "Project-Informed React",
+    "Proposal Development",
+    "Prototyping",
+    "PyTorch",
+    "Quality Assurance",
+    "R",
+    "REST APIs",
+    "Reconciliation",
+    "Record Keeping",
+    "Recruitment",
+    "Redis",
+    "Referral Coordination",
+    "Regulatory Compliance",
+    "Regulatory Research",
+    "Relational Databases",
+    "Research",
+    "Responsive Design",
+    "Revenue Opportunity Analysis",
+    "Risk & Compliance Analysis",
+    "Risk Analysis",
+    "Risk Management",
+    "Ruby",
+    "Rust",
+    "SAP",
+    "SEO",
+    "SEO / SEM",
+    "STAAD Pro",
+    "Safety Procedures",
+    "Sales",
+    "Sales Prospecting",
+    "Salesforce",
+    "Scala",
+    "Scheduling",
+    "Scheduling / Referral Coordination",
+    "Scikit-learn",
+    "Search Engine Optimization",
+    "Security",
+    "Social / Content Marketing",
+    "Social Media",
+    "Spark",
+    "Spring",
+    "State Management",
+    "Statistics",
+    "Strategic Business Development",
+    "Strategic Partnerships",
+    "Structural Analysis",
+    "Student Support",
+    "Supply Chain",
+    "Surveying",
+    "System Design",
+    "Tableau",
+    "Tally",
+    "Taxation",
+    "Teaching",
+    "Teamwork",
+    "TensorFlow",
+    "Terraform",
+    "Test Case Design",
+    "Testing",
+    "Thermodynamics",
+    "Time Management",
+    "Training",
+    "Typography",
+    "UI Component Design",
+    "UI/UX",
+    "User Research",
+    "Video Editing",
+    "Vue",
+    "Wireframing"
+  ],
+  "zero_coverage_by_track": {
+    "backend": [
+      "API Integration",
+      "Authentication",
+      "Data Structures",
+      "Deployment",
+      "Error Handling",
+      "Java / Node.js",
+      "Performance",
+      "REST APIs",
+      "Relational Databases",
+      "Security",
+      "Testing"
+    ],
+    "frontend": [
+      "API Integration",
+      "Accessibility",
+      "Angular",
+      "Debugging",
+      "Forms & Validation",
+      "HTML/CSS",
+      "Performance",
+      "Project-Informed API Integration",
+      "Project-Informed React",
+      "Responsive Design",
+      "State Management",
+      "Testing",
+      "UI Component Design",
+      "Vue"
+    ],
+    "data-ml": [
+      "Data Cleaning / EDA",
+      "Data Engineering",
+      "Data Engineering / SQL",
+      "Data Science",
+      "Deep Learning",
+      "EDA",
+      "Exploratory Data Analysis",
+      "Git / ML Workflow",
+      "Hypothesis Testing",
+      "Machine Learning",
+      "Model Deployment",
+      "NLP",
+      "Pandas",
+      "Statistics"
+    ],
+    "cloud-devops": [
+      "Azure",
+      "CI/CD",
+      "GCP",
+      "Networking",
+      "Terraform"
+    ],
+    "qa-testing": [
+      "Automation Testing",
+      "Debugging",
+      "Documentation",
+      "Manual Testing",
+      "Quality Assurance",
+      "Test Case Design",
+      "Testing"
+    ],
+    "business-marketing": [
+      "Analytics",
+      "CRM",
+      "Campaign Management",
+      "Content Writing",
+      "Digital Marketing",
+      "Excel",
+      "Market Research",
+      "Presentation",
+      "SEO",
+      "Social Media"
+    ],
+    "business-sales": [
+      "Account Management",
+      "Business Development",
+      "CRM",
+      "Customer Service",
+      "Excel",
+      "Lead Generation",
+      "Market Research",
+      "Negotiation",
+      "Presentation",
+      "Sales"
+    ],
+    "hr": [
+      "Candidate Experience",
+      "Compliance",
+      "Confidentiality",
+      "Conflict Resolution",
+      "Employee Engagement",
+      "HR Analytics / Project Verification",
+      "HR Management",
+      "Interview Evaluation",
+      "Office Administration",
+      "Payroll",
+      "Performance Management / Engagement",
+      "Record Keeping",
+      "Recruitment",
+      "Scheduling",
+      "Training"
+    ],
+    "business-finance": [
+      "Accounting",
+      "Auditing",
+      "Budgeting",
+      "Excel",
+      "Financial Analysis",
+      "Financial Modeling",
+      "Financial Reporting",
+      "Reconciliation",
+      "Risk Management",
+      "Taxation"
+    ],
+    "business-operations": [
+      "Documentation",
+      "Excel",
+      "Inventory Management",
+      "Logistics",
+      "Process Optimization",
+      "Project Management",
+      "Quality Assurance",
+      "Safety Procedures",
+      "Scheduling",
+      "Supply Chain"
+    ],
+    "ui-ux": [
+      "Accessibility",
+      "Figma",
+      "Graphic Design",
+      "Presentation",
+      "Prototyping",
+      "Research",
+      "Responsive Design",
+      "UI/UX",
+      "User Research",
+      "Wireframing"
+    ],
+    "graphic": [
+      "Adobe Suite",
+      "Color Theory",
+      "Content Writing",
+      "Graphic Design",
+      "Presentation",
+      "Prototyping",
+      "Research",
+      "Typography",
+      "Video Editing"
+    ],
+    "product-design": [
+      "Accessibility",
+      "Graphic Design",
+      "Market Research",
+      "Presentation",
+      "Prototyping",
+      "Research",
+      "UI/UX",
+      "User Research",
+      "Wireframing"
+    ],
+    "mechanical": [
+      "CAD",
+      "GD&T",
+      "Maintenance",
+      "Manufacturing",
+      "Quality Assurance",
+      "Safety Procedures",
+      "Thermodynamics"
+    ],
+    "civil": [
+      "CAD",
+      "Documentation",
+      "Project Management",
+      "Quality Assurance",
+      "STAAD Pro",
+      "Safety Procedures",
+      "Structural Analysis",
+      "Surveying"
+    ],
+    "electrical": [
+      "Circuit Design",
+      "Documentation",
+      "Maintenance",
+      "PLC Programming",
+      "Power Systems",
+      "Quality Assurance",
+      "Safety Procedures",
+      "Testing"
+    ],
+    "electronics": [
+      "Circuit Design",
+      "Debugging",
+      "Digital Electronics",
+      "Documentation",
+      "Embedded Systems",
+      "Safety Procedures",
+      "Testing"
+    ],
+    "accounting": [
+      "Accounting",
+      "Auditing",
+      "Bookkeeping",
+      "Budgeting",
+      "Excel",
+      "Financial Reporting",
+      "Reconciliation",
+      "SAP",
+      "Tally",
+      "Taxation"
+    ],
+    "financial-analysis": [
+      "Accounting",
+      "Budgeting",
+      "Excel",
+      "Financial Analysis",
+      "Financial Modeling",
+      "Financial Reporting",
+      "Power BI",
+      "Research",
+      "Risk Management",
+      "Statistics"
+    ],
+    "banking": [
+      "Accounting",
+      "Compliance",
+      "Confidentiality",
+      "Customer Service",
+      "Financial Analysis",
+      "Financial Reporting",
+      "Reconciliation",
+      "Research",
+      "Risk Management"
+    ],
+    "marketing": [
+      "A/B Testing",
+      "Analytics",
+      "Brand Management",
+      "CRM",
+      "Content Marketing",
+      "Content Strategy",
+      "Content Writing",
+      "Conversion Rate Optimization",
+      "Copywriting",
+      "Marketing Analytics / Project Verification",
+      "Marketing Communications",
+      "Marketing Strategy / Project Verification",
+      "Paid Search",
+      "SEO",
+      "SEO / SEM",
+      "Search Engine Optimization",
+      "Social / Content Marketing",
+      "Social Media"
+    ],
+    "sales-track": [
+      "Account Management",
+      "Business Development",
+      "CRM",
+      "Customer Service",
+      "Lead Generation",
+      "Market Research",
+      "Presentation",
+      "Sales"
+    ],
+    "logistics": [
+      "Excel",
+      "Inventory Management",
+      "Logistics",
+      "Process Optimization",
+      "Procurement",
+      "Quality Assurance",
+      "Record Keeping",
+      "Safety Procedures",
+      "Scheduling",
+      "Supply Chain"
+    ],
+    "project-operations": [
+      "Budgeting",
+      "Documentation",
+      "Excel",
+      "Process Optimization",
+      "Project Management",
+      "Quality Assurance",
+      "Risk Management",
+      "Safety Procedures",
+      "Scheduling",
+      "Supply Chain"
+    ],
+    "clinical": [
+      "Care Coordination",
+      "Confidentiality",
+      "Documentation",
+      "Health Records",
+      "Infection Prevention",
+      "Medical Terminology",
+      "Patient Support",
+      "Quality Assurance",
+      "Record Keeping",
+      "Safety Procedures"
+    ],
+    "health-admin": [
+      "Care Coordination",
+      "Confidentiality",
+      "Customer Service",
+      "Health Records",
+      "Healthcare Administration",
+      "Healthcare Quality",
+      "Healthcare Support / Project Verification",
+      "Healthcare Technology",
+      "Healthcare Workflow",
+      "Medical Records / Data",
+      "Medical Terminology",
+      "Office Administration",
+      "Patient Communication",
+      "Patient Safety",
+      "Patient Safety / Quality",
+      "Patient Support",
+      "Quality Assurance",
+      "Record Keeping",
+      "Referral Coordination",
+      "Scheduling",
+      "Scheduling / Referral Coordination"
+    ],
+    "health-it": [
+      "Confidentiality",
+      "Cybersecurity",
+      "Data Entry",
+      "Documentation",
+      "Health Records",
+      "Medical Terminology",
+      "Networking",
+      "Quality Assurance",
+      "Testing"
+    ],
+    "general": [
+      "Computer Literacy",
+      "Customer Service",
+      "Data Entry",
+      "Documentation",
+      "Presentation",
+      "Record Keeping",
+      "Research",
+      "Scheduling"
+    ],
+    "education-track": [
+      "Assessment Design",
+      "Classroom Management",
+      "Curriculum Development",
+      "Lesson Planning",
+      "Presentation",
+      "Record Keeping",
+      "Research",
+      "Student Support",
+      "Teaching",
+      "Training"
+    ],
+    "legal-support": [
+      "Case Management",
+      "Compliance",
+      "Compliance / Regulatory Research",
+      "Compliance Auditing",
+      "Compliance Governance",
+      "Compliance Management",
+      "Compliance Risk Analysis",
+      "Confidentiality",
+      "Contract Management",
+      "Contract Review / Management",
+      "Corporate Governance",
+      "Dispute / Issue Management",
+      "Due Diligence",
+      "Due Diligence / Governance",
+      "Governance / Privacy",
+      "Legal / Compliance Project Verification",
+      "Legal / Compliance Risk",
+      "Legal Risk Analysis",
+      "Office Administration",
+      "Policy Development",
+      "Privacy & Data Protection",
+      "Record Keeping",
+      "Regulatory Compliance",
+      "Regulatory Research",
+      "Research",
+      "Risk & Compliance Analysis",
+      "Risk Analysis",
+      "Risk Management"
+    ],
+    "business-development": [
+      "Account Growth",
+      "Business Development",
+      "Business Development / Project Verification",
+      "Business Development Strategy",
+      "Business Pitching",
+      "CRM Management",
+      "Client Relationship Management",
+      "Competitive / Account Strategy",
+      "Competitive Analysis",
+      "Lead Generation",
+      "Lead Generation / Prospecting",
+      "Lead Qualification",
+      "Market Expansion",
+      "Negotiation",
+      "Partnership Development",
+      "Proposal Development",
+      "Revenue Opportunity Analysis",
+      "Sales Prospecting",
+      "Strategic Business Development",
+      "Strategic Partnerships"
+    ]
+  },
+  "limitations": [
+    "Conservative occupation allowlist; ambiguous pools excluded pending explicit approval.",
+    "Exact source labels/product equivalents and reviewed task-ID mappings only. Broader equivalences remain unmapped.",
+    "Occupation skill presence uses the existing 5/10 learning baseline; importance/level are retained as source evidence, not converted to proficiency.",
+    "Only unambiguous title/code joins enrich actual listings; occupation profiles never become fictional job openings."
+  ],
+  "source_hashes": {
+    "Occupation Data.xlsx": "13b2aa4c08e6c9a3708d5e5ac83e13da5cc184e3798313c8942a266d00593ace",
+    "Job Titles.xlsx": "1d5f1e469e99d95b9496ca7beb094fa107c215ede6249129955345c774904c0d",
+    "Essential Skills.xlsx": "1e4d875edf9120ba934a80c0a79adba03b6c9f76c7cbf6a626c6643e7fb53900",
+    "Transferable Skills.xlsx": "6f4bf0a5f9a6462b77a5faeb7d3d6be6311b0fe3ea1958d6a3c23fe2b53c7d6c",
+    "Knowledge.xlsx": "66798560983a61a90ba586ed4273fb4711611729203fe2c3b44cc0a3c96c9b31",
+    "Software Skills.xlsx": "9875a87371c8efc6ea9e1c551271a7fadefe2e6f8f5d1d2bca7b0c55face010f",
+    "Task Statements.xlsx": "afb7ba3bb00f0355d7d5f07e0a446ce880d72d15d4f3f2087973aa8c0dd102d4",
+    "Task Ratings.xlsx": "6f67327fd5d9a24d1dc553d3b5bbb3278bc89896efac57aa90bbe713a65a3fab",
+    "Scales Reference.xlsx": "0ffac0236a59b9aa71ddc9d347a57b150f204e7ae450945e199e43a41dad99f3"
+  }
+}

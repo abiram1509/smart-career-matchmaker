@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+node_modules/
+frontend/dist/
+backend/data/*.sqlite3
+backend/data/jobs-cache*.json
+.env
+
+backend/data/onet-cache.json
+
+# Private uploaded documents
+backend/data/portfolio-documents/
+
+# Local secrets and runtime state
+.env.*
+!.env.example
+*.sqlite3*
+*.db
+*.log
+*.pyc
+# Large source datasets remain local; see DATA_SETUP.md
+backend/data/jobs.csv
+onet/onet_data/

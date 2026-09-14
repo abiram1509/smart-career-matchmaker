@@ -1,0 +1,118 @@
+{
+  "other_tracks_hash": "522ff3b228e5615045c6213fa72849220467c4b45da79f4405de5a6e3070b828",
+  "checks_without_baselines": [
+    "Project-Informed API Integration",
+    "Project-Informed React"
+  ],
+  "baselines_without_checks": [
+    "Git"
+  ],
+  "source_sha256": "c0afbc6675054fb40497eb11e51a873a39f4723fef005e6fb5658eb6b5235f9f",
+  "questions_imported": 85,
+  "loaded_audit": {
+    "backend": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "frontend": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "data-ml": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "health-admin": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "legal-support": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "business-development": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "marketing": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "business-marketing": {
+      "engine": 23,
+      "database": 23,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 0,
+        "Tier 3": 3
+      }
+    },
+    "hr": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    }
+  },
+  "notes": [
+    "Approved FE-Q1 through FE-Q60 storage IDs; source_id retains original Q labels. Source order retained.",
+    "Existing response controls used for tables without explicit options. Context integration limitation unchanged: context answers stay in sessions; generic routing/profile-note prefixes are not renamed.",
+    "Project-informed example triggers and code blocks retained in prompt text. No baselines or question content invented."
+  ]
+}

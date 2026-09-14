@@ -1,0 +1,1171 @@
+{
+  "track": "HUMAN RESOURCES (HR)",
+  "import_instruction": "Import these questions only. Preserve wording, answers, skill labels and eligibility flags. Replace this track’s placeholders; leave other tracks unchanged. Flag missing skill labels or confidence baselines together before changing them. Keep updates and the final summary brief.",
+  "questions": [
+    {
+      "id": "human_resources_hr_t1_q01",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Talent Acquisition",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in talent acquisition and recruitment (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q02",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Recruitment Sourcing",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in candidate sourcing (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q03",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Interviewing",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in conducting structured interviews (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q04",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Employee Relations",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in employee relations (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q05",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Performance Management",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in performance management (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q06",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Learning and Development",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in learning and development (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q07",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Training Needs Analysis",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in identifying training needs (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q08",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Compensation and Benefits",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in compensation and benefits concepts (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q09",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "HR Analytics",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in HR analytics and reporting (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q10",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Workforce Planning",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in workforce planning (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q11",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Employee Engagement",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in employee engagement (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q12",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "HR Policies",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in HR policy development and implementation (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q13",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Onboarding",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in employee onboarding (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q14",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "HR Information Systems",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency with HR information systems (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t1_q15",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 1",
+      "skill": "Conflict Resolution",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in workplace conflict resolution (1–10)."
+    },
+    {
+      "id": "human_resources_hr_t2a_q01",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Talent Acquisition",
+      "question_type": "project_count",
+      "question": "How many projects, assignments, or real work experiences have you completed involving talent acquisition or recruitment?"
+    },
+    {
+      "id": "human_resources_hr_t2a_q02",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Employee Relations",
+      "question_type": "project_count",
+      "question": "How many projects, assignments, or real work experiences have you completed involving employee relations?"
+    },
+    {
+      "id": "human_resources_hr_t2a_q03",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Performance Management",
+      "question_type": "project_count",
+      "question": "How many projects, assignments, or real work experiences have you completed involving performance management?"
+    },
+    {
+      "id": "human_resources_hr_t2a_q04",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Learning and Development",
+      "question_type": "project_count",
+      "question": "How many projects, assignments, or real work experiences have you completed involving learning and development or training?"
+    },
+    {
+      "id": "human_resources_hr_t2a_q05",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "HR Analytics",
+      "question_type": "project_count",
+      "question": "How many projects, assignments, or real work experiences have you completed involving HR analytics or workforce reporting?"
+    },
+    {
+      "id": "human_resources_hr_t2b_q01",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "Briefly describe one HR project, assignment, case, or work task you completed."
+    },
+    {
+      "id": "human_resources_hr_t2b_q02",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much of the work did you complete yourself versus with a team?"
+    },
+    {
+      "id": "human_resources_hr_t2b_q03",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much did you rely on AI tools such as ChatGPT or Copilot while completing the work?"
+    },
+    {
+      "id": "human_resources_hr_t2b_q04",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "What was the hardest HR or people-related problem you encountered?"
+    },
+    {
+      "id": "human_resources_hr_t2b_q05",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How confident are you explaining your decisions, process, and outcome to someone else?"
+    },
+    {
+      "id": "human_resources_hr_t3_q01",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Talent Acquisition",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a primary goal of talent acquisition?",
+      "options": {
+        "A": "Identify and attract candidates who fit the role and organizational needs",
+        "B": "Hire as many applicants as possible",
+        "C": "Remove the need for interviews",
+        "D": "Guarantee every candidate accepts an offer"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q02",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Recruitment Sourcing",
+      "question_type": "scenario\\_judgment",
+      "question": "A role requires a specialized technical skill. Which sourcing approach is most appropriate?",
+      "options": {
+        "A": "Target channels and communities where candidates with that skill are likely to be found",
+        "B": "Post only on unrelated general-interest sites",
+        "C": "Contact every applicant regardless of fit",
+        "D": "Remove the skill requirement"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q03",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Job Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "Before recruiting for a role, why should the hiring team clarify job requirements?",
+      "options": {
+        "A": "To define the capabilities and responsibilities needed for effective screening and selection",
+        "B": "To guarantee a candidate accepts the offer",
+        "C": "To reduce the need for onboarding",
+        "D": "To avoid speaking with the hiring manager"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q04",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Recruitment Screening",
+      "question_type": "scenario\\_judgment",
+      "question": "A recruiter receives 500 applications for a role. What is a sound first step?",
+      "options": {
+        "A": "Apply consistent job-related screening criteria",
+        "B": "Select the first 20 applications",
+        "C": "Choose candidates based on profile-photo quality",
+        "D": "Interview everyone without screening"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q05",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Talent Acquisition",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is a structured recruitment process valuable?",
+      "options": {
+        "A": "It improves consistency and helps candidates be evaluated against relevant criteria",
+        "B": "It guarantees no hiring mistakes",
+        "C": "It eliminates interviewer judgment completely",
+        "D": "It makes role requirements unnecessary"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q06",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Recruitment Sourcing",
+      "question_type": "scenario\\_judgment",
+      "question": "A sourcing channel produces many applicants but very few qualified candidates. What should be investigated?",
+      "options": {
+        "A": "Candidate quality and channel relevance",
+        "B": "Only total applicant volume",
+        "C": "Only the job-posting font",
+        "D": "Only the application deadline"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q07",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Talent Acquisition",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a candidate pipeline?",
+      "options": {
+        "A": "A tracked set of candidates moving through recruitment stages",
+        "B": "A payroll report",
+        "C": "An employee handbook",
+        "D": "A training schedule"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q08",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Recruitment Screening",
+      "question_type": "scenario\\_judgment",
+      "question": "A candidate meets every required qualification but has not worked in the exact same industry. What should the recruiter consider?",
+      "options": {
+        "A": "Transferable skills and evidence against the actual role requirements",
+        "B": "Automatically reject the candidate",
+        "C": "Ignore the job requirements",
+        "D": "Hire without assessment"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q09",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Candidate Experience",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is timely communication important during recruitment?",
+      "options": {
+        "A": "It supports a clearer and more professional candidate experience",
+        "B": "It guarantees offer acceptance",
+        "C": "It removes the need for interviews",
+        "D": "It reduces job requirements"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q10",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Talent Acquisition",
+      "question_type": "project\\_verification",
+      "question": "A student claims hands-on recruiting experience. What should they be able to explain?",
+      "options": {
+        "A": "How they sourced, screened, evaluated, coordinated, and tracked candidates for a real role",
+        "B": "Only which recruitment platform they used",
+        "C": "Only the number of applicants",
+        "D": "Only the job title"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q11",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Interviewing",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a structured interview?",
+      "options": {
+        "A": "An interview using consistent job-related questions and evaluation criteria",
+        "B": "An interview with no preparation",
+        "C": "An informal conversation with unrelated questions",
+        "D": "An interview based only on intuition"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q12",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Interviewing",
+      "question_type": "scenario\\_judgment",
+      "question": "Which interview question is more directly job-related?",
+      "options": {
+        "A": "Describe a situation where you solved a difficult problem relevant to this role.",
+        "B": "What is your favorite movie?",
+        "C": "What color do you prefer?",
+        "D": "Where would you travel if you had free time?"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q13",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Interviewing",
+      "question_type": "scenario\\_judgment",
+      "question": "Why use the same core questions across candidates for the same role?",
+      "options": {
+        "A": "To improve consistency of evaluation",
+        "B": "To guarantee identical answers",
+        "C": "To eliminate follow-up questions",
+        "D": "To avoid scoring candidates"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q14",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Selection",
+      "question_type": "scenario\\_judgment",
+      "question": "A candidate gives a strong interview answer but lacks a mandatory technical requirement. What should the hiring team do?",
+      "options": {
+        "A": "Evaluate the candidate against the defined role requirements",
+        "B": "Ignore the requirement because the interview was good",
+        "C": "Change the requirement after the interview automatically",
+        "D": "Hire immediately"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q15",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Interviewing",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a behavioral interview question generally designed to assess?",
+      "options": {
+        "A": "How a candidate handled a past situation or behavior relevant to the role",
+        "B": "Their favorite hobbies",
+        "C": "Their salary history only",
+        "D": "Their academic timetable"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q16",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Interview Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "An interviewer writes, \"I just liked the candidate.\" What is missing?",
+      "options": {
+        "A": "Specific job-related evidence and structured evaluation criteria",
+        "B": "Another informal opinion",
+        "C": "More personal questions",
+        "D": "A longer interview"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q17",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Selection",
+      "question_type": "scenario\\_judgment",
+      "question": "Why are scoring rubrics useful during interviews?",
+      "options": {
+        "A": "They make evaluation more consistent against defined criteria",
+        "B": "They guarantee the best candidate every time",
+        "C": "They remove all judgment",
+        "D": "They replace job descriptions"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q18",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Interviewing",
+      "question_type": "scenario\\_judgment",
+      "question": "A hiring panel gives widely different ratings because each person uses different standards. What should be improved?",
+      "options": {
+        "A": "Shared evaluation criteria and interviewer calibration",
+        "B": "Interview duration only",
+        "C": "Candidate count",
+        "D": "Job-posting color"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q19",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Selection",
+      "question_type": "scenario\\_judgment",
+      "question": "A candidate has strong evidence for four of five required capabilities. What should the team do?",
+      "options": {
+        "A": "Identify whether the fifth capability is essential and assess the candidate against the actual requirement",
+        "B": "Automatically ignore the missing capability",
+        "C": "Automatically reject every candidate with one gap",
+        "D": "Remove the requirement without discussion"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q20",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Interviewing",
+      "question_type": "project\\_verification",
+      "question": "A student claims substantial interviewing experience. What should they be able to explain?",
+      "options": {
+        "A": "How they structured questions, evaluated responses, recorded evidence, and supported a selection decision",
+        "B": "Only the interview platform",
+        "C": "Only the number of interviews",
+        "D": "Only how long interviews lasted"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q21",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Employee Relations",
+      "question_type": "scenario\\_judgment",
+      "question": "An employee raises a workplace complaint. What should HR generally do first?",
+      "options": {
+        "A": "Listen, document the concern, and follow the appropriate process",
+        "B": "Immediately decide who is responsible",
+        "C": "Ignore the complaint",
+        "D": "Publicly discuss it with the team"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q22",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Conflict Resolution",
+      "question_type": "scenario\\_judgment",
+      "question": "Two employees have conflicting accounts of an incident. What is an appropriate first step?",
+      "options": {
+        "A": "Gather relevant facts and hear the involved parties before reaching a conclusion",
+        "B": "Automatically trust the more senior employee",
+        "C": "Choose the first version heard",
+        "D": "Ignore the incident"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q23",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Employee Relations",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is documentation important in employee-relations cases?",
+      "options": {
+        "A": "It creates a record of relevant facts, actions, and decisions",
+        "B": "It guarantees one side is correct",
+        "C": "It replaces investigation",
+        "D": "It removes confidentiality concerns"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q24",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Conflict Resolution",
+      "question_type": "scenario\\_judgment",
+      "question": "A disagreement between two employees is escalating. What is a productive HR approach?",
+      "options": {
+        "A": "Understand the issues, establish facts, and facilitate an appropriate resolution process",
+        "B": "Pick a winner immediately",
+        "C": "Avoid hearing either side",
+        "D": "Publicize the disagreement"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q25",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Employee Relations",
+      "question_type": "scenario\\_judgment",
+      "question": "What is an important consideration when handling sensitive employee information?",
+      "options": {
+        "A": "Limit access to people who have a legitimate need to know",
+        "B": "Share it with the whole team",
+        "C": "Store it in public documents",
+        "D": "Post it on social media"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q26",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Conflict Resolution",
+      "question_type": "scenario\\_judgment",
+      "question": "A manager and employee disagree about performance expectations. What should HR encourage?",
+      "options": {
+        "A": "Clarification of expectations, evidence, and documented goals",
+        "B": "Immediate disciplinary action",
+        "C": "Removing all goals",
+        "D": "Ignoring the disagreement"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q27",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Employee Relations",
+      "question_type": "scenario\\_judgment",
+      "question": "A workplace complaint involves several employees and similar concerns. What should HR consider?",
+      "options": {
+        "A": "Whether there is a broader process, policy, management, or culture issue",
+        "B": "Treating every incident as unrelated automatically",
+        "C": "Deleting old records",
+        "D": "Closing the issue without review"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q28",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Conflict Resolution",
+      "question_type": "scenario\\_judgment",
+      "question": "What is active listening useful for in conflict resolution?",
+      "options": {
+        "A": "Help clarify concerns and ensure each party is understood",
+        "B": "Prove one party is right",
+        "C": "End the meeting quickly",
+        "D": "Avoid asking questions"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q29",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Employee Relations",
+      "question_type": "scenario\\_judgment",
+      "question": "A manager wants to discipline an employee based only on a rumor. What should HR advise?",
+      "options": {
+        "A": "Establish relevant facts and follow the appropriate process before deciding",
+        "B": "Proceed immediately",
+        "C": "Publicly question coworkers",
+        "D": "Ignore documentation"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q30",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Employee Relations",
+      "question_type": "project\\_verification",
+      "question": "A student claims practical employee-relations experience. What should they be able to explain?",
+      "options": {
+        "A": "How they handled a real issue, gathered information, documented it, protected confidentiality, and reached or supported a resolution",
+        "B": "Only the HR software used",
+        "C": "Only the number of employees involved",
+        "D": "Only the final outcome"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q31",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Performance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "What makes a performance goal more useful?",
+      "options": {
+        "A": "It is clear, relevant, measurable where appropriate, and connected to role expectations",
+        "B": "It is intentionally vague",
+        "C": "It changes every day",
+        "D": "It contains no success criteria"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Performance Management"
+    },
+    {
+      "id": "human_resources_hr_t3_q32",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Performance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "An employee repeatedly misses an agreed target. What should the manager first clarify?",
+      "options": {
+        "A": "The expectation, evidence, blockers, and support needed",
+        "B": "Immediate termination",
+        "C": "Ignore the pattern",
+        "D": "Lower every target without discussion"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Performance Management"
+    },
+    {
+      "id": "human_resources_hr_t3_q33",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Performance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "Why are regular performance conversations useful?",
+      "options": {
+        "A": "They allow progress, feedback, blockers, and expectations to be discussed before formal reviews",
+        "B": "They eliminate the need for goals",
+        "C": "They guarantee high performance",
+        "D": "They replace training"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Performance Management"
+    },
+    {
+      "id": "human_resources_hr_t3_q34",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Performance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "Effective performance feedback should focus primarily on:",
+      "options": {
+        "A": "Observable behavior, results, expectations, and improvement actions",
+        "B": "Personal attacks",
+        "C": "Unrelated personality traits",
+        "D": "Rumors"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Performance Management"
+    },
+    {
+      "id": "human_resources_hr_t3_q35",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Employee Engagement",
+      "question_type": "scenario\\_judgment",
+      "question": "An engagement survey shows low scores around career growth. What should HR investigate?",
+      "options": {
+        "A": "Development opportunities, manager support, career paths, and employee expectations",
+        "B": "Only office decoration",
+        "C": "Only attendance",
+        "D": "Only salary figures"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q36",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Employee Engagement",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should engagement surveys be interpreted alongside other evidence?",
+      "options": {
+        "A": "Survey responses may need context from qualitative feedback, turnover, manager data, or other indicators",
+        "B": "Surveys are always wrong",
+        "C": "One survey question proves causation",
+        "D": "Employee data is never useful"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q37",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Performance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "An employee's output is low because required tools are unavailable. What should be addressed?",
+      "options": {
+        "A": "The operational blocker as well as the performance expectation",
+        "B": "The employee's personality",
+        "C": "The goal should always remain unchanged",
+        "D": "The issue should be ignored"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Performance Management"
+    },
+    {
+      "id": "human_resources_hr_t3_q38",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Performance Management",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a performance improvement plan generally intended to provide?",
+      "options": {
+        "A": "Clear expectations, support, timelines, and measures for improving performance",
+        "B": "Automatic termination",
+        "C": "A replacement for all feedback",
+        "D": "A way to remove job responsibilities"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Performance Management"
+    },
+    {
+      "id": "human_resources_hr_t3_q39",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Employee Engagement",
+      "question_type": "scenario\\_judgment",
+      "question": "A team has high workload and declining morale. What should HR and management consider?",
+      "options": {
+        "A": "Workload, staffing, priorities, management practices, and employee feedback",
+        "B": "Only hosting a social event",
+        "C": "Ignoring workload",
+        "D": "Measuring engagement once and doing nothing else"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Employee Relations"
+    },
+    {
+      "id": "human_resources_hr_t3_q40",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Performance Management / Engagement",
+      "question_type": "project\\_verification",
+      "question": "A student claims substantial performance-management experience. What should they be able to explain?",
+      "options": {
+        "A": "How they set expectations, reviewed evidence, gave feedback, handled blockers, and tracked improvement",
+        "B": "Only the HR platform used",
+        "C": "Only the review period",
+        "D": "Only the employee count"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Performance Management"
+    },
+    {
+      "id": "human_resources_hr_t3_q41",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Learning and Development",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the primary purpose of a training-needs analysis?",
+      "options": {
+        "A": "Identify the gap between current capability and required performance",
+        "B": "Schedule training without identifying a need",
+        "C": "Increase training hours automatically",
+        "D": "Replace performance management"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q42",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Training Needs Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "Employees know a process but are not following it. What should L&D investigate before designing training?",
+      "options": {
+        "A": "Whether the issue is actually a knowledge or skill gap rather than a process or incentive problem",
+        "B": "Create training immediately",
+        "C": "Assume lack of knowledge",
+        "D": "Ignore the process"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q43",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Learning and Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A useful learning objective should describe:",
+      "options": {
+        "A": "What the learner should be able to do after the learning experience",
+        "B": "Only the trainer's activities",
+        "C": "The training room layout",
+        "D": "The course title"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q44",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Training Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "Training attendance is high but job performance does not change. What should be evaluated?",
+      "options": {
+        "A": "Whether learning transferred to the workplace and addressed the actual performance gap",
+        "B": "Only attendance",
+        "C": "Only trainer popularity",
+        "D": "Only course duration"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q45",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Learning and Development",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is practice important in skills training?",
+      "options": {
+        "A": "It gives learners an opportunity to apply the target behavior or skill",
+        "B": "It replaces all instruction",
+        "C": "It guarantees mastery",
+        "D": "It reduces the need for feedback"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q46",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Training Needs Analysis",
+      "question_type": "scenario\\_judgment",
+      "question": "A technical team lacks a required capability for an upcoming project. What should L&D identify?",
+      "options": {
+        "A": "The exact capability gap, required proficiency, audience, and timeframe",
+        "B": "Only the number of employees",
+        "C": "Only the course vendor",
+        "D": "Only the training budget"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q47",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Learning and Development",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should training content reflect actual job tasks?",
+      "options": {
+        "A": "It improves relevance and the opportunity to transfer learning to work",
+        "B": "It guarantees promotion",
+        "C": "It removes the need for evaluation",
+        "D": "It makes all learners identical"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q48",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Training Evaluation",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a stronger measure of training effectiveness than attendance alone?",
+      "options": {
+        "A": "Evidence that learners can apply the required skill or behavior",
+        "B": "Number of slides",
+        "C": "Length of the session",
+        "D": "Number of participants only"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q49",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Learning and Development",
+      "question_type": "scenario\\_judgment",
+      "question": "A course receives excellent satisfaction ratings but no improvement in performance. What does this show?",
+      "options": {
+        "A": "Positive participant reaction does not by itself prove transfer or business impact",
+        "B": "The training was definitely effective",
+        "C": "Satisfaction is irrelevant",
+        "D": "Performance does not matter"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q50",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Learning and Development",
+      "question_type": "project\\_verification",
+      "question": "A student claims L&D experience. What should they be able to explain?",
+      "options": {
+        "A": "How they identified the need, designed the learning, delivered it, evaluated it, and assessed workplace impact",
+        "B": "Only which learning platform they used",
+        "C": "Only the course duration",
+        "D": "Only the number of attendees"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Learning and Development"
+    },
+    {
+      "id": "human_resources_hr_t3_q51",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "HR Analytics",
+      "question_type": "scenario\\_judgment",
+      "question": "What is HR analytics primarily used for?",
+      "options": {
+        "A": "Use workforce data to understand patterns and support HR or business decisions",
+        "B": "Replace all HR judgment",
+        "C": "Track only attendance",
+        "D": "Guarantee employee retention"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "HR Analytics"
+    },
+    {
+      "id": "human_resources_hr_t3_q52",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "HR Analytics",
+      "question_type": "numerical\\_case",
+      "question": "A company has 1,000 employees and 50 leave during a period. What is the simple turnover percentage for that period?",
+      "options": {
+        "A": "5%",
+        "B": "0.5%",
+        "C": "50%",
+        "D": "20%"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "HR Analytics"
+    },
+    {
+      "id": "human_resources_hr_t3_q53",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Workforce Planning",
+      "question_type": "scenario\\_judgment",
+      "question": "What is workforce planning intended to align?",
+      "options": {
+        "A": "Future workforce capacity and capability with organizational needs",
+        "B": "Only payroll dates",
+        "C": "Only office seating",
+        "D": "Employee hobbies with team size"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "HR Analytics"
+    },
+    {
+      "id": "human_resources_hr_t3_q54",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Compensation and Benefits",
+      "question_type": "scenario\\_judgment",
+      "question": "Why do organizations use compensation benchmarking?",
+      "options": {
+        "A": "To compare pay levels with relevant external or internal reference points",
+        "B": "To guarantee every employee earns the same",
+        "C": "To eliminate performance management",
+        "D": "To replace job evaluation"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "HR Analytics"
+    },
+    {
+      "id": "human_resources_hr_t3_q55",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Compensation and Benefits",
+      "question_type": "scenario\\_judgment",
+      "question": "A company discovers similar roles have materially inconsistent pay without a clear explanation. What should HR investigate?",
+      "options": {
+        "A": "Role requirements, internal equity, market data, tenure, performance, and applicable policy",
+        "B": "Only employee age",
+        "C": "Only manager preference",
+        "D": "Only office location without context"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "HR Analytics"
+    },
+    {
+      "id": "human_resources_hr_t3_q56",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Onboarding",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a major purpose of employee onboarding?",
+      "options": {
+        "A": "Help new employees understand their role, tools, expectations, and organization",
+        "B": "Replace recruitment",
+        "C": "Guarantee long-term retention",
+        "D": "Avoid role training"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q57",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Onboarding",
+      "question_type": "scenario\\_judgment",
+      "question": "A new employee has not received system access after one week. What should HR or the manager investigate?",
+      "options": {
+        "A": "The onboarding workflow and ownership for required access",
+        "B": "The employee's hobbies",
+        "C": "The company's marketing campaign",
+        "D": "The employee's future promotion"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Talent Acquisition"
+    },
+    {
+      "id": "human_resources_hr_t3_q58",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "HR Information Systems",
+      "question_type": "scenario\\_judgment",
+      "question": "What is an HRIS primarily used for?",
+      "options": {
+        "A": "Store and manage structured employee and HR process information",
+        "B": "Replace all HR decisions",
+        "C": "Create marketing campaigns",
+        "D": "Design websites"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "HR Analytics"
+    },
+    {
+      "id": "human_resources_hr_t3_q59",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "Workforce Planning",
+      "question_type": "scenario\\_judgment",
+      "question": "A business expects rapid growth but currently lacks enough employees with a critical skill. What should workforce planning consider?",
+      "options": {
+        "A": "Future demand, current capacity, skill gaps, hiring, development, and timing",
+        "B": "Only current headcount",
+        "C": "Only office space",
+        "D": "Only employee birthdays"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "HR Analytics"
+    },
+    {
+      "id": "human_resources_hr_t3_q60",
+      "track": "HUMAN RESOURCES (HR)",
+      "tier": "Tier 3",
+      "skill": "HR Analytics / Project Verification",
+      "question_type": "project\\_verification",
+      "question": "A student claims practical HR-analytics or workforce-planning experience. What should they be able to explain?",
+      "options": {
+        "A": "The data used, metric definitions, analysis, workforce question, assumptions, and decision supported by the findings",
+        "B": "Only the dashboard tool",
+        "C": "Only the employee count",
+        "D": "Only the final chart"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "HR Analytics"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "unknown_labels": [],
+  "checks_without_baselines": [
+    "A/B Testing",
+    "Marketing Analytics / Project Verification",
+    "Marketing Strategy / Project Verification",
+    "Paid Search",
+    "SEO",
+    "SEO / SEM",
+    "Social / Content Marketing"
+  ],
+  "baselines_without_checks": [
+    "Email Marketing",
+    "Search Engine Marketing"
+  ],
+  "other_tracks_hash": "ca14ae09d03a8165b13a87f1668a35cdb699a0857a62e70c06f5ae9f899233f9",
+  "business_marketing_hash": "f3b07d167184af4b1676e0d6cbe4fe648a42c61ca9642a94bb39cfc4baad57e6",
+  "source": "question-banks\\MARKETING_TRACK_QUESTION_BANK.md",
+  "source_sha256": "0f3c787694a5ff3a9c2d663dd82caa860ca818a26bfa6a6c91a10359188ae153",
+  "questions_imported": 85,
+  "tier3_candidates": 60,
+  "core_hashes": {
+    "domain.py": "fc1fb6bf3ea779ac289cd3211757cb060eb563ec52b2adde18700f6b501039d0",
+    "adaptive_quiz.py": "3d5917df9dfad3bef8a5fcb31d3bda16dfed348c879f9fe621fb3811e756faab",
+    "addon_api.py": "a7a5db8cf221d4f444981181435057410a3b4b211855569f1113c5f384c46f60",
+    "main.py": "7134cd6273e70307ba8e61a5384d484833222b4bb175b3aff8cd7ba72b2212d3"
+  },
+  "loaded_audit": {
+    "backend": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "frontend": {
+      "engine": 23,
+      "database": 23,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 0,
+        "Tier 3": 3
+      }
+    },
+    "data-ml": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "health-admin": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "legal-support": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "business-development": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "marketing": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    },
+    "business-marketing": {
+      "engine": 23,
+      "database": 23,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 0,
+        "Tier 3": 3
+      }
+    },
+    "hr": {
+      "engine": 85,
+      "database": 85,
+      "identical": true,
+      "tiers": {
+        "Tier 1": 15,
+        "Tier 2a": 5,
+        "Tier 2b": 5,
+        "Tier 3": 60
+      }
+    }
+  },
+  "notes": [
+    "Source Tier-3 IDs Q1–Q60 preserved verbatim. Tables supply local row numbers only; tier-scoped storage IDs generated and source_number retained.",
+    "Response controls follow the existing HR/Business Development adapter conventions.",
+    "Source labels remain distinct. Missing baselines and coverage are not invented.",
+    "Context IDs follow the existing imported-bank convention: retained in session, not connected to generic context-ai/context-focus or profile note saving.",
+    "All 60 correct answers are A in the source; preserved without reshuffling.",
+    "Frontend remains a 23-question starter bank; no authored Frontend source found in the project."
+  ]
+}

@@ -1,0 +1,20 @@
+import React,{useEffect,useState} from 'react';
+import {sessionApi} from './AccountsConnector';
+
+export default function Internships({mentor=false}){
+ const [items,setItems]=useState([]),[mentors,setMentors]=useState([]),[title,setTitle]=useState(''),[mentorId,setMentorId]=useState(''),[drafts,setDrafts]=useState({}),[loading,setLoading]=useState(true),[busy,setBusy]=useState(false),[error,setError]=useState(''),[message,setMessage]=useState('');
+ async function load(){setLoading(true);try{const rows=await sessionApi('/internships');setItems(rows);if(!mentor)setMentors(await sessionApi('/internships/mentors'))}catch(e){setError(e.message)}finally{setLoading(false)}}
+ useEffect(()=>{load()},[mentor]);
+ async function act(task,success){setBusy(true);setError('');setMessage('');try{await task();await load();setMessage(success)}catch(e){setError(e.message)}finally{setBusy(false)}}
+ function create(e){e.preventDefault();act(async()=>{await sessionApi('/internships',{title,mentor_id:mentorId});setTitle('');setMentorId('')},'Internship added. Your assigned faculty mentor can now leave feedback.')}
+ function send(e,item){e.preventDefault();act(async()=>{await sessionApi('/internships/'+item.id+'/feedback',{feedback_text:drafts[item.id]||''});setDrafts(d=>({...d,[item.id]:''}))},'Feedback added.')}
+ return <section className="panel internship-panel"><div className="internship-heading"><h2>{mentor?'Assigned internships':'My internship'}</h2><button className="button secondary" disabled={busy||loading} onClick={()=>{setError('');load()}}>Refresh internships</button></div><p>{mentor?'Only internships assigned to your faculty account appear here.':'Record an internship and choose a faculty mentor. The selected mentor can see this record and leave feedback.'} This information does not affect assessments or job matches.</p>
+ {error&&<p className="error" role="alert">{error}</p>}{message&&<p role="status">{message}</p>}{loading&&<p role="status">Loading internships…</p>}
+ {!mentor&&<form className="internship-form" onSubmit={create}><label>Internship title<input required maxLength={200} placeholder="Summer internship at X" value={title} onChange={e=>setTitle(e.target.value)}/></label><label>Faculty mentor<select required value={mentorId} onChange={e=>setMentorId(e.target.value)}><option value="">Choose a faculty mentor</option>{mentors.map(m=><option key={m.id} value={m.id}>{m.name}{m.organization?' · '+m.organization:''}</option>)}</select></label>{!loading&&!mentors.length&&<p>A faculty account must be registered before you can assign a mentor.</p>}<button className="button primary" disabled={busy||loading||!mentorId||!title.trim()}>Add internship</button></form>}
+ {!loading&&!items.length&&!error&&<p>{mentor?'No internships assigned to you yet.':'No internship records yet.'}</p>}
+ {items.map(item=><article className="internship-record" key={item.id}><div className="internship-heading"><div><h3>{item.title}</h3><p>{mentor?'Student: '+item.student_name:'Mentor: '+item.mentor_name}</p><small>Added {new Date(item.created_at).toLocaleDateString()}</small></div><span className="internship-status">{item.status==='completed'?'Completed':'Ongoing'}</span></div>
+ {mentor&&<><button className="button secondary" disabled={busy} onClick={()=>act(()=>sessionApi('/internships/'+item.id+'/status',{status:item.status==='completed'?'ongoing':'completed'},'PATCH'),'Internship status updated.')}>{item.status==='completed'?'Mark ongoing':'Mark completed'}</button><form className="internship-form" onSubmit={e=>send(e,item)}><label>Mentor feedback<textarea required maxLength={3000} value={drafts[item.id]||''} onChange={e=>setDrafts({...drafts,[item.id]:e.target.value})}/></label><button className="button primary" disabled={busy||!drafts[item.id]?.trim()}>Add feedback</button></form></>}
+ <h4>Feedback · newest first</h4>{item.feedback.length?<ol className="internship-timeline">{item.feedback.map(f=><li key={f.id}><p>{f.feedback_text}</p><small>{f.author_name} · {new Date(f.created_at).toLocaleString()}</small></li>)}</ol>:<p>No mentor feedback yet.</p>}
+ </article>)}
+ </section>
+}

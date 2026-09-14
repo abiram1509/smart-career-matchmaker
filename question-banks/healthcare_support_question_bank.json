@@ -1,0 +1,1171 @@
+{
+  "track": "HEALTHCARE SUPPORT",
+  "import_instruction": "Import these questions only. Preserve wording, answers, skill labels and eligibility flags. Replace this track’s placeholders; leave other tracks unchanged. Flag missing skill labels or confidence baselines together before changing them. Keep updates and the final summary brief.",
+  "questions": [
+    {
+      "id": "healthcare_support_t1_q01",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Patient Support",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in supporting patients and service users (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q02",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Healthcare Administration",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in healthcare administration (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q03",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Patient Scheduling",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in healthcare appointment scheduling (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q04",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Medical Records",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in handling medical and patient records (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q05",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Patient Communication",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in communicating with patients and families (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q06",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Healthcare Data Management",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in managing healthcare data (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q07",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Confidentiality & Privacy",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in maintaining healthcare confidentiality and privacy (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q08",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Insurance & Billing Support",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in healthcare billing or insurance support (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q09",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Patient Intake",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in patient intake and registration (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q10",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Clinical Documentation Support",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in supporting clinical documentation (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q11",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Healthcare Quality",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in healthcare quality and process improvement (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q12",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Patient Safety",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in basic patient-safety practices (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q13",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Referral Coordination",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in coordinating healthcare referrals (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q14",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Healthcare Technology",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency with healthcare information systems and technology (1–10)."
+    },
+    {
+      "id": "healthcare_support_t1_q15",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 1",
+      "skill": "Healthcare Workflow",
+      "question_type": "confidence_self_rating",
+      "question": "Rate your proficiency in healthcare workflow and operations (1–10)."
+    },
+    {
+      "id": "healthcare_support_t2a_q01",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Patient Support",
+      "question_type": "project_count",
+      "question": "How many projects, assignments, placements, or real work experiences have you completed involving direct patient or service-user support?"
+    },
+    {
+      "id": "healthcare_support_t2a_q02",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Healthcare Administration",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving healthcare administration or clinic operations?"
+    },
+    {
+      "id": "healthcare_support_t2a_q03",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Medical Records / Data",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving patient records or healthcare data?"
+    },
+    {
+      "id": "healthcare_support_t2a_q04",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Patient Scheduling",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving healthcare appointment or referral scheduling?"
+    },
+    {
+      "id": "healthcare_support_t2a_q05",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2a",
+      "counts": true,
+      "skill": "Patient Safety / Quality",
+      "question_type": "project_count",
+      "question": "How many projects or real work experiences have you completed involving healthcare quality, safety, or process improvement?"
+    },
+    {
+      "id": "healthcare_support_t2b_q01",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "Briefly describe one healthcare project, placement, assignment, or support task you completed."
+    },
+    {
+      "id": "healthcare_support_t2b_q02",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much of the work did you complete yourself versus with a team?"
+    },
+    {
+      "id": "healthcare_support_t2b_q03",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How much did you rely on AI tools such as ChatGPT or Copilot while completing the work?"
+    },
+    {
+      "id": "healthcare_support_t2b_q04",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "What was the hardest healthcare-support or operational problem you encountered?"
+    },
+    {
+      "id": "healthcare_support_t2b_q05",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 2b",
+      "context": true,
+      "question_type": "project_context",
+      "question": "How confident are you explaining the process, decisions, safety considerations, and outcome to someone else?"
+    },
+    {
+      "id": "healthcare_support_t3_q01",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Support",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient appears confused about where they need to go for an appointment. What is the most appropriate first response?",
+      "options": {
+        "A": "Calmly clarify the appointment information and help direct the patient appropriately",
+        "B": "Ignore the patient",
+        "C": "Tell them to ask another patient",
+        "D": "Guess the location"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q02",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Communication",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient asks for information you are not qualified or authorized to provide. What should you do?",
+      "options": {
+        "A": "Explain the appropriate limits of your role and direct them to the appropriate qualified professional",
+        "B": "Guess the answer",
+        "C": "Provide an unverified medical opinion",
+        "D": "Tell them to search social media"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q03",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Communication",
+      "question_type": "scenario\\_judgment",
+      "question": "What is active listening in a healthcare-support setting?",
+      "options": {
+        "A": "Pay attention, clarify the concern, and confirm understanding before responding",
+        "B": "Interrupt frequently",
+        "C": "Assume what the patient means",
+        "D": "Focus only on completing the interaction quickly"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q04",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Support",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient is upset about a long wait. What is an appropriate response?",
+      "options": {
+        "A": "Acknowledge the concern, communicate what information you can provide, and follow the appropriate escalation process if needed",
+        "B": "Argue with the patient",
+        "C": "Ignore the concern",
+        "D": "Promise an exact wait time without checking"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q05",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Communication",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is clear language important when communicating with patients?",
+      "options": {
+        "A": "It helps ensure information is understood and reduces avoidable confusion",
+        "B": "Technical language is always better",
+        "C": "Patients should already understand all medical terminology",
+        "D": "Clear communication removes the need for documentation"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q06",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Support",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient has difficulty hearing instructions. What should support staff consider?",
+      "options": {
+        "A": "Use appropriate communication support and confirm understanding",
+        "B": "Speak much faster",
+        "C": "Ignore the difficulty",
+        "D": "Repeat the same sentence without checking comprehension"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q07",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Communication",
+      "question_type": "scenario\\_judgment",
+      "question": "A family member asks for private information about a patient. What should staff do?",
+      "options": {
+        "A": "Follow the applicable privacy and authorization procedures before disclosing information",
+        "B": "Share everything because they are family",
+        "C": "Post the information publicly",
+        "D": "Provide information without checking identity"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q08",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Support",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient has difficulty completing a form. What is appropriate?",
+      "options": {
+        "A": "Assist within your role while preserving the patient's ability to provide accurate information",
+        "B": "Complete every answer without asking the patient",
+        "C": "Guess missing information",
+        "D": "Leave incorrect information unchanged"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q09",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Communication",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should support staff avoid promising outcomes they cannot control?",
+      "options": {
+        "A": "It can create incorrect expectations and undermine trust",
+        "B": "Patients prefer uncertain information",
+        "C": "Promises eliminate the need for care",
+        "D": "It improves documentation automatically"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q10",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Support",
+      "question_type": "project\\_verification",
+      "question": "A student claims substantial patient-support experience. What should they be able to explain?",
+      "options": {
+        "A": "How they communicated with patients, handled concerns, stayed within their role, and escalated issues appropriately",
+        "B": "Only the healthcare facility name",
+        "C": "Only the number of patients seen",
+        "D": "Only the software used"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Support"
+    },
+    {
+      "id": "healthcare_support_t3_q11",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Administration",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a major purpose of healthcare administration?",
+      "options": {
+        "A": "Coordinate operational processes that support effective healthcare delivery",
+        "B": "Replace all clinical decision-making",
+        "C": "Diagnose patients",
+        "D": "Eliminate documentation"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q12",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Intake",
+      "question_type": "scenario\\_judgment",
+      "question": "What is the purpose of patient registration or intake?",
+      "options": {
+        "A": "Collect and verify the information needed to support the patient's care and administrative process",
+        "B": "Diagnose the patient",
+        "C": "Replace clinical assessment",
+        "D": "Determine treatment independently"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q13",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Intake",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient's demographic information has changed. What should staff do?",
+      "options": {
+        "A": "Update the record using the appropriate verification procedure",
+        "B": "Create a second patient record automatically",
+        "C": "Guess the new information",
+        "D": "Leave contradictory information without review"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q14",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Administration",
+      "question_type": "scenario\\_judgment",
+      "question": "A clinic has long registration queues every morning. What should administrators investigate first?",
+      "options": {
+        "A": "Patient flow, staffing, appointment patterns, and registration bottlenecks",
+        "B": "Only the waiting-room furniture",
+        "C": "Only the clinic's logo",
+        "D": "Only the number of doctors"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q15",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Intake",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is accurate patient identification important?",
+      "options": {
+        "A": "It helps ensure information and services are associated with the correct patient",
+        "B": "It makes appointments shorter automatically",
+        "C": "It replaces clinical assessment",
+        "D": "It removes the need for records"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q16",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Administration",
+      "question_type": "scenario\\_judgment",
+      "question": "An administrative form contains a field required for processing but it is blank. What should happen?",
+      "options": {
+        "A": "Follow the established procedure to obtain or resolve the missing information",
+        "B": "Enter a random value",
+        "C": "Ignore the missing field",
+        "D": "Delete the record"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q17",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Administration",
+      "question_type": "scenario\\_judgment",
+      "question": "Why are standardized administrative procedures useful in healthcare?",
+      "options": {
+        "A": "They improve consistency and reduce avoidable process errors",
+        "B": "They eliminate all judgment",
+        "C": "They make documentation unnecessary",
+        "D": "They prevent process improvement"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q18",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Intake",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient's registration information conflicts with an existing record. What is an appropriate action?",
+      "options": {
+        "A": "Verify the information using the approved identification and record procedures",
+        "B": "Create another record immediately",
+        "C": "Delete the old record",
+        "D": "Guess which information is correct"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q19",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Workflow",
+      "question_type": "scenario\\_judgment",
+      "question": "A clinic has adequate staff but appointments continue running late. What should be examined?",
+      "options": {
+        "A": "Workflow, scheduling patterns, bottlenecks, handoffs, and appointment durations",
+        "B": "Only staff headcount",
+        "C": "Only the waiting-room size",
+        "D": "Only patient age"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q20",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Administration",
+      "question_type": "project\\_verification",
+      "question": "A student claims healthcare-administration experience. What should they be able to explain?",
+      "options": {
+        "A": "The workflow they supported, bottlenecks, responsibilities, records handled, and improvements made",
+        "B": "Only the facility name",
+        "C": "Only the number of appointments",
+        "D": "Only the software name"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q21",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Medical Records",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a key purpose of a patient medical record?",
+      "options": {
+        "A": "Maintain relevant information needed to support patient care and authorized healthcare processes",
+        "B": "Store public information about all patients",
+        "C": "Replace communication between professionals",
+        "D": "Predict every future diagnosis"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q22",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Data Management",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient's record contains two different spellings of the same name. What should happen?",
+      "options": {
+        "A": "Verify and correct the information according to the approved record-management process",
+        "B": "Keep both versions permanently",
+        "C": "Delete the patient record",
+        "D": "Pick one spelling without checking"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q23",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Medical Records",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is accurate documentation important in healthcare?",
+      "options": {
+        "A": "It supports continuity, communication, safety, and appropriate decision-making",
+        "B": "It is only needed for billing",
+        "C": "It replaces patient identification",
+        "D": "It makes privacy unnecessary"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q24",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Data Management",
+      "question_type": "scenario\\_judgment",
+      "question": "A healthcare dataset contains the same patient twice. What should be investigated?",
+      "options": {
+        "A": "Whether the records represent the same individual using reliable identifiers",
+        "B": "Delete one at random",
+        "C": "Assume both are different patients",
+        "D": "Ignore the duplicate"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q25",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Medical Records",
+      "question_type": "scenario\\_judgment",
+      "question": "What does data completeness mean in a healthcare record?",
+      "options": {
+        "A": "Required or relevant fields contain the information needed for the intended use",
+        "B": "Every field must always contain a value",
+        "C": "The record contains only numbers",
+        "D": "The record contains no dates"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q26",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Data Management",
+      "question_type": "scenario\\_judgment",
+      "question": "A report contains impossible patient-age values. What should be done?",
+      "options": {
+        "A": "Investigate the source and correct or flag data-quality problems before relying on the report",
+        "B": "Average the values automatically",
+        "C": "Ignore them",
+        "D": "Delete the entire dataset"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q27",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Medical Records",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should changes to sensitive records be traceable?",
+      "options": {
+        "A": "It supports accountability and helps identify who made or authorized changes",
+        "B": "It allows anyone to edit the record",
+        "C": "It removes privacy requirements",
+        "D": "It prevents all corrections"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q28",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Data Management",
+      "question_type": "scenario\\_judgment",
+      "question": "A healthcare report uses inconsistent date formats. What should be done before analysis?",
+      "options": {
+        "A": "Standardize the representation according to the defined data standard",
+        "B": "Delete all dates",
+        "C": "Treat each format as a separate date variable",
+        "D": "Replace dates with text such as \"old\" or \"new\""
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q29",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Medical Records",
+      "question_type": "scenario\\_judgment",
+      "question": "Who should generally have access to confidential patient information?",
+      "options": {
+        "A": "Authorized people with a legitimate need under the applicable policies and rules",
+        "B": "Everyone in the organization",
+        "C": "Anyone who asks",
+        "D": "Anyone outside the organization"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q30",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Data Management",
+      "question_type": "project\\_verification",
+      "question": "A student claims healthcare-data experience. What should they be able to explain?",
+      "options": {
+        "A": "How they handled data quality, access, confidentiality, identifiers, and reporting requirements",
+        "B": "Only the database software",
+        "C": "Only the number of records",
+        "D": "Only the report format"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q31",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Scheduling",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient needs an appointment with a specific service. What should scheduling staff verify?",
+      "options": {
+        "A": "The appropriate service, availability, required information, and scheduling rules",
+        "B": "Only the patient's preferred day",
+        "C": "Only the staff member's preference",
+        "D": "Nothing beyond the patient's name"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q32",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Scheduling",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient misses a scheduled appointment. What should staff do?",
+      "options": {
+        "A": "Follow the organization's procedure for missed appointments and appropriate rescheduling",
+        "B": "Automatically cancel all future care",
+        "C": "Create a duplicate patient record",
+        "D": "Ignore the missed appointment"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q33",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Scheduling",
+      "question_type": "scenario\\_judgment",
+      "question": "A clinic has several appointments scheduled at the same time for one clinician. What should be investigated?",
+      "options": {
+        "A": "Scheduling conflicts and the scheduling system or process that allowed them",
+        "B": "Only the patient's phone number",
+        "C": "Only the clinic's logo",
+        "D": "Only the weather"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q34",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Referral Coordination",
+      "question_type": "scenario\\_judgment",
+      "question": "A referral requires information from the referring service before it can be processed. What should staff do?",
+      "options": {
+        "A": "Follow the referral process to obtain the required information before proceeding",
+        "B": "Guess the missing details",
+        "C": "Send incomplete information without review",
+        "D": "Cancel the referral automatically"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q35",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Referral Coordination",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is referral tracking important?",
+      "options": {
+        "A": "It helps ensure referrals are not lost and that required actions occur in the appropriate timeframe",
+        "B": "It guarantees the patient receives a specific diagnosis",
+        "C": "It replaces clinical decisions",
+        "D": "It removes documentation requirements"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q36",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Scheduling",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient says the appointment time conflicts with work. What can scheduling staff do?",
+      "options": {
+        "A": "Check available alternatives within the applicable scheduling rules",
+        "B": "Change the clinician's schedule without authorization",
+        "C": "Cancel the appointment permanently",
+        "D": "Promise any time the patient requests"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q37",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Referral Coordination",
+      "question_type": "scenario\\_judgment",
+      "question": "A referral has been sent but no confirmation has been received. What should staff consider?",
+      "options": {
+        "A": "Checking the referral status through the appropriate process",
+        "B": "Assuming it was completed",
+        "C": "Sending the patient to an unrelated service",
+        "D": "Deleting the referral"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q38",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Scheduling",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a scheduling buffer useful for?",
+      "options": {
+        "A": "Allowing time for expected variation, preparation, or operational needs when appropriate",
+        "B": "Guaranteeing every appointment finishes early",
+        "C": "Replacing scheduling rules",
+        "D": "Increasing patient wait times intentionally"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q39",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Referral Coordination",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient has multiple referrals. What is useful for avoiding missed follow-up?",
+      "options": {
+        "A": "Maintain accurate referral status and next-step information according to the workflow",
+        "B": "Track only the first referral",
+        "C": "Remove duplicate information without checking",
+        "D": "Rely entirely on memory"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q40",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Scheduling / Referral Coordination",
+      "question_type": "project\\_verification",
+      "question": "A student claims real scheduling or referral-coordination experience. What should they be able to explain?",
+      "options": {
+        "A": "How they handled availability, conflicts, referral status, follow-up, and communication",
+        "B": "Only the scheduling software",
+        "C": "Only the number of appointments",
+        "D": "Only the clinic name"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Scheduling"
+    },
+    {
+      "id": "healthcare_support_t3_q41",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Confidentiality & Privacy",
+      "question_type": "scenario\\_judgment",
+      "question": "A staff member accidentally receives patient information that they do not need for their role. What should they do?",
+      "options": {
+        "A": "Follow the organization's privacy and incident-handling procedure",
+        "B": "Forward it to coworkers",
+        "C": "Save it permanently",
+        "D": "Share it with friends"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q42",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Confidentiality & Privacy",
+      "question_type": "scenario\\_judgment",
+      "question": "Why should patient information not be discussed openly in public areas?",
+      "options": {
+        "A": "Unauthorized people may overhear confidential information",
+        "B": "It makes appointments longer",
+        "C": "It affects scheduling only",
+        "D": "Public conversations are always inaccurate"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q43",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Safety",
+      "question_type": "scenario\\_judgment",
+      "question": "A patient is accidentally registered under the wrong identity. Why is this a safety concern?",
+      "options": {
+        "A": "Information or services could be associated with the wrong patient",
+        "B": "It only affects billing",
+        "C": "It has no effect if the names are similar",
+        "D": "It improves workflow"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Safety / Quality"
+    },
+    {
+      "id": "healthcare_support_t3_q44",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Safety",
+      "question_type": "scenario\\_judgment",
+      "question": "What should support staff do when they identify a potential safety concern outside their authority?",
+      "options": {
+        "A": "Follow the appropriate escalation procedure promptly",
+        "B": "Ignore it",
+        "C": "Resolve it by guessing",
+        "D": "Discuss it informally with unrelated patients"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Safety / Quality"
+    },
+    {
+      "id": "healthcare_support_t3_q45",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Quality",
+      "question_type": "scenario\\_judgment",
+      "question": "What is a quality-improvement cycle intended to do?",
+      "options": {
+        "A": "Identify an improvement opportunity, test changes, measure results, and learn from the outcome",
+        "B": "Guarantee perfection immediately",
+        "C": "Avoid measurement",
+        "D": "Replace all existing procedures at once"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Safety / Quality"
+    },
+    {
+      "id": "healthcare_support_t3_q46",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Quality",
+      "question_type": "scenario\\_judgment",
+      "question": "A clinic's patient wait time increases after a workflow change. What should the quality team do?",
+      "options": {
+        "A": "Compare relevant process data before and after the change and investigate contributing factors",
+        "B": "Assume the new workflow is successful",
+        "C": "Ignore the wait-time data",
+        "D": "Blame one employee immediately"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Safety / Quality"
+    },
+    {
+      "id": "healthcare_support_t3_q47",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Safety",
+      "question_type": "scenario\\_judgment",
+      "question": "Why are incident reports useful?",
+      "options": {
+        "A": "They help organizations document events, investigate causes, and improve safety processes",
+        "B": "They automatically assign blame",
+        "C": "They replace all medical records",
+        "D": "They should never be reviewed"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Safety / Quality"
+    },
+    {
+      "id": "healthcare_support_t3_q48",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Quality",
+      "question_type": "scenario\\_judgment",
+      "question": "A recurring administrative error affects several patients. What should a quality team investigate?",
+      "options": {
+        "A": "The process and underlying cause rather than treating every occurrence as isolated",
+        "B": "Only the last employee who touched a record",
+        "C": "Only the patient's behavior",
+        "D": "Ignore the pattern"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Safety / Quality"
+    },
+    {
+      "id": "healthcare_support_t3_q49",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Confidentiality & Privacy",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is access control important in healthcare systems?",
+      "options": {
+        "A": "It limits sensitive information to authorized users and appropriate purposes",
+        "B": "It makes all information public",
+        "C": "It eliminates the need for passwords",
+        "D": "It prevents legitimate users from accessing records"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Safety / Quality"
+    },
+    {
+      "id": "healthcare_support_t3_q50",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Patient Safety / Quality",
+      "question_type": "project\\_verification",
+      "question": "A student claims practical healthcare-quality or safety experience. What should they be able to explain?",
+      "options": {
+        "A": "The problem, safety or quality risk, process analysis, intervention, measurement, and escalation used",
+        "B": "Only the quality software",
+        "C": "Only the number of incidents",
+        "D": "Only the final report title"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Patient Safety / Quality"
+    },
+    {
+      "id": "healthcare_support_t3_q51",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Technology",
+      "question_type": "scenario\\_judgment",
+      "question": "What is an electronic health record system primarily used for?",
+      "options": {
+        "A": "Digitally manage authorized patient health information and support healthcare workflows",
+        "B": "Replace healthcare professionals",
+        "C": "Guarantee diagnosis",
+        "D": "Store public social-media data"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q52",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Technology",
+      "question_type": "scenario\\_judgment",
+      "question": "A healthcare system has two fields that represent the same information using different formats. What issue can this create?",
+      "options": {
+        "A": "Data inconsistency and difficulty combining or analyzing records",
+        "B": "Automatic improvement in accuracy",
+        "C": "Better interoperability",
+        "D": "Lower documentation requirements"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q53",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Insurance & Billing Support",
+      "question_type": "scenario\\_judgment",
+      "question": "A billing record does not match the documented service. What should staff do?",
+      "options": {
+        "A": "Review the relevant records and follow the correction or verification process",
+        "B": "Change the billing information randomly",
+        "C": "Ignore the mismatch",
+        "D": "Delete the patient record"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q54",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Insurance & Billing Support",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is accurate insurance information important in healthcare administration?",
+      "options": {
+        "A": "It supports appropriate billing, eligibility checks, and administrative processing",
+        "B": "It determines clinical diagnosis",
+        "C": "It replaces patient identification",
+        "D": "It guarantees coverage"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q55",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Workflow",
+      "question_type": "scenario\\_judgment",
+      "question": "A clinic repeatedly delays document processing because staff do not know who owns the next step. What should be improved?",
+      "options": {
+        "A": "Clear process ownership and handoff responsibilities",
+        "B": "More duplicate paperwork",
+        "C": "More unrelated approvals",
+        "D": "Remove all documentation"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q56",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Technology",
+      "question_type": "scenario\\_judgment",
+      "question": "A healthcare application becomes unavailable during operating hours. What should support staff do?",
+      "options": {
+        "A": "Follow the approved downtime or incident procedure and escalate appropriately",
+        "B": "Create duplicate patient records elsewhere without guidance",
+        "C": "Ignore the outage",
+        "D": "Guess what data should be entered later"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q57",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Workflow",
+      "question_type": "scenario\\_judgment",
+      "question": "A clinic wants to reduce patient waiting time. What should it map first?",
+      "options": {
+        "A": "The patient journey and operational steps where waiting or bottlenecks occur",
+        "B": "Only staff lunch breaks",
+        "C": "Only the appointment names",
+        "D": "Only the building layout"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q58",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Technology",
+      "question_type": "scenario\\_judgment",
+      "question": "Why is user training important when implementing a new healthcare information system?",
+      "options": {
+        "A": "Correct system use affects data quality, workflow, and safe handling of information",
+        "B": "Training is only for technical staff",
+        "C": "Software automatically prevents all user errors",
+        "D": "Training is unrelated to workflow"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Medical Records / Data"
+    },
+    {
+      "id": "healthcare_support_t3_q59",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Workflow",
+      "question_type": "scenario\\_judgment",
+      "question": "A process improvement reduces administrative time but causes more data-entry errors. What should the team conclude?",
+      "options": {
+        "A": "The change created a trade-off that needs to be addressed before considering it successful",
+        "B": "Faster is always better",
+        "C": "Error rates are irrelevant",
+        "D": "The process should never be measured"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    },
+    {
+      "id": "healthcare_support_t3_q60",
+      "track": "HEALTHCARE SUPPORT",
+      "tier": "Tier 3",
+      "skill": "Healthcare Support / Project Verification",
+      "question_type": "project\\_verification",
+      "question": "A student claims substantial healthcare-support experience. Which question best verifies genuine practical experience?",
+      "options": {
+        "A": "Ask them to walk through a real workflow involving patient communication, records, scheduling or safety, including the decisions and escalation they handled",
+        "B": "Ask only which healthcare software they used",
+        "C": "Ask only how many patients they interacted with",
+        "D": "Ask only which facility they worked in"
+      },
+      "correct_answer": "A",
+      "requires_tier2_flag": "Healthcare Administration"
+    }
+  ]
+}
