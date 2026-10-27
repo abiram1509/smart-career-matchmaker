@@ -1,3 +1,7 @@
+# Membership update — 8 October 2026
+
+Faculty with owner-assigned membership can now list, download and review documents belonging to students in the same institution. Owner access remains unrestricted; unassigned faculty and cross-institution access are denied. See INSTITUTION_MEMBERSHIP.md for setup and tests. The original implementation notes below describe the earlier owner-only version.
+
 # Document portfolios
 
 Students: sign in and open **Overview â†’ My document portfolio**. Enter a title, choose a file, and upload. New documents are **self-reported**. The list and download links are visible only to the uploading student and the platform owner.

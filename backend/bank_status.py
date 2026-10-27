@@ -11,4 +11,4 @@ def summarize(rows):
 
 def notice(summary):
     label={'authored':'Full authored bank','starter':'Starter/example bank','partial':'Partial bank','empty':'No stored questions'}[summary['kind']]
-    return f"{label}: {summary['total']} stored questions, including {summary['tier3']} Tier-3 candidates. Up to 15 eligible checks are served. Missing coverage is not counted as a pass. Quiz checks do not verify employment experience, credentials or clinical competence."
+    return f"{label}: {summary['total']} stored questions, including {summary['tier3']} Tier-3 candidates. Up to 20 eligible checks are served. Missing coverage is not counted as a pass. Quiz checks do not verify employment experience, credentials or clinical competence."

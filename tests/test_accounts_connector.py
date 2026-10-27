@@ -14,7 +14,7 @@ class AccountsConnectorTests(unittest.TestCase):
   self.stack.enter_context(patch.object(main,'DB',Path(d)/'test.db'));self.stack.enter_context(patch.object(main,'HybridJobLoader',lambda:loader))
   self.client=self.stack.enter_context(TestClient(main.app));self.client.headers['X-Bridge-Request']='1'
  def register(self,role='student',email='member@example.test'):
-  r=self.client.post('/api/auth/register',json={'name':'Test Member','email':email,'organization':'Test Organization','password':'a-good-password-123','role':role})
+  r=self.client.post('/api/auth/register',json={'name':'Test Member','email':email,'organization':'Test Organization','password':'a-good-password-123','role':role,'privacy_consent':True,'terms_accepted':True})
   self.assertEqual(r.status_code,201,r.text);return r.json()['user']
  def test_auth_hash_cookie_logout_and_expiry(self):
   self.assertEqual(self.client.get('/api/quiz/questions').status_code,401)
@@ -36,7 +36,7 @@ class AccountsConnectorTests(unittest.TestCase):
   self.client.headers['X-Bridge-Request']='1'
   self.assertEqual(self.client.post('/api/auth/login',json={'email':'member@example.test','password':'password'},headers={'Origin':'https://evil.example'}).status_code,403)
   for role,password in [('institution','a-long-password'),('student','short')]:
-   self.assertEqual(self.client.post('/api/auth/register',json={'name':'Member','email':'member@example.test','password':password,'role':role}).status_code,422)
+   self.assertEqual(self.client.post('/api/auth/register',json={'name':'Member','email':'member@example.test','password':password,'role':role,'privacy_consent':True,'terms_accepted':True}).status_code,422)
  def test_identity_isolation_and_analytics_roles(self):
   user=self.register()
   for path in ['/api/student/another/profile','/api/student/another/applications','/api/student/another/alerts']:
@@ -45,7 +45,7 @@ class AccountsConnectorTests(unittest.TestCase):
    self.assertEqual(self.client.post(path,json=body).status_code,404)
   self.assertEqual(self.client.get('/api/analytics').status_code,403)
   self.client.cookies.clear();sign_in(self.client,'institution-fixture','institution')
-  self.assertEqual(self.client.get('/api/analytics').status_code,200)
+  self.assertEqual(self.client.get('/api/analytics').status_code,403) # Unassigned institution fails closed.
   self.assertEqual(self.client.post('/api/assessment/start',json={'student_id':'institution-fixture','field':'tech','track':'backend'}).status_code,403)
  def test_login_attempts_are_bounded(self):
   for _ in range(10):self.assertEqual(self.client.post('/api/auth/login',json={'email':'absent@example.test','password':'wrong'}).status_code,401)

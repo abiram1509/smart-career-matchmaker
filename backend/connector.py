@@ -24,7 +24,7 @@ class Faculty(BaseModel):
  bio:str=Field(min_length=10,max_length=1500)
  location:str=Field(default='',max_length=150)
  availability:str=Field(default='Open to collaboration',max_length=200)
- published:bool=True
+ published:bool=False
  @field_validator('headline','expertise','bio')
  @classmethod
  def not_blank(cls,v):
@@ -87,8 +87,10 @@ def express_interest(identity:str,body:Interest,request:Request):
  user=role(request,'faculty')
  with connection() as db:
   if not db.execute('SELECT 1 FROM faculty_profiles WHERE owner=? AND published=1',(user['id'],)).fetchone():raise HTTPException(400,'Publish your expertise profile first.')
+  db.execute('BEGIN IMMEDIATE')
+  interest_id='interest-'+secrets.token_hex(12)
   # Check and insert in one statement, so a closed request cannot receive a new interest.
-  changed=db.execute('INSERT OR IGNORE INTO collaboration_interests SELECT ?,id,?,?,"Pending",? FROM collaboration_requests WHERE id=? AND status="Open"',('interest-'+secrets.token_hex(12),user['id'],body.message,int(time.time()),identity)).rowcount
+  changed=db.execute('INSERT OR IGNORE INTO collaboration_interests SELECT ?,id,?,?,"Pending",? FROM collaboration_requests WHERE id=? AND status="Open"',(interest_id,user['id'],body.message,int(time.time()),identity)).rowcount
   if not changed:raise HTTPException(409,'Request is closed, unavailable, or you already expressed interest.')
  return {'status':'Pending'}
 @router.get('/interests')

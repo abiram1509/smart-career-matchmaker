@@ -5,7 +5,7 @@ from contextlib import asynccontextmanager, contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Annotated
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, StrictInt, field_validator
@@ -21,6 +21,7 @@ loader = None
 def connection():
     db = sqlite3.connect(DB)
     db.row_factory = sqlite3.Row
+    db.execute('PRAGMA foreign_keys=ON')
     try:
         with db:
             yield db
@@ -47,6 +48,8 @@ async def lifespan(app):
         migrate_internships(db)
         from .recruitment import migrate as migrate_recruitment
         migrate_recruitment(db)
+        from .privacy import migrate as migrate_privacy
+        migrate_privacy(db)
         db.execute('CREATE TABLE IF NOT EXISTS history (id INTEGER PRIMARY KEY, student TEXT, results TEXT, created TEXT)')
         db.execute('CREATE TABLE IF NOT EXISTS applications (student TEXT, job TEXT, status TEXT, created TEXT, PRIMARY KEY(student, job))')
     loader = HybridJobLoader()
@@ -54,21 +57,30 @@ async def lifespan(app):
     sync_jobs(loader)
     yield
 
-app = FastAPI(title='Smart Career Matchmaker', lifespan=lifespan)
+app = FastAPI(title='Smart Career Matchmaker', lifespan=lifespan, docs_url=None, redoc_url=None)
 from .accounts import router as auth_router, AccessBoundary
 from .connector import router as connector_router
 app.add_middleware(AccessBoundary)
 from .portfolio import router as portfolio_router, PortfolioUploadLimit
 app.add_middleware(PortfolioUploadLimit)
+from .internship_documents import router as internship_documents_router, InternshipUploadLimit
+app.add_middleware(InternshipUploadLimit)
+app.include_router(internship_documents_router)
+from .security_headers import SecurityHeaders
+app.add_middleware(SecurityHeaders)
 app.include_router(portfolio_router)
 from .internships import router as internship_router
 app.include_router(internship_router)
 from .recruitment import router as recruitment_router
 app.include_router(recruitment_router)
+from .privacy import router as privacy_router
+app.include_router(privacy_router)
 app.include_router(auth_router)
 app.include_router(connector_router)
 from .owner import router as owner_router
 app.include_router(owner_router)
+from .institutions import router as institutions_router
+app.include_router(institutions_router)
 StudentID = Annotated[str, Field(min_length=1, max_length=80, pattern=r'^[a-zA-Z0-9_-]+$')]
 
 class Answer(BaseModel):
@@ -169,13 +181,17 @@ def applications(student_id: str):
     return [{**dict(r),'job_detail':lookup.get(r['job'])} for r in rows]
 
 @app.get('/api/analytics')
-def analytics():
+def analytics(request: Request):
+    if request.state.user['role'] != 'institution':
+        raise HTTPException(403, 'Institution access is required.')
     demand = {}
     for job in loader.jobs:
         for skill in job['skills']: demand[skill] = demand.get(skill,0)+1
     with connection() as db:
-        rows = db.execute('SELECT vector,evidence FROM profiles').fetchall()
-        count = db.execute('SELECT COUNT(*) FROM applications').fetchone()[0]
+        from .institutions import institution_for
+        institution_id = institution_for(db, request.state.user['id'], 'institution')
+        rows = db.execute('SELECT p.vector,p.evidence FROM profiles p JOIN accounts a ON a.id=p.id WHERE a.role=? AND a.institution_id=?', ('student',institution_id)).fetchall()
+        count = db.execute('SELECT COUNT(*) FROM applications p JOIN accounts a ON a.id=p.student WHERE a.role=? AND a.institution_id=?', ('student',institution_id)).fetchone()[0]
     gaps = {}
     for row in rows:
         v = json.loads(row['vector']); evidence=json.loads(row['evidence'])

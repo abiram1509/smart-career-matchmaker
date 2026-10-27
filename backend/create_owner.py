@@ -13,7 +13,7 @@ def run():
  main.DB.parent.mkdir(parents=True,exist_ok=True)
  try:
   with main.connection() as db:
-   migrate(db);db.execute('INSERT INTO accounts VALUES (?,?,?,?,?,?,?)',('account-'+secrets.token_hex(16),details.email,details.name,details.organization,'owner',password_hash(password),int(time.time())))
+   migrate(db);db.execute('INSERT INTO accounts (id,email,name,organization,role,password_hash,created_at) VALUES (?,?,?,?,?,?,?)',('account-'+secrets.token_hex(16),details.email,details.name,details.organization,'owner',password_hash(password),int(time.time())))
  except sqlite3.IntegrityError:raise SystemExit('Email already registered. No existing role was changed.')
  print('Owner account created. Sign in through the app to open the owner overview.')
 if __name__=='__main__':run()

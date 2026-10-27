@@ -21,3 +21,6 @@ backend/data/portfolio-documents/
 # Large source datasets remain local; see DATA_SETUP.md
 backend/data/jobs.csv
 onet/onet_data/
+
+# Cancelled, unfinished feature retained locally only
+backend/proposal_reviews.py

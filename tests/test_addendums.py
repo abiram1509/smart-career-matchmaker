@@ -24,10 +24,10 @@ def through_context(track='backend',heavy=False):
 class AdaptiveTests(unittest.TestCase):
  def test_all_thirty_tracks_and_universal_ratings(self):
   for track,c in ASSESSMENT_TRACKS.items():
-   state=quiz.initial(c['field'],track);self.assertEqual(len(state['pending']),15)
+   state=quiz.initial(c['field'],track);self.assertEqual(len(state['pending']),10)
    state=quiz.advance(state,answer_phase(state));self.assertEqual(len(state['pending']),5)
    state=quiz.advance(state,answer_phase(state));self.assertEqual(state['phase'],'complete')
-   v,e=quiz.score(state);self.assertEqual(set(v),set(SKILLS));self.assertEqual(sum(x['assessed'] for x in e.values()),15)
+   v,e=quiz.score(state);self.assertEqual(set(v),set(SKILLS));self.assertEqual(sum(x['assessed'] for x in e.values()),10)
    self.assertFalse(any(x['verified'] for x in e.values()))
  def test_context_changes_project_question_and_preserves_pure_check(self):
   # Exercise the generic context variants on an unchanged starter bank.
@@ -46,8 +46,8 @@ class AdaptiveTests(unittest.TestCase):
   s=through_context();s['flags']=['Python','SQL','Git'];s['bank']=[]
   for skill in ['Python','SQL','Git','React']:
    for i in range(12):s['bank'].append({'id':skill+str(i),'tier':3,'track':'backend','skill':skill,'requires_tier2_flag':skill,'verification_kind':'project' if i%2 else 'skill','difficulty':'standard'})
-  selected=quiz.select_verification(s);self.assertEqual(len(selected),15)
-  self.assertEqual({skill:sum(q['skill']==skill for q in selected) for skill in s['flags']},{'Python':5,'SQL':5,'Git':5})
+  selected=quiz.select_verification(s);self.assertEqual(len(selected),20)
+  self.assertEqual({skill:sum(q['skill']==skill for q in selected) for skill in s['flags']},{'Python':7,'SQL':7,'Git':6})
  def test_invalid_field_and_forged_values_rejected(self):
   with self.assertRaises(ValueError):quiz.initial('design','backend')
   s=quiz.initial('tech','backend');a=answer_phase(s);a[0]['value']=True
@@ -74,7 +74,7 @@ class AddendumAPITests(unittest.TestCase):
      self.assertTrue(all('correct_option' not in q for q in result['questions']))
      answers=[{'question_id':q['id'],'value':8 if q['type']=='self_rating' else 0} for q in result['questions']]
      response=client.post('/api/assessment/'+result['session_id']+'/advance',json={'student_id':'test','version':result['version'],'answers':answers});self.assertEqual(response.status_code,200,response.text);result=response.json()
-    profile=client.get('/api/student/test/profile').json();self.assertEqual(profile['track'],'backend');self.assertEqual(profile['field'],'tech');self.assertEqual(sum(e['assessed'] for e in profile['evidence'].values()),15)
+    profile=client.get('/api/student/test/profile').json();self.assertEqual(profile['track'],'backend');self.assertEqual(profile['field'],'tech');self.assertEqual(sum(e['assessed'] for e in profile['evidence'].values()),10)
     self.assertEqual(client.post('/api/assessment/'+first['session_id']+'/advance',json={'student_id':'test','version':0,'answers':[]}).status_code,409)
     self.assertEqual(client.post('/api/assessment/'+first['session_id']+'/advance',json={'student_id':'other','version':2,'answers':[]}).status_code,404)
     match=client.post('/api/match',json={'skill_vector':{'Python':10},'profile_id':'test'}).json()[0]

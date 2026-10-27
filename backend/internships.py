@@ -19,6 +19,12 @@ def migrate(db):
     db.execute('CREATE INDEX IF NOT EXISTS internships_student ON internships(student_id)')
     db.execute('CREATE INDEX IF NOT EXISTS internships_mentor ON internships(mentor_id)')
     db.execute('CREATE INDEX IF NOT EXISTS internship_feedback_parent ON internship_feedback(internship_id,created_at)')
+    # Additive migration: retain the original status constraint and existing records.
+    columns={row[1] for row in db.execute('PRAGMA table_info(internships)')}
+    for column in ('rejection_reason','rejected_at','rejected_by','accepted_at'):
+        if column not in columns:db.execute(f'ALTER TABLE internships ADD COLUMN {column} TEXT')
+    from .internship_documents import migrate as migrate_documents
+    migrate_documents(db)
 
 class Create(BaseModel):
     model_config=ConfigDict(extra='forbid')
@@ -43,7 +49,8 @@ class Feedback(BaseModel):
 
 class Status(BaseModel):
     model_config=ConfigDict(extra='forbid')
-    status:Literal['ongoing','completed']
+    status:Literal['ongoing','completed','rejected']
+    reason:str=Field(default='',max_length=1500)
 
 def require_role(request,role):
     user=request.state.user
@@ -72,7 +79,10 @@ def internships(request:Request):
         for row in rows:
             entries=db.execute('''SELECT f.*,a.name AS author_name FROM internship_feedback f
                 JOIN accounts a ON a.id=f.author WHERE f.internship_id=? ORDER BY f.created_at DESC,f.id DESC''',(row['id'],)).fetchall()
-            result.append({**dict(row),'feedback':[dict(entry) for entry in entries]})
+            from .internship_documents import list_documents
+            result.append({**dict(row),'status':'rejected' if row['rejected_at'] else row['status'],
+                'review_status':'rejected' if row['rejected_at'] else 'accepted' if row['accepted_at'] or row['status']=='completed' else 'pending',
+                'feedback':[dict(entry) for entry in entries],'documents':list_documents(db,row['id'])})
     return result
 
 @router.post('',status_code=201)
@@ -83,7 +93,7 @@ def create(body:Create,request:Request):
     with connection() as db:
         if not db.execute("SELECT id FROM accounts WHERE id=? AND role='faculty'",(body.mentor_id,)).fetchone():
             raise HTTPException(422,'Choose an existing faculty mentor.')
-        db.execute('INSERT INTO internships VALUES (?,?,?,?,?,?)',tuple(record.values()))
+        db.execute('INSERT INTO internships (id,student_id,title,mentor_id,status,created_at) VALUES (?,?,?,?,?,?)',tuple(record.values()))
     return record
 
 def assigned(db,identity,mentor):
@@ -104,6 +114,39 @@ def feedback(identity:str,body:Feedback,request:Request):
 def status(identity:str,body:Status,request:Request):
     user=require_role(request,'faculty')
     with connection() as db:
+        db.execute('BEGIN IMMEDIATE')
         assigned(db,identity,user['id'])
-        db.execute('UPDATE internships SET status=? WHERE id=? AND mentor_id=?',(body.status,identity,user['id']))
+        current=db.execute('SELECT * FROM internships WHERE id=?',(identity,)).fetchone()
+        if body.status=='rejected':
+            reason=body.reason.strip()
+            if not reason:raise HTTPException(422,'Enter a reason for rejecting this internship.')
+            if current['rejected_at']:raise HTTPException(409,'This internship is already rejected. Reopen it before changing the decision.')
+            timestamp=now()
+            db.execute('UPDATE internships SET rejection_reason=?,rejected_at=?,rejected_by=? WHERE id=?',
+                (reason,timestamp,user['id'],identity))
+            db.execute('INSERT INTO internship_feedback VALUES (?,?,?,?,?)',
+                (secrets.token_hex(16),identity,user['id'],'Internship rejected: '+reason,timestamp))
+        else:
+            if current['rejected_at'] and body.status!='ongoing':raise HTTPException(409,'Reopen the rejected internship before marking it completed.')
+            db.execute('UPDATE internships SET status=?,accepted_at=CASE WHEN rejected_at IS NOT NULL THEN NULL ELSE accepted_at END,rejection_reason=NULL,rejected_at=NULL,rejected_by=NULL WHERE id=? AND mentor_id=?',
+                (body.status,identity,user['id']))
+            if current['rejected_at']:
+                db.execute('INSERT INTO internship_feedback VALUES (?,?,?,?,?)',
+                    (secrets.token_hex(16),identity,user['id'],'Internship reopened by the assigned mentor.',now()))
     return {'id':identity,'status':body.status}
+
+
+@router.patch('/{identity}/accept')
+def accept(identity:str,request:Request):
+    user=require_role(request,'faculty')
+    with connection() as db:
+        db.execute('BEGIN IMMEDIATE')
+        assigned(db,identity,user['id'])
+        current=db.execute('SELECT * FROM internships WHERE id=?',(identity,)).fetchone()
+        if current['rejected_at']:raise HTTPException(409,'Reopen the internship before accepting it.')
+        if not current['accepted_at']:
+            timestamp=now()
+            db.execute('UPDATE internships SET accepted_at=? WHERE id=?',(timestamp,identity))
+            db.execute('INSERT INTO internship_feedback VALUES (?,?,?,?,?)',
+                (secrets.token_hex(16),identity,user['id'],'Internship accepted by the assigned mentor.',timestamp))
+    return {'id':identity,'review_status':'accepted'}

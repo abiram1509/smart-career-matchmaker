@@ -46,7 +46,7 @@ def catalog():
  with main().connection() as db:
   rows=[json.loads(row['payload']) for row in db.execute('SELECT payload FROM questions')]
  tracks={track:{**config,'bank_summary':summarize(q for q in rows if q['track']==track)} for track,config in ASSESSMENT_TRACKS.items()}
- return {'fields':FIELDS,'tracks':tracks,'taxonomy':SKILLS,'bank_notice':'Bank counts reflect the stored questions for each track. Up to 15 eligible Tier-3 checks per assessment.'}
+ return {'fields':FIELDS,'tracks':tracks,'taxonomy':SKILLS,'bank_notice':'Bank counts reflect the stored questions for each track. Up to 20 eligible Tier-3 checks per assessment.'}
 
 def assessment_view(state):
  # Override presentation only. In-progress sessions retain their original bank snapshot.

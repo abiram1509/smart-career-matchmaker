@@ -1,7 +1,7 @@
 """Deterministic adaptive questionnaire. Answer keys never leave the backend."""
 import json
 from pathlib import Path
-from .assessment_config import ASSESSMENT_TRACKS,FIELDS,SOFT
+from .assessment_config import ASSESSMENT_TRACKS,FIELDS,SOFT,TIER1_SERVE_LIMIT,TIER3_SERVE_LIMIT
 from .domain import SKILLS
 BANK_PATH=Path(__file__).with_name('question_bank.json')
 
@@ -18,7 +18,7 @@ def public(q):return {k:v for k,v in q.items() if k not in {'correct_option','ac
 def initial(field,track):
  if field not in FIELDS or track not in FIELDS[field]['tracks']:raise ValueError('Choose a track belonging to the selected field.')
  rows=bank()
- return {'field':field,'track':track,'phase':'confidence','answers':{},'bank':rows,'pending':[q for q in rows if q['track'] in [track,'Universal'] and q['tier']==1]}
+ return {'field':field,'track':track,'phase':'confidence','answers':{},'bank':rows,'pending':[q for q in rows if q['track'] in [track,'Universal'] and q['tier']==1][:TIER1_SERVE_LIMIT]}
 
 def validate(q,value):
  if q['type']=='project_note':
@@ -70,9 +70,9 @@ def select_verification(state):
    if i<len(pure):mixed.append(pure[i])
   pools[skill]=mixed
  selected=[]
- while len(selected)<15 and any(pools.values()):
+ while len(selected)<TIER3_SERVE_LIMIT and any(pools.values()):
   for skill in flags:
-   if pools[skill] and len(selected)<15:selected.append(pools[skill].pop(0))
+   if pools[skill] and len(selected)<TIER3_SERVE_LIMIT:selected.append(pools[skill].pop(0))
  return selected
 
 def advance(state,answers):
@@ -83,7 +83,7 @@ def advance(state,answers):
  if phase=='confidence':
   state['phase']='counts';state['pending']=[q for q in rows if q['track']==track and q['tier']==2 and q.get('phase')=='counts']
  elif phase=='counts':
-  ratings={q['skill']:state['answers'][q['id']] for q in rows if q['track']==track and q['tier']==1}
+  ratings={q['skill']:state['answers'][q['id']] for q in rows if q['track']==track and q['tier']==1 and q['id'] in state['answers']}
   flags=[q['skill'] for q in state['pending'] if state['answers'][q['id']]>=2]
   state['flags']=sorted(flags,key=lambda s:(-ratings.get(s,0),s));state['phase']='context';state['pending']=([q for q in rows if q['track']==track and q['tier']==2 and q.get('phase')=='context'] or contexts(state['flags'])) if state['flags'] else []
   if not state['pending']:state['phase']='complete'
@@ -111,4 +111,4 @@ def score(state):
  return vector,evidence
 
 def view(state):
- return {'field':state['field'],'track':state['track'],'phase':state['phase'],'questions':[public(q) for q in state['pending']],'flagged_skills':state.get('flags',[]),'notice':('Backend bank: 60 applied questions available.' if state['track']=='backend' else 'Starter example bank.')+' Tier 3 contains only available relevant questions, up to 15. Missing coverage is not counted as a pass. Quiz checks do not verify employment experience, credentials or clinical competence.'}
+ return {'field':state['field'],'track':state['track'],'phase':state['phase'],'questions':[public(q) for q in state['pending']],'flagged_skills':state.get('flags',[]),'notice':('Backend bank: 60 applied questions available.' if state['track']=='backend' else 'Starter example bank.')+' Tier 3 contains only available relevant questions, up to 20. Missing coverage is not counted as a pass. Quiz checks do not verify employment experience, credentials or clinical competence.'}

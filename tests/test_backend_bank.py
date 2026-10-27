@@ -28,7 +28,7 @@ class BackendBankTests(unittest.TestCase):
   self.assertTrue(evidence['Deployment']['verified'])
  def test_full_path_context_and_missing_baseline(self):
   s=self.state(['Python','SQL','REST APIs','Authentication','Deployment'],'An e-commerce authentication API')
-  self.assertEqual(len(s['pending']),15)
+  self.assertEqual(len(s['pending']),20)
   self.assertIn('backend-user-q15',[q['id'] for q in s['pending']])
   self.assertEqual(len({q['requires_tier2_flag'] for q in s['pending']}),5)
   vector,evidence=quiz.score(quiz.advance(s,[{'question_id':q['id'],'value':q['correct_option']} for q in s['pending']]))
@@ -43,7 +43,7 @@ class BackendBankTests(unittest.TestCase):
   self.assertIn('backend-user-q15',[q['id'] for q in relevant['pending']])
  def test_only_eligible_questions_for_every_flag(self):
   for flag in ['Python','SQL','REST APIs','Authentication','Deployment']:
-   s=self.state([flag]);self.assertLessEqual(len(s['pending']),15)
+   s=self.state([flag]);self.assertLessEqual(len(s['pending']),20)
    self.assertTrue(all(q['requires_tier2_flag']==flag for q in s['pending']))
 
 class BackendPersistenceTests(unittest.TestCase):

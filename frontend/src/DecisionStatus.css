@@ -1,0 +1,11 @@
+/* Shared decision palette. Labels remain visible; colour is supplementary. */
+:root{--decision-pending-bg:#66502245;--decision-pending-fg:#f7dfa2;--decision-pending-line:#bfa15b;--decision-positive-bg:#1c614644;--decision-positive-fg:#b7f3d5;--decision-positive-line:#61b38e;--decision-negative-bg:#7e293d44;--decision-negative-fg:#ffd1db;--decision-negative-line:#d67e93;--decision-neutral-bg:#ffffff0a;--decision-neutral-fg:#cbd1e3;--decision-neutral-line:#777f99}
+html[data-theme=light]{--decision-pending-bg:#fff3d7;--decision-pending-fg:#755315;--decision-pending-line:#d4b26a;--decision-positive-bg:#e1f5e9;--decision-positive-fg:#206644;--decision-positive-line:#83be9c;--decision-negative-bg:#fde8ed;--decision-negative-fg:#962c47;--decision-negative-line:#db99aa;--decision-neutral-bg:#edf0f5;--decision-neutral-fg:#53627b;--decision-neutral-line:#cbd3df}
+[data-status-tone=pending]{--status-bg:var(--decision-pending-bg);--status-fg:var(--decision-pending-fg);--status-line:var(--decision-pending-line)}
+[data-status-tone=positive]{--status-bg:var(--decision-positive-bg);--status-fg:var(--decision-positive-fg);--status-line:var(--decision-positive-line)}
+[data-status-tone=negative]{--status-bg:var(--decision-negative-bg);--status-fg:var(--decision-negative-fg);--status-line:var(--decision-negative-line)}
+[data-status-tone=neutral]{--status-bg:var(--decision-neutral-bg);--status-fg:var(--decision-neutral-fg);--status-line:var(--decision-neutral-line)}
+/* Override local badge palettes without affecting unrelated controls. */
+html body [data-status-tone]:not(button):not(select),html body button[data-status-tone]:not([aria-pressed]),html body button[data-status-tone][aria-pressed=true]{background:var(--status-bg)!important;color:var(--status-fg)!important;border:1px solid var(--status-line)!important}
+html body [data-status-tone]:not(button):not(select){display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border-radius:12px;font-size:13px;font-weight:650;line-height:1.5}
+html body button[data-status-tone][aria-pressed=false]{border-bottom:3px solid var(--status-line)}

@@ -1,0 +1,15 @@
+.git
+.env
+.env.*
+**/__pycache__
+**/*.pyc
+**/*.sqlite3*
+**/*.db
+**/*.log
+frontend/node_modules
+frontend/dist
+backend/data/jobs.csv
+backend/data/jobs-cache*.json
+backend/data/onet-cache.json
+backend/data/portfolio-documents
+onet/onet_data

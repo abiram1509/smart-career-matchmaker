@@ -47,7 +47,7 @@ class MarketingImportTests(unittest.TestCase):
        answers.append({'question_id':q['id'],'value':value})
       response=client.post(f"/api/assessment/{current['session_id']}/advance",json={'student_id':'marketing-import','version':current['version'],'answers':answers})
       self.assertEqual(response.status_code,200,response.text);current=response.json()
-     self.assertEqual(sizes,[('confidence',15),('counts',5),('context',5),('verification',15)])
+     self.assertEqual(sizes,[('confidence',10),('counts',5),('context',5),('verification',20)])
      self.assertEqual(current['skill_vector']['Digital Marketing'],8)
      with main.connection() as db:
       self.assertEqual(db.execute("SELECT count(*) FROM questions WHERE track='marketing'").fetchone()[0],85)

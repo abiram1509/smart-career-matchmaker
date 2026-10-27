@@ -1,0 +1,255 @@
+{
+  "checked_date": "2026-10-08",
+  "checks": [
+    {
+      "url": "https://www.tableau.com/learn/training",
+      "status": 200,
+      "final_url": "https://www.tableau.com/learn/training",
+      "title": "Free Training Videos -"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/evaluating-learning-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/evaluating-learning-factsheet/",
+      "title": "Learning evaluation, impact and transfer | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/job-analysis/",
+      "status": 200,
+      "final_url": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/job-analysis/",
+      "title": "Job Analysis"
+    },
+    {
+      "url": "https://go.dev/tour/welcome/1",
+      "status": 200,
+      "final_url": "https://go.dev/tour/welcome/1",
+      "title": "A Tour of Go"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+      "status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+      "title": "C# docs - get started, tutorials, reference. - A tour of C# | Microsoft Learn"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference",
+      "status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-170",
+      "title": "C++ Language Reference | Microsoft Learn"
+    },
+    {
+      "url": "https://vuejs.org/tutorial/",
+      "status": 200,
+      "final_url": "https://vuejs.org/tutorial/",
+      "title": "Tutorial | Vue.js"
+    },
+    {
+      "url": "https://angular.dev/tutorials",
+      "status": 200,
+      "final_url": "https://angular.dev/tutorials",
+      "title": "Tutorials \u2022 Angular"
+    },
+    {
+      "url": "https://nextjs.org/learn/react-foundations",
+      "status": 200,
+      "final_url": "https://nextjs.org/learn/react-foundations",
+      "title": "React Foundations | Next.js"
+    },
+    {
+      "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+      "status": 200,
+      "final_url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+      "title": "Learn Kubernetes Basics | Kubernetes"
+    },
+    {
+      "url": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "status": 200,
+      "final_url": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "title": "The Linux command line for beginners | Ubuntu"
+    },
+    {
+      "url": "https://developer.hashicorp.com/terraform/tutorials",
+      "status": 200,
+      "final_url": "https://developer.hashicorp.com/terraform/tutorials",
+      "title": "Tutorials | Terraform | HashiCorp Developer"
+    },
+    {
+      "url": "https://docs.github.com/en/actions/about-github-actions/understanding-github-actions",
+      "status": 200,
+      "final_url": "https://docs.github.com/en/actions/get-started/understand-github-actions",
+      "title": "Understanding GitHub Actions - GitHub Docs"
+    },
+    {
+      "url": "https://www.jenkins.io/doc/tutorials/",
+      "status": 200,
+      "final_url": "https://www.jenkins.io/doc/tutorials/",
+      "title": " Tutorials overview "
+    },
+    {
+      "url": "https://www.tensorflow.org/tutorials/quickstart/beginner",
+      "status": 200,
+      "final_url": "https://www.tensorflow.org/tutorials/quickstart/beginner",
+      "title": "TensorFlow 2 quickstart for beginners &nbsp;|&nbsp; TensorFlow Core"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/excel",
+      "status": 200,
+      "final_url": "https://support.microsoft.com/en-us/excel/",
+      "title": "Excel help &amp; learning | Microsoft Support"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+      "status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+      "title": "Training for Power BI | Microsoft Learn"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-cloud-concepts/",
+      "status": 404,
+      "final_url": "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-cloud-concepts/",
+      "title": "404 - Content not found"
+    },
+    {
+      "url": "https://aws.amazon.com/getting-started/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/getting-started/",
+      "title": "Getting Started - Cloud Computing Tutorials for Building on AWS"
+    },
+    {
+      "url": "https://cloud.google.com/docs/get-started",
+      "status": 200,
+      "final_url": "https://docs.cloud.google.com/docs/get-started",
+      "title": "Get started with Google Cloud &nbsp;|&nbsp; Google Cloud Documentation"
+    },
+    {
+      "url": "https://spark.apache.org/docs/latest/quick-start.html",
+      "status": 200,
+      "final_url": "https://spark.apache.org/docs/latest/quick-start.html",
+      "title": "Quick Start - Spark 4.2.0 Documentation"
+    },
+    {
+      "url": "https://kafka.apache.org/quickstart",
+      "status": 200,
+      "final_url": "https://kafka.apache.org/quickstart/",
+      "title": "Quickstart | Apache Kafka"
+    },
+    {
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/tutorial.html",
+      "status": 403,
+      "final_url": "https://dev.mysql.com/doc/refman/8.4/en/tutorial.html",
+      "title": "Technical Difficulties"
+    },
+    {
+      "url": "https://cran.r-project.org/doc/manuals/r-release/R-intro.html",
+      "status": 200,
+      "final_url": "https://cran.r-project.org/doc/manuals/r-release/R-intro.html",
+      "title": "An Introduction to R"
+    },
+    {
+      "url": "https://spring.io/guides",
+      "status": 200,
+      "final_url": "https://spring.io/guides/",
+      "title": "Spring | Guides"
+    },
+    {
+      "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+      "status": 200,
+      "final_url": "https://docs.djangoproject.com/en/6.1/intro/tutorial01/",
+      "title": "Writing your first Django app, part 1 | Django documentation | Django"
+    },
+    {
+      "url": "https://flask.palletsprojects.com/en/stable/tutorial/",
+      "status": 200,
+      "final_url": "https://flask.palletsprojects.com/en/stable/tutorial/",
+      "title": "Tutorial &#8212; Flask Documentation (3.1.x)"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "status": 200,
+      "final_url": "https://fastapi.tiangolo.com/tutorial/",
+      "title": "Tutorial - User Guide - FastAPI"
+    },
+    {
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "status": 200,
+      "final_url": "https://expressjs.com/en/guide/routing/",
+      "title": "Routing \u00b7 Express.js"
+    },
+    {
+      "url": "https://doc.rust-lang.org/book/",
+      "status": 200,
+      "final_url": "https://doc.rust-lang.org/book/",
+      "title": "The Rust Programming Language - The Rust Programming Language"
+    },
+    {
+      "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html",
+      "status": 200,
+      "final_url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html",
+      "title": "Welcome to our tour of Kotlin! | Kotlin Documentation"
+    },
+    {
+      "url": "https://www.php.net/manual/en/tutorial.php",
+      "status": 200,
+      "final_url": "https://www.php.net/manual/en/tutorial.php",
+      "title": "PHP: A simple tutorial - Manual"
+    },
+    {
+      "url": "https://www.ruby-lang.org/en/documentation/quickstart/",
+      "status": 200,
+      "final_url": "https://www.ruby-lang.org/en/documentation/quickstart/",
+      "title": "Ruby in Twenty Minutes | Ruby"
+    },
+    {
+      "url": "https://www.selenium.dev/documentation/webdriver/getting_started/",
+      "status": 200,
+      "final_url": "https://www.selenium.dev/documentation/webdriver/getting_started/",
+      "title": "Getting started | Selenium"
+    },
+    {
+      "url": "https://developers.google.com/tech-writing",
+      "status": 200,
+      "final_url": "https://developers.google.com/tech-writing",
+      "title": "Technical Writing &nbsp;|&nbsp; Google for Developers"
+    },
+    {
+      "url": "https://scrumguides.org/scrum-guide.html",
+      "status": 200,
+      "final_url": "https://scrumguides.org/scrum-guide.html",
+      "title": "Scrum Guide | Scrum Guides"
+    },
+    {
+      "url": "https://openstax.org/details/books/principles-financial-accounting",
+      "status": 200,
+      "final_url": "https://openstax.org/details/books/principles-financial-accounting",
+      "title": "OpenStax"
+    },
+    {
+      "url": "https://openstax.org/details/books/principles-finance",
+      "status": 200,
+      "final_url": "https://openstax.org/details/books/principles-finance",
+      "title": "OpenStax"
+    },
+    {
+      "url": "https://openstax.org/details/books/business-communication",
+      "status": 200,
+      "final_url": "https://openstax.org/details/books/business-communication",
+      "title": "OpenStax"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+      "title": "Core learning modules - Learn web development | MDN"
+    },
+    {
+      "url": "https://blog.hubspot.com/marketing/how-to-do-a-b-testing",
+      "status": 200,
+      "final_url": "https://blog.hubspot.com/marketing/how-to-do-a-b-testing",
+      "title": "How to Do A/B Testing: 15 Steps for the Perfect Split Test"
+    }
+  ],
+  "before_links": 75,
+  "after_links": 114,
+  "before_skills": 146,
+  "after_skills": 221
+}

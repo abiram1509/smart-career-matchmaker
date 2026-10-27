@@ -80,3 +80,108 @@ class InternshipTests(unittest.TestCase):
   with main.connection() as db:
    after={t:[tuple(r) for r in db.execute('SELECT * FROM '+t)] for t in tables}
   self.assertEqual(before,after)
+
+ def upload(self,identity,filename='report.txt',content=b'Internship report'):
+  import base64
+  return self.client.post('/api/internships/'+identity+'/documents',json={'title':'Internship report','filename':filename,'content_base64':base64.b64encode(content).decode()})
+
+ def test_evidence_submission_download_and_private_metadata(self):
+  identity=self.create();response=self.upload(identity)
+  self.assertEqual(response.status_code,201,response.text);document=response.json()
+  self.assertNotIn('content',document)
+  listed=self.client.get('/api/internships').json()[0]['documents']
+  self.assertEqual(len(listed),1);self.assertNotIn('content',listed[0])
+  for account,role in [('student-one','student'),('faculty-one','faculty')]:
+   sign_in(self.client,account,role)
+   response=self.client.get(document['download_url'])
+   self.assertEqual(response.status_code,200);self.assertEqual(response.content,b'Internship report')
+   self.assertEqual(response.headers['cache-control'],'no-store')
+   self.assertIn('attachment',response.headers['content-disposition'])
+
+ def test_evidence_cannot_be_read_or_written_by_other_accounts(self):
+  identity=self.create();document=self.upload(identity).json()
+  for account,role in [('student-two','student'),('faculty-two','faculty'),('industry','industry'),('owner','owner'),('institution','institution')]:
+   sign_in(self.client,account,role)
+   self.assertIn(self.client.get(document['download_url']).status_code,[403,404])
+   self.assertIn(self.upload(identity).status_code,[403,404])
+  sign_in(self.client,'faculty-one','faculty')
+  self.assertEqual(self.upload(identity).status_code,403)
+  sign_in(self.client,'student-one')
+  other=self.create()
+  self.assertEqual(self.client.get(document['download_url'].replace(identity,other)).status_code,404)
+
+ def test_rejection_reason_permissions_preservation_and_reopening(self):
+  identity=self.create();document=self.upload(identity).json()
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/status',json={'status':'rejected','reason':'Stopped'}).status_code,403)
+  sign_in(self.client,'faculty-two','faculty')
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/status',json={'status':'rejected','reason':'Stopped'}).status_code,404)
+  sign_in(self.client,'faculty-one','faculty')
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/status',json={'status':'rejected','reason':'  '}).status_code,422)
+  response=self.client.patch('/api/internships/'+identity+'/status',json={'status':'rejected','reason':'Student discontinued the placement.'})
+  self.assertEqual(response.status_code,200,response.text)
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/status',json={'status':'completed'}).status_code,409)
+  sign_in(self.client,'student-one')
+  record=self.client.get('/api/internships').json()[0]
+  self.assertEqual(record['status'],'rejected');self.assertEqual(record['rejection_reason'],'Student discontinued the placement.')
+  self.assertEqual(record['rejected_by'],'faculty-one');self.assertTrue(record['rejected_at'])
+  self.assertEqual(len(record['documents']),1);self.assertIn('Internship rejected',record['feedback'][0]['feedback_text'])
+  self.assertEqual(self.upload(identity).status_code,409)
+  self.assertEqual(self.client.get(document['download_url']).status_code,200)
+  sign_in(self.client,'faculty-one','faculty')
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/status',json={'status':'ongoing'}).status_code,200)
+  record=self.client.get('/api/internships').json()[0]
+  self.assertEqual(record['status'],'ongoing');self.assertIsNone(record['rejected_at']);self.assertEqual(len(record['feedback']),2)
+  sign_in(self.client,'student-one');self.assertEqual(self.upload(identity).status_code,201)
+
+ def test_invalid_files_and_upload_limits(self):
+  from backend import internship_documents
+  identity=self.create()
+  for name,content in [('bad.exe',b'test'),('../report.txt',b'test'),('bad.pdf',b'not pdf'),('bad.txt',b'\x00'),('bad.txt',b'\xff')]:
+   self.assertEqual(self.upload(identity,name,content).status_code,422)
+  self.assertEqual(self.upload(identity,content=b'').status_code,422)
+  with patch.object(internship_documents,'MAX_FILE',4):self.assertEqual(self.upload(identity).status_code,413)
+  self.assertEqual(self.upload(identity).status_code,201)
+  with patch.object(internship_documents,'MAX_DOCUMENTS',1):self.assertEqual(self.upload(identity).status_code,409)
+  with patch.object(internship_documents,'MAX_BODY',30):self.assertEqual(self.upload(identity).status_code,413)
+  sign_in(self.client,'faculty-one','faculty')
+  self.client.patch('/api/internships/'+identity+'/status',json={'status':'completed'})
+  sign_in(self.client,'student-one');self.assertEqual(self.upload(identity).status_code,409)
+
+ def test_additive_migration_preserves_legacy_records_and_repeats(self):
+  import sqlite3
+  from backend.internships import migrate
+  db=sqlite3.connect(':memory:')
+  self.addCleanup(db.close)
+  db.execute("CREATE TABLE internships (id TEXT PRIMARY KEY,student_id TEXT NOT NULL,title TEXT NOT NULL,mentor_id TEXT NOT NULL,status TEXT NOT NULL DEFAULT 'ongoing' CHECK(status IN ('ongoing','completed')),created_at TEXT NOT NULL)")
+  db.execute("INSERT INTO internships VALUES ('old','s','Existing title','f','completed','date')")
+  migrate(db);migrate(db)
+  self.assertEqual(db.execute('SELECT id,student_id,title,mentor_id,status,created_at FROM internships').fetchone(),('old','s','Existing title','f','completed','date'))
+  self.assertEqual(db.execute('PRAGMA foreign_key_check').fetchall(),[])
+
+ def test_evidence_and_rejection_do_not_change_protected_tables(self):
+  tables=['profiles','assessment_sessions','questions','jobs','history','applications','portfolio_documents','job_alert_subscriptions','match_alerts']
+  with main.connection() as db:before={t:[tuple(r) for r in db.execute('SELECT * FROM '+t)] for t in tables}
+  identity=self.create();self.upload(identity);sign_in(self.client,'faculty-one','faculty')
+  self.client.patch('/api/internships/'+identity+'/status',json={'status':'rejected','reason':'Placement discontinued.'})
+  with main.connection() as db:after={t:[tuple(r) for r in db.execute('SELECT * FROM '+t)] for t in tables}
+  self.assertEqual(before,after)
+
+ def test_acceptance_is_persistent_scoped_and_separate_from_completion(self):
+  identity=self.create()
+  self.assertEqual(self.client.get('/api/internships').json()[0]['review_status'],'pending')
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/accept',json={}).status_code,403)
+  sign_in(self.client,'faculty-two','faculty')
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/accept',json={}).status_code,404)
+  sign_in(self.client,'faculty-one','faculty')
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/accept',json={}).status_code,200)
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/accept',json={}).status_code,200)
+  record=self.client.get('/api/internships').json()[0]
+  self.assertEqual(record['review_status'],'accepted');self.assertEqual(record['status'],'ongoing')
+  self.assertEqual(len(record['feedback']),1)
+  self.client.patch('/api/internships/'+identity+'/status',json={'status':'rejected','reason':'Insufficient evidence'})
+  self.assertEqual(self.client.get('/api/internships').json()[0]['review_status'],'rejected')
+  self.assertEqual(self.client.patch('/api/internships/'+identity+'/accept',json={}).status_code,409)
+  self.client.patch('/api/internships/'+identity+'/status',json={'status':'ongoing'})
+  self.assertEqual(self.client.get('/api/internships').json()[0]['review_status'],'pending')
+  self.client.patch('/api/internships/'+identity+'/status',json={'status':'completed'})
+  self.assertEqual(self.client.get('/api/internships').json()[0]['review_status'],'accepted')

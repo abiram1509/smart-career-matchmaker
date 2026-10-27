@@ -70,3 +70,7 @@ ASSESSMENT_TRACKS['frontend']['skills']=list(dict.fromkeys([
 ]))
 for field,config in FIELDS.items():
  for track in config['tracks']:ASSESSMENT_TRACKS[track]['field']=field
+
+# Serving limits; stored banks and scoring formulas remain unchanged.
+TIER1_SERVE_LIMIT=10
+TIER3_SERVE_LIMIT=20

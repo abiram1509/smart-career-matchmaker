@@ -69,7 +69,10 @@ def public(row):
 
 def student_or_owner(request):
     user=request.state.user
-    if user['role'] not in ('student','owner'):raise HTTPException(403,'Document access requires the student owner or platform administrator.')
+    if user['role'] not in ('student','owner','faculty'):raise HTTPException(403,'Document access requires the student owner or platform administrator.')
+    if user['role']=='faculty':
+        from .institutions import institution_for
+        with connection() as db: institution_for(db,user['id'],'faculty')
     return user
 
 @router.get('')
@@ -80,6 +83,13 @@ def documents(request:Request,offset:int=0):
         if user['role']=='owner':
             rows=db.execute('''SELECT d.*,a.name AS student_name FROM portfolio_documents d
                 JOIN accounts a ON a.id=d.student_id ORDER BY d.uploaded_at DESC,d.id LIMIT 100 OFFSET ?''',(offset,)).fetchall()
+            return [{**public(r),'student_name':r['student_name']} for r in rows]
+        if user['role']=='faculty':
+            from .institutions import institution_for
+            institution_id=institution_for(db,user['id'],'faculty')
+            rows=db.execute('''SELECT d.*,a.name AS student_name FROM portfolio_documents d
+                JOIN accounts a ON a.id=d.student_id WHERE a.role='student' AND a.institution_id=?
+                ORDER BY d.uploaded_at DESC,d.id LIMIT 100 OFFSET ?''',(institution_id,offset)).fetchall()
             return [{**public(r),'student_name':r['student_name']} for r in rows]
         rows=db.execute('SELECT * FROM portfolio_documents WHERE student_id=? ORDER BY uploaded_at DESC,id LIMIT 100 OFFSET ?',(user['id'],offset)).fetchall()
     return [public(r) for r in rows]
@@ -120,7 +130,14 @@ def upload(body:Upload,request:Request):
 
 def accessible(db,identity,user):
     row=db.execute('SELECT * FROM portfolio_documents WHERE id=?',(identity,)).fetchone()
-    if not row or (user['role']!='owner' and row['student_id']!=user['id']):raise HTTPException(404,'Document not found.')
+    if not row:raise HTTPException(404,'Document not found.')
+    if user['role']=='faculty':
+        from .institutions import institution_for
+        institution_id=institution_for(db,user['id'],'faculty')
+        student=db.execute("SELECT 1 FROM accounts WHERE id=? AND role='student' AND institution_id=?",(row['student_id'],institution_id)).fetchone()
+        if not student:raise HTTPException(404,'Document not found.')
+    elif user['role']!='owner' and row['student_id']!=user['id']:
+        raise HTTPException(404,'Document not found.')
     return row
 
 @router.get('/{identity}/download')
@@ -134,8 +151,9 @@ def download(identity:str,request:Request):
 @router.patch('/{identity}/status')
 def review(identity:str,body:Review,request:Request):
     user=request.state.user
-    if user['role']!='owner':raise HTTPException(403,'Only the platform administrator can verify documents.')
+    if user['role'] not in ('owner','faculty'):raise HTTPException(403,'Only authorized reviewers can verify documents.')
     with connection() as db:
+        db.execute('BEGIN IMMEDIATE')
         accessible(db,identity,user)
         verified=body.status=='verified'
         db.execute('UPDATE portfolio_documents SET status=?,verified_by=?,verified_at=? WHERE id=?',

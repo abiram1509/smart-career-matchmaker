@@ -1,88 +1,532 @@
 {
-  "Python": [],
-  "Java": [],
-  "Node.js": [],
-  "Go": [],
-  "SQL": [],
-  "PostgreSQL": [],
-  "MongoDB": [],
-  "REST APIs": [],
-  "C#": [],
-  "C++": [],
-  "Git": [],
-  "Testing": [],
-  "Data Structures": [],
-  "React": [],
-  "Vue": [],
-  "Angular": [],
-  "JavaScript": [],
-  "TypeScript": [],
-  "CSS": [],
-  "HTML": [],
-  "Accessibility": [],
-  "Next.js": [],
-  "Responsive Design": [],
-  "AWS": [],
-  "GCP": [],
+  "Python": [
+    {
+      "type": "doc",
+      "title": "Python: official tutorial",
+      "url": "https://docs.python.org/3/tutorial/"
+    },
+    {
+      "title": "Django: first application tutorial",
+      "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+      "type": "doc"
+    }
+  ],
+  "Java": [
+    {
+      "type": "doc",
+      "title": "Java: language learning guides",
+      "url": "https://dev.java/learn/"
+    },
+    {
+      "title": "Spring: getting started guides",
+      "url": "https://spring.io/guides",
+      "type": "doc"
+    }
+  ],
+  "Node.js": [
+    {
+      "type": "doc",
+      "title": "Node.js: introduction",
+      "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+    },
+    {
+      "title": "Express: routing guide",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "type": "doc"
+    }
+  ],
+  "Go": [
+    {
+      "title": "Go: interactive tour",
+      "url": "https://go.dev/tour/welcome/1",
+      "type": "doc"
+    }
+  ],
+  "SQL": [
+    {
+      "type": "doc",
+      "title": "PostgreSQL: SQL tutorial",
+      "url": "https://www.postgresql.org/docs/current/tutorial.html"
+    }
+  ],
+  "PostgreSQL": [
+    {
+      "type": "doc",
+      "title": "PostgreSQL: SQL tutorial",
+      "url": "https://www.postgresql.org/docs/current/tutorial.html"
+    }
+  ],
+  "MongoDB": [
+    {
+      "type": "doc",
+      "title": "MongoDB: introduction to document databases",
+      "url": "https://www.mongodb.com/docs/manual/introduction/"
+    }
+  ],
+  "REST APIs": [
+    {
+      "type": "doc",
+      "title": "MDN: using the Fetch API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+    },
+    {
+      "type": "doc",
+      "title": "MDN: overview of HTTP",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview"
+    }
+  ],
+  "C#": [
+    {
+      "title": "Microsoft: C# language tour",
+      "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+      "type": "doc"
+    }
+  ],
+  "C++": [
+    {
+      "title": "Microsoft: C++ language reference",
+      "url": "https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference",
+      "type": "doc"
+    }
+  ],
+  "Git": [
+    {
+      "type": "doc",
+      "title": "Pro Git: free online book",
+      "url": "https://git-scm.com/book/en/v2"
+    },
+    {
+      "title": "GitHub: understanding Actions",
+      "url": "https://docs.github.com/en/actions/about-github-actions/understanding-github-actions",
+      "type": "doc"
+    }
+  ],
+  "Testing": [
+    {
+      "type": "doc",
+      "title": "pytest: getting started",
+      "url": "https://docs.pytest.org/en/stable/getting-started.html"
+    },
+    {
+      "type": "doc",
+      "title": "Testing Library: testing UI behaviour",
+      "url": "https://testing-library.com/docs/"
+    }
+  ],
+  "Data Structures": [
+    {
+      "type": "doc",
+      "title": "Python tutorial: data structures",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html"
+    }
+  ],
+  "React": [
+    {
+      "type": "doc",
+      "title": "React: describing and building your UI",
+      "url": "https://react.dev/learn/describing-the-ui"
+    },
+    {
+      "title": "Next.js: React foundations",
+      "url": "https://nextjs.org/learn/react-foundations",
+      "type": "course"
+    }
+  ],
+  "Vue": [
+    {
+      "title": "Vue: introductory tutorial",
+      "url": "https://vuejs.org/tutorial/",
+      "type": "doc"
+    }
+  ],
+  "Angular": [
+    {
+      "title": "Angular: tutorials",
+      "url": "https://angular.dev/tutorials",
+      "type": "doc"
+    }
+  ],
+  "JavaScript": [
+    {
+      "type": "doc",
+      "title": "MDN: JavaScript guide",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+    }
+  ],
+  "TypeScript": [
+    {
+      "type": "doc",
+      "title": "TypeScript: handbook",
+      "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+    }
+  ],
+  "CSS": [
+    {
+      "type": "doc",
+      "title": "MDN: CSS styling basics",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics"
+    },
+    {
+      "title": "MDN: core web development modules",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+      "type": "doc"
+    }
+  ],
+  "HTML": [
+    {
+      "type": "doc",
+      "title": "MDN: structuring content with HTML",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+    },
+    {
+      "title": "MDN: core web development modules",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+      "type": "doc"
+    }
+  ],
+  "Accessibility": [
+    {
+      "type": "doc",
+      "title": "W3C WAI: accessibility tutorials",
+      "url": "https://www.w3.org/WAI/tutorials/"
+    }
+  ],
+  "Next.js": [
+    {
+      "title": "Next.js: React foundations",
+      "url": "https://nextjs.org/learn/react-foundations",
+      "type": "course"
+    }
+  ],
+  "Responsive Design": [
+    {
+      "type": "course",
+      "title": "web.dev: learn responsive design",
+      "url": "https://web.dev/learn/design"
+    }
+  ],
+  "AWS": [
+    {
+      "title": "AWS: getting started with cloud services",
+      "url": "https://aws.amazon.com/getting-started/",
+      "type": "doc"
+    }
+  ],
+  "GCP": [
+    {
+      "title": "Google Cloud: getting started documentation",
+      "url": "https://cloud.google.com/docs/get-started",
+      "type": "doc"
+    }
+  ],
   "Azure": [],
-  "Docker": [],
-  "Kubernetes": [],
-  "Linux": [],
-  "CI/CD": [],
-  "Terraform": [],
+  "Docker": [
+    {
+      "type": "doc",
+      "title": "Docker: getting started",
+      "url": "https://docs.docker.com/get-started/"
+    }
+  ],
+  "Kubernetes": [
+    {
+      "title": "Kubernetes: basics tutorial",
+      "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+      "type": "doc"
+    }
+  ],
+  "Linux": [
+    {
+      "title": "Ubuntu: command line for beginners",
+      "url": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "type": "doc"
+    }
+  ],
+  "CI/CD": [
+    {
+      "title": "GitHub: understanding Actions",
+      "url": "https://docs.github.com/en/actions/about-github-actions/understanding-github-actions",
+      "type": "doc"
+    }
+  ],
+  "Terraform": [
+    {
+      "title": "HashiCorp: Terraform tutorials",
+      "url": "https://developer.hashicorp.com/terraform/tutorials",
+      "type": "doc"
+    }
+  ],
   "Networking": [],
-  "Machine Learning": [],
-  "Data Science": [],
-  "Pandas": [],
-  "TensorFlow": [],
-  "Statistics": [],
-  "Excel": [],
-  "Power BI": [],
-  "Data Visualization": [],
-  "NumPy": [],
-  "Data Engineering": [],
+  "Machine Learning": [
+    {
+      "type": "doc",
+      "title": "scikit-learn: getting started",
+      "url": "https://scikit-learn.org/stable/getting_started.html"
+    }
+  ],
+  "Data Science": [
+    {
+      "type": "doc",
+      "title": "Python: official tutorial",
+      "url": "https://docs.python.org/3/tutorial/"
+    }
+  ],
+  "Pandas": [
+    {
+      "type": "doc",
+      "title": "pandas: introductory tutorials",
+      "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html"
+    }
+  ],
+  "TensorFlow": [
+    {
+      "title": "TensorFlow: beginner quickstart",
+      "url": "https://www.tensorflow.org/tutorials/quickstart/beginner",
+      "type": "doc"
+    }
+  ],
+  "Statistics": [
+    {
+      "type": "doc",
+      "title": "OpenStax: introductory statistics (free textbook)",
+      "url": "https://openstax.org/details/books/introductory-statistics-2e"
+    },
+    {
+      "title": "R: introduction manual",
+      "url": "https://cran.r-project.org/doc/manuals/r-release/R-intro.html",
+      "type": "doc"
+    }
+  ],
+  "Excel": [
+    {
+      "title": "Microsoft: Excel help and learning",
+      "url": "https://support.microsoft.com/en-us/excel",
+      "type": "doc"
+    }
+  ],
+  "Power BI": [
+    {
+      "title": "Microsoft: Power BI learning paths",
+      "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+      "type": "course"
+    }
+  ],
+  "Data Visualization": [
+    {
+      "type": "doc",
+      "title": "seaborn: statistical visualization tutorial",
+      "url": "https://seaborn.pydata.org/tutorial.html"
+    },
+    {
+      "title": "Tableau: free training videos",
+      "url": "https://www.tableau.com/learn/training",
+      "type": "video"
+    }
+  ],
+  "NumPy": [
+    {
+      "type": "doc",
+      "title": "NumPy: absolute beginners guide",
+      "url": "https://numpy.org/doc/stable/user/absolute_beginners.html"
+    }
+  ],
+  "Data Engineering": [
+    {
+      "title": "Apache Spark: quick start",
+      "url": "https://spark.apache.org/docs/latest/quick-start.html",
+      "type": "doc"
+    }
+  ],
   "System Design": [],
   "Algorithms": [],
-  "Cybersecurity": [],
-  "Agile": [],
-  "Debugging": [],
-  "Documentation": [],
+  "Cybersecurity": [
+    {
+      "type": "doc",
+      "title": "OWASP: secure application design guidance",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html"
+    }
+  ],
+  "Agile": [
+    {
+      "title": "Scrum: official guide to team roles and events",
+      "url": "https://scrumguides.org/scrum-guide.html",
+      "type": "doc"
+    }
+  ],
+  "Debugging": [
+    {
+      "type": "doc",
+      "title": "Chrome DevTools: debug JavaScript",
+      "url": "https://developer.chrome.com/docs/devtools/javascript"
+    }
+  ],
+  "Documentation": [
+    {
+      "title": "Google: technical writing courses",
+      "url": "https://developers.google.com/tech-writing",
+      "type": "course"
+    }
+  ],
   "UI/UX": [],
   "Figma": [],
-  "Communication": [],
+  "Communication": [
+    {
+      "title": "OpenStax: business communication textbook",
+      "url": "https://openstax.org/details/books/business-communication",
+      "type": "doc"
+    }
+  ],
   "Leadership": [],
   "Problem Solving": [],
-  "Teamwork": [],
+  "Teamwork": [
+    {
+      "title": "Scrum: official guide to team roles and events",
+      "url": "https://scrumguides.org/scrum-guide.html",
+      "type": "doc"
+    }
+  ],
   "Time Management": [],
   "Adaptability": [],
   "Critical Thinking": [],
-  "Presentation": [],
-  "Collaboration": [],
+  "Presentation": [
+    {
+      "title": "OpenStax: business communication textbook",
+      "url": "https://openstax.org/details/books/business-communication",
+      "type": "doc"
+    }
+  ],
+  "Collaboration": [
+    {
+      "title": "Scrum: official guide to team roles and events",
+      "url": "https://scrumguides.org/scrum-guide.html",
+      "type": "doc"
+    }
+  ],
   "Research": [],
-  "Sales": [],
+  "Sales": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: inbound sales (free account required)",
+      "url": "https://academy.hubspot.com/courses/inbound-sales"
+    }
+  ],
   "Customer Service": [],
-  "Negotiation": [],
-  "CRM": [],
-  "Lead Generation": [],
-  "Account Management": [],
-  "Business Development": [],
-  "Market Research": [],
-  "Accounting": [],
-  "Financial Analysis": [],
-  "Budgeting": [],
+  "Negotiation": [
+    {
+      "type": "doc",
+      "title": "OpenStax: organizational behavior, conflict and negotiation (chapter 14)",
+      "url": "https://openstax.org/books/organizational-behavior/pages/14-introduction"
+    }
+  ],
+  "CRM": [
+    {
+      "type": "course",
+      "title": "Salesforce Trailhead: CRM basics (account may be required)",
+      "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome"
+    }
+  ],
+  "Lead Generation": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: inbound sales (free account required)",
+      "url": "https://academy.hubspot.com/courses/inbound-sales"
+    }
+  ],
+  "Account Management": [
+    {
+      "type": "course",
+      "title": "Salesforce Trailhead: CRM basics (account may be required)",
+      "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome"
+    }
+  ],
+  "Business Development": [
+    {
+      "type": "doc",
+      "title": "OpenStax: entrepreneurship (business plans, pitches and market analysis)",
+      "url": "https://openstax.org/details/books/entrepreneurship"
+    }
+  ],
+  "Market Research": [
+    {
+      "type": "doc",
+      "title": "OpenStax: principles of marketing (research, segmentation, branding, channels)",
+      "url": "https://openstax.org/details/books/principles-marketing"
+    }
+  ],
+  "Accounting": [
+    {
+      "title": "OpenStax: financial accounting textbook",
+      "url": "https://openstax.org/details/books/principles-financial-accounting",
+      "type": "doc"
+    }
+  ],
+  "Financial Analysis": [
+    {
+      "title": "OpenStax: principles of finance textbook",
+      "url": "https://openstax.org/details/books/principles-finance",
+      "type": "doc"
+    }
+  ],
+  "Budgeting": [
+    {
+      "title": "OpenStax: principles of finance textbook",
+      "url": "https://openstax.org/details/books/principles-finance",
+      "type": "doc"
+    }
+  ],
   "Auditing": [],
   "Taxation": [],
-  "Bookkeeping": [],
-  "Financial Reporting": [],
-  "Risk Management": [],
+  "Bookkeeping": [
+    {
+      "title": "OpenStax: financial accounting textbook",
+      "url": "https://openstax.org/details/books/principles-financial-accounting",
+      "type": "doc"
+    }
+  ],
+  "Financial Reporting": [
+    {
+      "title": "OpenStax: financial accounting textbook",
+      "url": "https://openstax.org/details/books/principles-financial-accounting",
+      "type": "doc"
+    }
+  ],
+  "Risk Management": [
+    {
+      "type": "doc",
+      "title": "OECD: risk-based due diligence guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html"
+    }
+  ],
   "Reconciliation": [],
-  "Recruitment": [],
-  "HR Management": [],
+  "Recruitment": [
+    {
+      "type": "doc",
+      "title": "CIPD: recruitment factsheet (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/recruitment-factsheet/"
+    }
+  ],
+  "HR Management": [
+    {
+      "type": "doc",
+      "title": "CIPD: workforce planning",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/workforce-planning-factsheet/"
+    },
+    {
+      "title": "OPM: job analysis methods (US employment context)",
+      "url": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/job-analysis/",
+      "type": "doc"
+    }
+  ],
   "Scheduling": [],
   "Office Administration": [],
   "Payroll": [],
   "Record Keeping": [],
-  "Training": [],
+  "Training": [
+    {
+      "title": "CIPD: evaluating learning, impact and transfer",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/evaluating-learning-factsheet/",
+      "type": "doc"
+    }
+  ],
   "Data Entry": [],
   "Teaching": [],
   "Lesson Planning": [],
@@ -90,22 +534,76 @@
   "Assessment Design": [],
   "Classroom Management": [],
   "Student Support": [],
-  "Patient Support": [],
+  "Patient Support": [
+    {
+      "type": "doc",
+      "title": "AHRQ: health literacy toolkit (US primary-care examples)",
+      "url": "https://www.ahrq.gov/health-literacy/improve/precautions/index.html"
+    }
+  ],
   "Medical Terminology": [],
-  "Health Records": [],
-  "Confidentiality": [],
+  "Health Records": [
+    {
+      "type": "doc",
+      "title": "HHS: HIPAA training materials (US rules)",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/training/index.html"
+    }
+  ],
+  "Confidentiality": [
+    {
+      "type": "doc",
+      "title": "HHS: HIPAA training materials (US rules)",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/training/index.html"
+    }
+  ],
   "Infection Prevention": [],
   "Care Coordination": [],
   "Quality Assurance": [],
-  "Digital Marketing": [],
-  "Content Writing": [],
-  "SEO": [],
-  "Social Media": [],
+  "Digital Marketing": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: digital marketing (free account required)",
+      "url": "https://academy.hubspot.com/courses/digital-marketing"
+    }
+  ],
+  "Content Writing": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: content marketing (free account required)",
+      "url": "https://academy.hubspot.com/courses/content-marketing"
+    }
+  ],
+  "SEO": [
+    {
+      "type": "doc",
+      "title": "Google: SEO starter guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    }
+  ],
+  "Social Media": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: social media marketing (free account required)",
+      "url": "https://academy.hubspot.com/courses/social-media"
+    }
+  ],
   "Graphic Design": [],
   "Video Editing": [],
   "Copywriting": [],
-  "Campaign Management": [],
-  "Analytics": [],
+  "Campaign Management": [
+    {
+      "type": "course",
+      "title": "Google Skillshop: Google Ads learning (account required)",
+      "url": "https://skillshop.withgoogle.com/googleads/"
+    }
+  ],
+  "Analytics": [
+    {
+      "type": "doc",
+      "title": "Google: Analytics Academy learning resources",
+      "url": "https://support.google.com/analytics/answer/15440208"
+    }
+  ],
   "Project Management": [],
   "Safety Procedures": [],
   "Supply Chain": [],
@@ -114,46 +612,224 @@
   "Manufacturing": [],
   "Maintenance": [],
   "CAD": [],
-  "Legal Research": [],
+  "Legal Research": [
+    {
+      "type": "doc",
+      "title": "Georgetown Law: research and writing guides (US context)",
+      "url": "https://www.law.georgetown.edu/academics/academic-resources/the-writing-center/guides-and-handouts/"
+    }
+  ],
   "Compliance": [],
-  "Contract Review": [],
+  "Contract Review": [
+    {
+      "type": "doc",
+      "title": "Cornell Wex: contract law fundamentals (US context)",
+      "url": "https://www.law.cornell.edu/wex/contract"
+    }
+  ],
   "Case Management": [],
-  "Writing": [],
-  "Jenkins": [],
+  "Writing": [
+    {
+      "title": "Google: technical writing courses",
+      "url": "https://developers.google.com/tech-writing",
+      "type": "course"
+    }
+  ],
+  "Jenkins": [
+    {
+      "title": "Jenkins: guided tutorials",
+      "url": "https://www.jenkins.io/doc/tutorials/",
+      "type": "doc"
+    }
+  ],
   "ETL": [],
-  "Spark": [],
-  "Salesforce": [],
-  "R": [],
+  "Spark": [
+    {
+      "title": "Apache Spark: quick start",
+      "url": "https://spark.apache.org/docs/latest/quick-start.html",
+      "type": "doc"
+    }
+  ],
+  "Salesforce": [
+    {
+      "type": "course",
+      "title": "Salesforce Trailhead: CRM basics (account may be required)",
+      "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome"
+    }
+  ],
+  "R": [
+    {
+      "title": "R: introduction manual",
+      "url": "https://cran.r-project.org/doc/manuals/r-release/R-intro.html",
+      "type": "doc"
+    }
+  ],
   "Computer Vision": [],
-  "Spring": [],
-  "Big Data": [],
+  "Spring": [
+    {
+      "title": "Spring: getting started guides",
+      "url": "https://spring.io/guides",
+      "type": "doc"
+    }
+  ],
+  "Big Data": [
+    {
+      "title": "Apache Spark: quick start",
+      "url": "https://spark.apache.org/docs/latest/quick-start.html",
+      "type": "doc"
+    }
+  ],
   "MySQL": [],
-  "Tableau": [],
+  "Tableau": [
+    {
+      "title": "Tableau: free training videos",
+      "url": "https://www.tableau.com/learn/training",
+      "type": "video"
+    }
+  ],
   "Hadoop": [],
-  "Kafka": [],
+  "Kafka": [
+    {
+      "title": "Apache Kafka: quick start",
+      "url": "https://kafka.apache.org/quickstart",
+      "type": "doc"
+    }
+  ],
   "Scala": [],
-  "Deep Learning": [],
-  "PHP": [],
-  "Django": [],
-  "Flask": [],
-  "NLP": [],
-  "PyTorch": [],
+  "Deep Learning": [
+    {
+      "type": "doc",
+      "title": "PyTorch: learn the basics",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html"
+    },
+    {
+      "title": "TensorFlow: beginner quickstart",
+      "url": "https://www.tensorflow.org/tutorials/quickstart/beginner",
+      "type": "doc"
+    }
+  ],
+  "PHP": [
+    {
+      "title": "PHP: introductory tutorial",
+      "url": "https://www.php.net/manual/en/tutorial.php",
+      "type": "doc"
+    }
+  ],
+  "Django": [
+    {
+      "title": "Django: first application tutorial",
+      "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+      "type": "doc"
+    }
+  ],
+  "Flask": [
+    {
+      "title": "Flask: application tutorial",
+      "url": "https://flask.palletsprojects.com/en/stable/tutorial/",
+      "type": "doc"
+    }
+  ],
+  "NLP": [
+    {
+      "type": "course",
+      "title": "Hugging Face: language-model course",
+      "url": "https://huggingface.co/learn/llm-course/chapter1/1"
+    }
+  ],
+  "PyTorch": [
+    {
+      "type": "doc",
+      "title": "PyTorch: learn the basics",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html"
+    },
+    {
+      "title": "TensorFlow: beginner quickstart",
+      "url": "https://www.tensorflow.org/tutorials/quickstart/beginner",
+      "type": "doc"
+    }
+  ],
   "Cassandra": [],
-  "Express": [],
+  "Express": [
+    {
+      "title": "Express: routing guide",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "type": "doc"
+    }
+  ],
   "Redis": [],
-  "Kotlin": [],
-  "Ruby": [],
+  "Kotlin": [
+    {
+      "title": "Kotlin: introductory tour",
+      "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html",
+      "type": "doc"
+    }
+  ],
+  "Ruby": [
+    {
+      "title": "Ruby: twenty-minute tutorial",
+      "url": "https://www.ruby-lang.org/en/documentation/quickstart/",
+      "type": "doc"
+    }
+  ],
   "DynamoDB": [],
   "Elasticsearch": [],
-  "Scikit-learn": [],
-  "Rust": [],
-  "FastAPI": [],
+  "Scikit-learn": [
+    {
+      "type": "doc",
+      "title": "scikit-learn: getting started",
+      "url": "https://scikit-learn.org/stable/getting_started.html"
+    }
+  ],
+  "Rust": [
+    {
+      "title": "Rust: official language book",
+      "url": "https://doc.rust-lang.org/book/",
+      "type": "doc"
+    }
+  ],
+  "FastAPI": [
+    {
+      "title": "FastAPI: user guide",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "type": "doc"
+    }
+  ],
   "Manual Testing": [],
-  "Automation Testing": [],
-  "Test Case Design": [],
-  "Selenium": [],
-  "Content Strategy": [],
-  "Financial Modeling": [],
+  "Automation Testing": [
+    {
+      "title": "Selenium: getting started",
+      "url": "https://www.selenium.dev/documentation/webdriver/getting_started/",
+      "type": "doc"
+    }
+  ],
+  "Test Case Design": [
+    {
+      "title": "Selenium: getting started",
+      "url": "https://www.selenium.dev/documentation/webdriver/getting_started/",
+      "type": "doc"
+    }
+  ],
+  "Selenium": [
+    {
+      "title": "Selenium: getting started",
+      "url": "https://www.selenium.dev/documentation/webdriver/getting_started/",
+      "type": "doc"
+    }
+  ],
+  "Content Strategy": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: content marketing (free account required)",
+      "url": "https://academy.hubspot.com/courses/content-marketing"
+    }
+  ],
+  "Financial Modeling": [
+    {
+      "title": "OpenStax: principles of finance textbook",
+      "url": "https://openstax.org/details/books/principles-finance",
+      "type": "doc"
+    }
+  ],
   "Process Optimization": [],
   "User Research": [],
   "Wireframing": [],
@@ -177,5 +853,875 @@
   "Tally": [],
   "SAP": [],
   "Procurement": [],
-  "Computer Literacy": []
+  "Computer Literacy": [],
+  "Python for Data Science": [
+    {
+      "type": "doc",
+      "title": "Python: official tutorial",
+      "url": "https://docs.python.org/3/tutorial/"
+    }
+  ],
+  "Java / Node.js": [
+    {
+      "type": "doc",
+      "title": "Java: language learning guides",
+      "url": "https://dev.java/learn/"
+    },
+    {
+      "type": "doc",
+      "title": "Node.js: introduction",
+      "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+    }
+  ],
+  "Relational Databases": [
+    {
+      "type": "doc",
+      "title": "PostgreSQL: SQL tutorial",
+      "url": "https://www.postgresql.org/docs/current/tutorial.html"
+    }
+  ],
+  "Data Engineering / SQL": [
+    {
+      "type": "doc",
+      "title": "PostgreSQL: SQL tutorial",
+      "url": "https://www.postgresql.org/docs/current/tutorial.html"
+    }
+  ],
+  "NoSQL": [
+    {
+      "type": "doc",
+      "title": "MongoDB: introduction to document databases",
+      "url": "https://www.mongodb.com/docs/manual/introduction/"
+    }
+  ],
+  "API Integration": [
+    {
+      "type": "doc",
+      "title": "MDN: using the Fetch API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+    },
+    {
+      "title": "FastAPI: user guide",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "type": "doc"
+    }
+  ],
+  "Project-Informed API Integration": [
+    {
+      "type": "doc",
+      "title": "MDN: using the Fetch API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+    }
+  ],
+  "Authentication": [
+    {
+      "type": "doc",
+      "title": "OWASP: authentication implementation guidance",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
+    }
+  ],
+  "Security": [
+    {
+      "type": "doc",
+      "title": "OWASP: secure application design guidance",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html"
+    }
+  ],
+  "Git / ML Workflow": [
+    {
+      "type": "doc",
+      "title": "Pro Git: free online book",
+      "url": "https://git-scm.com/book/en/v2"
+    }
+  ],
+  "Error Handling": [
+    {
+      "type": "doc",
+      "title": "Python tutorial: errors and exceptions",
+      "url": "https://docs.python.org/3/tutorial/errors.html"
+    }
+  ],
+  "Backend Testing": [
+    {
+      "type": "doc",
+      "title": "pytest: getting started",
+      "url": "https://docs.pytest.org/en/stable/getting-started.html"
+    }
+  ],
+  "Deployment": [
+    {
+      "type": "doc",
+      "title": "Docker: getting started",
+      "url": "https://docs.docker.com/get-started/"
+    }
+  ],
+  "Performance": [
+    {
+      "type": "course",
+      "title": "web.dev: learn web performance",
+      "url": "https://web.dev/learn/performance"
+    }
+  ],
+  "Project-Informed React": [
+    {
+      "type": "doc",
+      "title": "React: describing and building your UI",
+      "url": "https://react.dev/learn/describing-the-ui"
+    }
+  ],
+  "UI Component Design": [
+    {
+      "type": "doc",
+      "title": "React: describing and building your UI",
+      "url": "https://react.dev/learn/describing-the-ui"
+    }
+  ],
+  "State Management": [
+    {
+      "type": "doc",
+      "title": "React: managing state",
+      "url": "https://react.dev/learn/managing-state"
+    }
+  ],
+  "Forms & Validation": [
+    {
+      "type": "doc",
+      "title": "MDN: client-side form validation",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation"
+    }
+  ],
+  "Data Cleaning": [
+    {
+      "type": "doc",
+      "title": "pandas: introductory tutorials",
+      "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html"
+    }
+  ],
+  "Exploratory Data Analysis": [
+    {
+      "type": "doc",
+      "title": "seaborn: statistical visualization tutorial",
+      "url": "https://seaborn.pydata.org/tutorial.html"
+    }
+  ],
+  "EDA": [
+    {
+      "type": "doc",
+      "title": "seaborn: statistical visualization tutorial",
+      "url": "https://seaborn.pydata.org/tutorial.html"
+    }
+  ],
+  "Hypothesis Testing": [
+    {
+      "type": "doc",
+      "title": "OpenStax: introductory statistics (free textbook)",
+      "url": "https://openstax.org/details/books/introductory-statistics-2e"
+    }
+  ],
+  "Feature Engineering": [
+    {
+      "type": "doc",
+      "title": "scikit-learn: preprocessing data",
+      "url": "https://scikit-learn.org/stable/modules/preprocessing.html"
+    }
+  ],
+  "Model Evaluation": [
+    {
+      "type": "doc",
+      "title": "scikit-learn: model evaluation",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
+    }
+  ],
+  "Model Deployment": [
+    {
+      "type": "doc",
+      "title": "MLflow: deploying models",
+      "url": "https://mlflow.org/docs/latest/ml/deployment/"
+    }
+  ],
+  "Patient Communication": [
+    {
+      "type": "doc",
+      "title": "AHRQ: health literacy toolkit (US primary-care examples)",
+      "url": "https://www.ahrq.gov/health-literacy/improve/precautions/index.html"
+    }
+  ],
+  "Patient Intake": [
+    {
+      "type": "doc",
+      "title": "AHRQ: health literacy toolkit (US primary-care examples)",
+      "url": "https://www.ahrq.gov/health-literacy/improve/precautions/index.html"
+    }
+  ],
+  "Referral Coordination": [
+    {
+      "type": "doc",
+      "title": "AHRQ: health literacy toolkit (US primary-care examples)",
+      "url": "https://www.ahrq.gov/health-literacy/improve/precautions/index.html"
+    }
+  ],
+  "Scheduling / Referral Coordination": [
+    {
+      "type": "doc",
+      "title": "AHRQ: health literacy toolkit (US primary-care examples)",
+      "url": "https://www.ahrq.gov/health-literacy/improve/precautions/index.html"
+    }
+  ],
+  "Healthcare Administration": [
+    {
+      "type": "doc",
+      "title": "AHRQ: mapping healthcare workflows (US examples)",
+      "url": "https://www.ahrq.gov/evidencenow/tools/workflow-mapping.html"
+    }
+  ],
+  "Healthcare Workflow": [
+    {
+      "type": "doc",
+      "title": "AHRQ: mapping healthcare workflows (US examples)",
+      "url": "https://www.ahrq.gov/evidencenow/tools/workflow-mapping.html"
+    }
+  ],
+  "Healthcare Technology": [
+    {
+      "type": "doc",
+      "title": "AHRQ: workflow assessment for health IT",
+      "url": "https://digital.ahrq.gov/health-it-tools-and-resources/evaluation-resources/workflow-assessment-health-it-toolkit"
+    }
+  ],
+  "Healthcare Data Management": [
+    {
+      "type": "doc",
+      "title": "AHRQ: workflow assessment for health IT",
+      "url": "https://digital.ahrq.gov/health-it-tools-and-resources/evaluation-resources/workflow-assessment-health-it-toolkit"
+    }
+  ],
+  "Confidentiality & Privacy": [
+    {
+      "type": "doc",
+      "title": "HHS: HIPAA training materials (US rules)",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/training/index.html"
+    }
+  ],
+  "Medical Records": [
+    {
+      "type": "doc",
+      "title": "HHS: HIPAA training materials (US rules)",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/training/index.html"
+    }
+  ],
+  "Patient Safety": [
+    {
+      "type": "doc",
+      "title": "WHO: patient safety curriculum guide",
+      "url": "https://www.who.int/publications/i/item/9789241501958"
+    }
+  ],
+  "Patient Safety / Quality": [
+    {
+      "type": "doc",
+      "title": "WHO: patient safety curriculum guide",
+      "url": "https://www.who.int/publications/i/item/9789241501958"
+    }
+  ],
+  "Healthcare Quality": [
+    {
+      "type": "doc",
+      "title": "WHO: patient safety curriculum guide",
+      "url": "https://www.who.int/publications/i/item/9789241501958"
+    }
+  ],
+  "Legal Writing": [
+    {
+      "type": "doc",
+      "title": "Georgetown Law: research and writing guides (US context)",
+      "url": "https://www.law.georgetown.edu/academics/academic-resources/the-writing-center/guides-and-handouts/"
+    }
+  ],
+  "Legal Documentation": [
+    {
+      "type": "doc",
+      "title": "Georgetown Law: research and writing guides (US context)",
+      "url": "https://www.law.georgetown.edu/academics/academic-resources/the-writing-center/guides-and-handouts/"
+    }
+  ],
+  "Regulatory Research": [
+    {
+      "type": "doc",
+      "title": "Georgetown Law: research and writing guides (US context)",
+      "url": "https://www.law.georgetown.edu/academics/academic-resources/the-writing-center/guides-and-handouts/"
+    }
+  ],
+  "Compliance / Regulatory Research": [
+    {
+      "type": "doc",
+      "title": "Georgetown Law: research and writing guides (US context)",
+      "url": "https://www.law.georgetown.edu/academics/academic-resources/the-writing-center/guides-and-handouts/"
+    }
+  ],
+  "Due Diligence": [
+    {
+      "type": "doc",
+      "title": "OECD: risk-based due diligence guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html"
+    }
+  ],
+  "Risk & Compliance Analysis": [
+    {
+      "type": "doc",
+      "title": "OECD: risk-based due diligence guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html"
+    }
+  ],
+  "Compliance Risk Analysis": [
+    {
+      "type": "doc",
+      "title": "OECD: risk-based due diligence guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html"
+    }
+  ],
+  "Legal / Compliance Risk": [
+    {
+      "type": "doc",
+      "title": "OECD: risk-based due diligence guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html"
+    }
+  ],
+  "Risk Analysis": [
+    {
+      "type": "doc",
+      "title": "OECD: risk-based due diligence guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html"
+    }
+  ],
+  "Compliance Management": [
+    {
+      "type": "doc",
+      "title": "OECD: risk-based due diligence guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html"
+    },
+    {
+      "type": "doc",
+      "title": "HHS OIG: compliance programmes, policies and audits (US healthcare example)",
+      "url": "https://oig.hhs.gov/compliance/general-compliance-program-guidance/"
+    }
+  ],
+  "Contract Management": [
+    {
+      "type": "doc",
+      "title": "Cornell Wex: contract law fundamentals (US context)",
+      "url": "https://www.law.cornell.edu/wex/contract"
+    }
+  ],
+  "Contract Review / Management": [
+    {
+      "type": "doc",
+      "title": "Cornell Wex: contract law fundamentals (US context)",
+      "url": "https://www.law.cornell.edu/wex/contract"
+    }
+  ],
+  "Privacy & Data Protection": [
+    {
+      "type": "doc",
+      "title": "ICO: data protection guidance (UK rules)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/"
+    }
+  ],
+  "Governance / Privacy": [
+    {
+      "type": "doc",
+      "title": "ICO: data protection guidance (UK rules)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/"
+    }
+  ],
+  "Dispute / Issue Management": [
+    {
+      "type": "doc",
+      "title": "Cornell Wex: alternative dispute resolution (US context)",
+      "url": "https://www.law.cornell.edu/wex/alternative_dispute_resolution"
+    }
+  ],
+  "Market Expansion": [
+    {
+      "type": "doc",
+      "title": "OpenStax: entrepreneurship (business plans, pitches and market analysis)",
+      "url": "https://openstax.org/details/books/entrepreneurship"
+    }
+  ],
+  "Competitive Analysis": [
+    {
+      "type": "doc",
+      "title": "OpenStax: entrepreneurship (business plans, pitches and market analysis)",
+      "url": "https://openstax.org/details/books/entrepreneurship"
+    }
+  ],
+  "Revenue Opportunity Analysis": [
+    {
+      "type": "doc",
+      "title": "OpenStax: entrepreneurship (business plans, pitches and market analysis)",
+      "url": "https://openstax.org/details/books/entrepreneurship"
+    }
+  ],
+  "Business Development Strategy": [
+    {
+      "type": "doc",
+      "title": "OpenStax: entrepreneurship (business plans, pitches and market analysis)",
+      "url": "https://openstax.org/details/books/entrepreneurship"
+    }
+  ],
+  "Strategic Business Development": [
+    {
+      "type": "doc",
+      "title": "OpenStax: entrepreneurship (business plans, pitches and market analysis)",
+      "url": "https://openstax.org/details/books/entrepreneurship"
+    }
+  ],
+  "Competitive / Account Strategy": [
+    {
+      "type": "doc",
+      "title": "OpenStax: entrepreneurship (business plans, pitches and market analysis)",
+      "url": "https://openstax.org/details/books/entrepreneurship"
+    }
+  ],
+  "Business Pitching": [
+    {
+      "type": "doc",
+      "title": "OpenStax: entrepreneurship (business plans, pitches and market analysis)",
+      "url": "https://openstax.org/details/books/entrepreneurship"
+    }
+  ],
+  "Proposal Development": [
+    {
+      "type": "doc",
+      "title": "OpenStax: entrepreneurship (business plans, pitches and market analysis)",
+      "url": "https://openstax.org/details/books/entrepreneurship"
+    }
+  ],
+  "CRM Management": [
+    {
+      "type": "course",
+      "title": "Salesforce Trailhead: CRM basics (account may be required)",
+      "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome"
+    }
+  ],
+  "Client Relationship Management": [
+    {
+      "type": "course",
+      "title": "Salesforce Trailhead: CRM basics (account may be required)",
+      "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome"
+    }
+  ],
+  "Account Growth": [
+    {
+      "type": "course",
+      "title": "Salesforce Trailhead: CRM basics (account may be required)",
+      "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome"
+    }
+  ],
+  "Lead Qualification": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: inbound sales (free account required)",
+      "url": "https://academy.hubspot.com/courses/inbound-sales"
+    }
+  ],
+  "Sales Prospecting": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: inbound sales (free account required)",
+      "url": "https://academy.hubspot.com/courses/inbound-sales"
+    }
+  ],
+  "Conflict Resolution": [
+    {
+      "type": "doc",
+      "title": "OpenStax: organizational behavior, conflict and negotiation (chapter 14)",
+      "url": "https://openstax.org/books/organizational-behavior/pages/14-introduction"
+    }
+  ],
+  "Customer Research": [
+    {
+      "type": "doc",
+      "title": "OpenStax: principles of marketing (research, segmentation, branding, channels)",
+      "url": "https://openstax.org/details/books/principles-marketing"
+    }
+  ],
+  "Customer Segmentation": [
+    {
+      "type": "doc",
+      "title": "OpenStax: principles of marketing (research, segmentation, branding, channels)",
+      "url": "https://openstax.org/details/books/principles-marketing"
+    }
+  ],
+  "Brand Management": [
+    {
+      "type": "doc",
+      "title": "OpenStax: principles of marketing (research, segmentation, branding, channels)",
+      "url": "https://openstax.org/details/books/principles-marketing"
+    }
+  ],
+  "Marketing Strategy": [
+    {
+      "type": "doc",
+      "title": "OpenStax: principles of marketing (research, segmentation, branding, channels)",
+      "url": "https://openstax.org/details/books/principles-marketing"
+    }
+  ],
+  "Marketing Communications": [
+    {
+      "type": "doc",
+      "title": "OpenStax: principles of marketing (research, segmentation, branding, channels)",
+      "url": "https://openstax.org/details/books/principles-marketing"
+    }
+  ],
+  "Partnership Development": [
+    {
+      "type": "doc",
+      "title": "OpenStax: principles of marketing (research, segmentation, branding, channels)",
+      "url": "https://openstax.org/details/books/principles-marketing"
+    }
+  ],
+  "Strategic Partnerships": [
+    {
+      "type": "doc",
+      "title": "OpenStax: principles of marketing (research, segmentation, branding, channels)",
+      "url": "https://openstax.org/details/books/principles-marketing"
+    }
+  ],
+  "Search Engine Optimization": [
+    {
+      "type": "doc",
+      "title": "Google: SEO starter guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    }
+  ],
+  "SEO / SEM": [
+    {
+      "type": "doc",
+      "title": "Google: SEO starter guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    }
+  ],
+  "Search Engine Marketing": [
+    {
+      "type": "course",
+      "title": "Google Skillshop: Google Ads learning (account required)",
+      "url": "https://skillshop.withgoogle.com/googleads/"
+    }
+  ],
+  "Paid Search": [
+    {
+      "type": "course",
+      "title": "Google Skillshop: Google Ads learning (account required)",
+      "url": "https://skillshop.withgoogle.com/googleads/"
+    }
+  ],
+  "Social Media Marketing": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: social media marketing (free account required)",
+      "url": "https://academy.hubspot.com/courses/social-media"
+    }
+  ],
+  "Social / Content Marketing": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: social media marketing (free account required)",
+      "url": "https://academy.hubspot.com/courses/social-media"
+    }
+  ],
+  "Content Marketing": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: content marketing (free account required)",
+      "url": "https://academy.hubspot.com/courses/content-marketing"
+    }
+  ],
+  "Email Marketing": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: email marketing (free account required)",
+      "url": "https://academy.hubspot.com/courses/email-marketing"
+    }
+  ],
+  "Marketing Analytics": [
+    {
+      "type": "doc",
+      "title": "Google: Analytics Academy learning resources",
+      "url": "https://support.google.com/analytics/answer/15440208"
+    }
+  ],
+  "Talent Acquisition": [
+    {
+      "type": "doc",
+      "title": "CIPD: recruitment factsheet (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/recruitment-factsheet/"
+    }
+  ],
+  "Recruitment Sourcing": [
+    {
+      "type": "doc",
+      "title": "CIPD: recruitment factsheet (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/recruitment-factsheet/"
+    }
+  ],
+  "Recruitment Screening": [
+    {
+      "type": "doc",
+      "title": "CIPD: recruitment factsheet (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/recruitment-factsheet/"
+    }
+  ],
+  "Selection": [
+    {
+      "type": "doc",
+      "title": "CIPD: recruitment factsheet (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/recruitment-factsheet/"
+    }
+  ],
+  "Candidate Experience": [
+    {
+      "type": "doc",
+      "title": "CIPD: recruitment factsheet (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/recruitment-factsheet/"
+    }
+  ],
+  "Interviewing": [
+    {
+      "type": "doc",
+      "title": "CIPD: selection methods (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/selection-factsheet/"
+    }
+  ],
+  "Interview Evaluation": [
+    {
+      "type": "doc",
+      "title": "CIPD: selection methods (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/selection-factsheet/"
+    }
+  ],
+  "Employee Relations": [
+    {
+      "type": "doc",
+      "title": "CIPD: employee relations (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/relations-employees-factsheet/"
+    }
+  ],
+  "Performance Management": [
+    {
+      "type": "doc",
+      "title": "CIPD: performance management",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/performance-factsheet/"
+    }
+  ],
+  "Performance Management / Engagement": [
+    {
+      "type": "doc",
+      "title": "CIPD: performance management",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/performance-factsheet/"
+    }
+  ],
+  "Learning and Development": [
+    {
+      "type": "doc",
+      "title": "CIPD: identifying learning and development needs",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/learning-needs-factsheet/"
+    },
+    {
+      "title": "CIPD: evaluating learning, impact and transfer",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/evaluating-learning-factsheet/",
+      "type": "doc"
+    }
+  ],
+  "Training Needs Analysis": [
+    {
+      "type": "doc",
+      "title": "CIPD: identifying learning and development needs",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/learning-needs-factsheet/"
+    }
+  ],
+  "Compensation and Benefits": [
+    {
+      "type": "doc",
+      "title": "CIPD: strategic and total reward",
+      "url": "https://www.cipd.org/en/knowledge/factsheets/reward-factsheet/"
+    }
+  ],
+  "HR Analytics": [
+    {
+      "type": "doc",
+      "title": "CIPD: people analytics",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/analytics-factsheet/"
+    }
+  ],
+  "Workforce Planning": [
+    {
+      "type": "doc",
+      "title": "CIPD: workforce planning",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/workforce-planning-factsheet/"
+    },
+    {
+      "title": "OPM: job analysis methods (US employment context)",
+      "url": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/job-analysis/",
+      "type": "doc"
+    }
+  ],
+  "Employee Engagement": [
+    {
+      "type": "doc",
+      "title": "CIPD: employee engagement and motivation",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/engagement-factsheet/"
+    }
+  ],
+  "HR Policies": [
+    {
+      "type": "doc",
+      "title": "CIPD: workplace relationship policies (UK context)",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/relationships-workplace-factsheet/"
+    }
+  ],
+  "Onboarding": [
+    {
+      "type": "doc",
+      "title": "CIPD: employee induction",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/induction-factsheet/"
+    }
+  ],
+  "Insurance & Billing Support": [
+    {
+      "type": "doc",
+      "title": "CMS: billing and documentation learning materials (US Medicare)",
+      "url": "https://www.cms.gov/training-education/medicare-learning-networkr-mln/resources-training/mln-publications-multimedia"
+    }
+  ],
+  "Clinical Documentation Support": [
+    {
+      "type": "doc",
+      "title": "CMS: billing and documentation learning materials (US Medicare)",
+      "url": "https://www.cms.gov/training-education/medicare-learning-networkr-mln/resources-training/mln-publications-multimedia"
+    }
+  ],
+  "Patient Scheduling": [
+    {
+      "type": "doc",
+      "title": "HealthIT.gov: patient portals and appointment access (US examples)",
+      "url": "https://playbook.healthit.gov/playbook/pe/full/"
+    }
+  ],
+  "Policy Development": [
+    {
+      "type": "doc",
+      "title": "HHS OIG: compliance programmes, policies and audits (US healthcare example)",
+      "url": "https://oig.hhs.gov/compliance/general-compliance-program-guidance/"
+    }
+  ],
+  "Compliance Auditing": [
+    {
+      "type": "doc",
+      "title": "HHS OIG: compliance programmes, policies and audits (US healthcare example)",
+      "url": "https://oig.hhs.gov/compliance/general-compliance-program-guidance/"
+    }
+  ],
+  "Regulatory Compliance": [
+    {
+      "type": "doc",
+      "title": "HHS OIG: compliance programmes, policies and audits (US healthcare example)",
+      "url": "https://oig.hhs.gov/compliance/general-compliance-program-guidance/"
+    }
+  ],
+  "Corporate Governance": [
+    {
+      "type": "doc",
+      "title": "OECD: corporate governance principles",
+      "url": "https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en/full-report.html"
+    }
+  ],
+  "Compliance Governance": [
+    {
+      "type": "doc",
+      "title": "OECD: corporate governance principles",
+      "url": "https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en/full-report.html"
+    }
+  ],
+  "Conversion Rate Optimization": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: conversion rate optimization (free account required)",
+      "url": "https://academy.hubspot.com/lessons/implementing-conversion-rate-optimization"
+    },
+    {
+      "title": "HubSpot: A/B testing guide",
+      "url": "https://blog.hubspot.com/marketing/how-to-do-a-b-testing",
+      "type": "doc"
+    }
+  ],
+  "HR Information Systems": [
+    {
+      "type": "doc",
+      "title": "SAP: introduction to human resource information systems",
+      "url": "https://www.sap.com/resources/what-is-hris"
+    }
+  ],
+  "Training Evaluation": [
+    {
+      "title": "CIPD: evaluating learning, impact and transfer",
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/evaluating-learning-factsheet/",
+      "type": "doc"
+    }
+  ],
+  "Job Analysis": [
+    {
+      "title": "OPM: job analysis methods (US employment context)",
+      "url": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/job-analysis/",
+      "type": "doc"
+    }
+  ],
+  "HTML/CSS": [
+    {
+      "title": "MDN: core web development modules",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+      "type": "doc"
+    }
+  ],
+  "A/B Testing": [
+    {
+      "title": "HubSpot: A/B testing guide",
+      "url": "https://blog.hubspot.com/marketing/how-to-do-a-b-testing",
+      "type": "doc"
+    }
+  ],
+  "Data Cleaning / EDA": [
+    {
+      "type": "doc",
+      "title": "pandas: introductory tutorials",
+      "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html"
+    }
+  ],
+  "Medical Records / Data": [
+    {
+      "type": "doc",
+      "title": "HHS: HIPAA training materials (US rules)",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/training/index.html"
+    }
+  ],
+  "Due Diligence / Governance": [
+    {
+      "type": "doc",
+      "title": "OECD: risk-based due diligence guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html"
+    }
+  ],
+  "Legal Risk Analysis": [
+    {
+      "type": "doc",
+      "title": "OECD: risk-based due diligence guidance",
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html"
+    }
+  ],
+  "Lead Generation / Prospecting": [
+    {
+      "type": "course",
+      "title": "HubSpot Academy: inbound sales (free account required)",
+      "url": "https://academy.hubspot.com/courses/inbound-sales"
+    }
+  ]
 }

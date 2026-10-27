@@ -5,7 +5,7 @@ from typing import Literal
 from fastapi import APIRouter,Request,Response,HTTPException
 from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
-from pydantic import BaseModel,Field,field_validator
+from pydantic import BaseModel,Field,StrictBool,field_validator
 
 router=APIRouter(prefix='/api/auth')
 COOKIE='bridge_session'
@@ -19,6 +19,8 @@ def migrate(db):
  db.execute('CREATE TABLE IF NOT EXISTS accounts (id TEXT PRIMARY KEY,email TEXT UNIQUE NOT NULL,name TEXT NOT NULL,organization TEXT NOT NULL,role TEXT NOT NULL,password_hash TEXT NOT NULL,created_at INTEGER NOT NULL)')
  db.execute('CREATE TABLE IF NOT EXISTS login_sessions (token_hash TEXT PRIMARY KEY,account_id TEXT NOT NULL,expires_at INTEGER NOT NULL)')
  db.execute('CREATE TABLE IF NOT EXISTS login_attempts (bucket TEXT PRIMARY KEY,started INTEGER NOT NULL,count INTEGER NOT NULL)')
+ from .institutions import migrate as migrate_institutions
+ migrate_institutions(db)
 
 def password_hash(password):
  salt=secrets.token_bytes(16);key=hashlib.scrypt(password.encode(),salt=salt,n=16384,r=8,p=1,dklen=32)
@@ -30,7 +32,7 @@ def password_valid(password,encoded):
   return hmac.compare_digest(actual.hex(),expected)
  except (ValueError,TypeError):return False
 
-def public_user(row):return {k:row[k] for k in ('id','name','email','organization','role')}
+def public_user(row):return {k:row[k] for k in ('id','name','email','organization','role','institution_id')}
 
 def session_user(token):
  if not token or len(token)>200:return None
@@ -56,6 +58,8 @@ class Credentials(BaseModel):
   if not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+',v):raise ValueError('Enter a valid email address.')
   return v
 class Registration(Credentials):
+ privacy_consent:StrictBool=False
+ terms_accepted:StrictBool=False
  name:str=Field(min_length=2,max_length=100)
  organization:str=Field(default='',max_length=150)
  role:Literal['student','faculty','industry']='student'
@@ -83,11 +87,15 @@ def secure(request):return request.url.scheme=='https'
 @router.post('/register',status_code=201)
 def register(body:Registration,request:Request,response:Response):
  throttle(request,body.email)
+ if not body.privacy_consent or not body.terms_accepted:raise HTTPException(422,'Read the privacy notice and terms, then select both acknowledgements to register.')
  if len(body.name)<2:raise HTTPException(422,'Enter your name.')
  if body.role in ('faculty','industry') and not body.organization:raise HTTPException(422,'Enter your institution or company.')
  identity='account-'+secrets.token_hex(16);encoded=password_hash(body.password)
  try:
-  with connection() as db:db.execute('INSERT INTO accounts VALUES (?,?,?,?,?,?,?)',(identity,body.email,body.name,body.organization,body.role,encoded,int(time.time())))
+  with connection() as db:
+   db.execute('INSERT INTO accounts (id,email,name,organization,role,password_hash,created_at) VALUES (?,?,?,?,?,?,?)',(identity,body.email,body.name,body.organization,body.role,encoded,int(time.time())))
+   from .privacy import acknowledge
+   acknowledge(db,identity)
  except sqlite3.IntegrityError:raise HTTPException(409,'This email cannot be registered. Try signing in.')
  issue_session(response,identity,secure(request))
  return {'user':{'id':identity,'email':body.email,'name':body.name,'organization':body.organization,'role':body.role}}

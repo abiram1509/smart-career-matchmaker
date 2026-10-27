@@ -11,6 +11,6 @@ def load_environment(path=CONFIG_PATH):
         if not line or line.startswith('#') or '=' not in line: continue
         key,value=line.split('=',1)
         key=key.strip();value=value.strip()
-        if key not in {'ONET_API_KEY','JOBS_API_URL','JOBS_API_KEY','JOBS_API_KEY_HEADER','JOBS_API_KEY_PREFIX','JOBS_CSV','JOBS_API_SEARCH_MODE'}: continue
+        if key not in {'SITE_OPERATOR_NAME','SITE_PRIVACY_EMAIL','ONET_API_KEY','JOBS_API_URL','JOBS_API_KEY','JOBS_API_KEY_HEADER','JOBS_API_KEY_PREFIX','JOBS_CSV','JOBS_API_SEARCH_MODE'}: continue
         if len(value)>=2 and value[0]==value[-1] and value[0] in {'"',"'"}: value=value[1:-1]
         if value: os.environ.setdefault(key,value)

@@ -1,0 +1,455 @@
+{
+  "checked_date": "2026-10-08",
+  "checks": [
+    {
+      "url": "https://academy.hubspot.com/courses/content-marketing",
+      "status": 200,
+      "final_url": "https://academy.hubspot.com/courses/content-marketing",
+      "title": "HubSpot Academy"
+    },
+    {
+      "url": "https://academy.hubspot.com/courses/digital-marketing",
+      "status": 200,
+      "final_url": "https://academy.hubspot.com/courses/digital-marketing",
+      "title": "HubSpot Academy"
+    },
+    {
+      "url": "https://academy.hubspot.com/courses/email-marketing",
+      "status": 200,
+      "final_url": "https://academy.hubspot.com/courses/email-marketing-certification-en",
+      "title": "HubSpot Academy"
+    },
+    {
+      "url": "https://academy.hubspot.com/courses/inbound-sales",
+      "status": 200,
+      "final_url": "https://academy.hubspot.com/courses/inbound-sales",
+      "title": "HubSpot Academy"
+    },
+    {
+      "url": "https://academy.hubspot.com/courses/social-media",
+      "status": 200,
+      "final_url": "https://academy.hubspot.com/courses/social-media",
+      "title": "HubSpot Academy"
+    },
+    {
+      "url": "https://academy.hubspot.com/lessons/implementing-conversion-rate-optimization",
+      "status": 200,
+      "final_url": "https://academy.hubspot.com/lessons/implementing-conversion-rate-optimization",
+      "title": "HubSpot Academy"
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+      "status": 200,
+      "final_url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+      "title": "Authentication - OWASP Cheat Sheet Series"
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html",
+      "status": 200,
+      "final_url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html",
+      "title": "Secure Product Design - OWASP Cheat Sheet Series"
+    },
+    {
+      "url": "https://dev.java/learn/",
+      "status": 200,
+      "final_url": "https://dev.java/learn/",
+      "title": "Learn Java - Dev.java"
+    },
+    {
+      "url": "https://developer.chrome.com/docs/devtools/javascript",
+      "status": 200,
+      "final_url": "https://developer.chrome.com/docs/devtools/javascript",
+      "title": "Debug JavaScript &nbsp;|&nbsp; Chrome DevTools &nbsp;|&nbsp; Chrome for Developers"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+      "title": "Structuring content with HTML - Learn web development | MDN"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+      "title": "CSS styling basics - Learn web development | MDN"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
+      "title": "Client-side form validation - Learn web development | MDN"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+      "title": "Using the Fetch API - Web APIs | MDN"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "title": "Overview of HTTP - HTTP | MDN"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "title": "JavaScript Guide - JavaScript | MDN"
+    },
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "status": 200,
+      "final_url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "title": "SEO Starter Guide: The Basics | Google Search Central &nbsp;|&nbsp; Documentation &nbsp;|&nbsp; Google for Developers"
+    },
+    {
+      "url": "https://digital.ahrq.gov/health-it-tools-and-resources/evaluation-resources/workflow-assessment-health-it-toolkit",
+      "status": 200,
+      "final_url": "https://digital.ahrq.gov/health-it-tools-and-resources/evaluation-resources/workflow-assessment-health-it-toolkit",
+      "title": "Workflow Assessment for Health IT Toolkit | Digital Healthcare Research"
+    },
+    {
+      "url": "https://docs.docker.com/get-started/",
+      "status": 200,
+      "final_url": "https://docs.docker.com/get-started/",
+      "title": "Get started | Docker Docs"
+    },
+    {
+      "url": "https://docs.pytest.org/en/stable/getting-started.html",
+      "status": 200,
+      "final_url": "https://docs.pytest.org/en/stable/getting-started.html",
+      "title": "Get Started - pytest documentation"
+    },
+    {
+      "url": "https://docs.python.org/3/tutorial/",
+      "status": 200,
+      "final_url": "https://docs.python.org/3/tutorial/",
+      "title": "The Python Tutorial &#8212; Python 3.14.8 documentation"
+    },
+    {
+      "url": "https://docs.python.org/3/tutorial/datastructures.html",
+      "status": 200,
+      "final_url": "https://docs.python.org/3/tutorial/datastructures.html",
+      "title": "5. Data Structures &#8212; Python 3.14.8 documentation"
+    },
+    {
+      "url": "https://docs.python.org/3/tutorial/errors.html",
+      "status": 200,
+      "final_url": "https://docs.python.org/3/tutorial/errors.html",
+      "title": "8. Errors and Exceptions &#8212; Python 3.14.8 documentation"
+    },
+    {
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+      "status": 200,
+      "final_url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+      "title": "Learn the Basics \u2014 PyTorch Tutorials 2.14.0+cu130 documentation"
+    },
+    {
+      "url": "https://git-scm.com/book/en/v2",
+      "status": 200,
+      "final_url": "https://git-scm.com/book/en/v2",
+      "title": "Git"
+    },
+    {
+      "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "status": 200,
+      "final_url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "title": "Introduction \u00b7 Hugging Face"
+    },
+    {
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/",
+      "status": 200,
+      "final_url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/",
+      "title": "UK GDPR guidance and resources | ICO"
+    },
+    {
+      "url": "https://mlflow.org/docs/latest/ml/deployment/",
+      "status": 200,
+      "final_url": "https://mlflow.org/docs/latest/ml/deployment/",
+      "title": "ML Model Serving | MLflow AI Platform"
+    },
+    {
+      "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+      "status": 200,
+      "final_url": "https://nodejs.org/learn/getting-started/introduction-to-nodejs",
+      "title": "Introduction to Node.js | Node.js Learn"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/user/absolute_beginners.html",
+      "status": 200,
+      "final_url": "https://numpy.org/doc/stable/user/absolute_beginners.html",
+      "title": "NumPy: the absolute basics for beginners &#8212; NumPy v2.5 Manual"
+    },
+    {
+      "url": "https://oig.hhs.gov/compliance/general-compliance-program-guidance/",
+      "status": 200,
+      "final_url": "https://oig.hhs.gov/compliance/general-compliance-program-guidance/",
+      "title": "General Compliance Program Guidance | Office of Inspector General | Government Oversight | U.S. Department of Health and Human Services"
+    },
+    {
+      "url": "https://openstax.org/books/organizational-behavior/pages/14-introduction",
+      "status": 200,
+      "final_url": "https://openstax.org/books/organizational-behavior/pages/14-introduction",
+      "title": "Ch. 14 Introduction - Organizational Behavior | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/details/books/entrepreneurship",
+      "status": 200,
+      "final_url": "https://openstax.org/details/books/entrepreneurship",
+      "title": "OpenStax"
+    },
+    {
+      "url": "https://openstax.org/details/books/introductory-statistics-2e",
+      "status": 200,
+      "final_url": "https://openstax.org/details/books/introductory-statistics-2e",
+      "title": "OpenStax"
+    },
+    {
+      "url": "https://openstax.org/details/books/principles-marketing",
+      "status": 200,
+      "final_url": "https://openstax.org/details/books/principles-marketing",
+      "title": "OpenStax"
+    },
+    {
+      "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html",
+      "status": 200,
+      "final_url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html",
+      "title": "Getting started tutorials &#8212; pandas 3.0.6 documentation"
+    },
+    {
+      "url": "https://playbook.healthit.gov/playbook/pe/full/",
+      "status": 200,
+      "final_url": "https://playbook.healthit.gov/playbook/pe/full/",
+      "title": "Patient Engagement Playbook"
+    },
+    {
+      "url": "https://react.dev/learn/describing-the-ui",
+      "status": 200,
+      "final_url": "https://react.dev/learn/describing-the-ui",
+      "title": "Describing the UI \u2013 React"
+    },
+    {
+      "url": "https://react.dev/learn/managing-state",
+      "status": 200,
+      "final_url": "https://react.dev/learn/managing-state",
+      "title": "Managing State \u2013 React"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/getting_started.html",
+      "status": 200,
+      "final_url": "https://scikit-learn.org/stable/getting_started.html",
+      "title": "Getting Started &#8212; scikit-learn 1.9.1 documentation"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "status": 200,
+      "final_url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "title": "3.4. Metrics and scoring: quantifying the quality of predictions &#8212; scikit-learn 1.9.1 documentation"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/preprocessing.html",
+      "status": 200,
+      "final_url": "https://scikit-learn.org/stable/modules/preprocessing.html",
+      "title": "8.3. Preprocessing data &#8212; scikit-learn 1.9.1 documentation"
+    },
+    {
+      "url": "https://seaborn.pydata.org/tutorial.html",
+      "status": 200,
+      "final_url": "https://seaborn.pydata.org/tutorial.html",
+      "title": "User guide and tutorial &#8212; seaborn 0.13.2 documentation"
+    },
+    {
+      "url": "https://skillshop.withgoogle.com/googleads/",
+      "status": 200,
+      "final_url": "https://skillshop.withgoogle.com/googleads/",
+      "title": "Skillshop"
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/15440208",
+      "status": 200,
+      "final_url": "https://support.google.com/analytics/answer/15440208",
+      "title": "[GA4] Analytics Academy - Analytics Help"
+    },
+    {
+      "url": "https://testing-library.com/docs/",
+      "status": 200,
+      "final_url": "https://testing-library.com/docs/",
+      "title": "Introduction | Testing Library"
+    },
+    {
+      "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome",
+      "status": 200,
+      "final_url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics/lex_implementation_basics_welcome",
+      "title": "Salesforce CRM Basics"
+    },
+    {
+      "url": "https://web.dev/learn/design",
+      "status": 200,
+      "final_url": "https://web.dev/learn/design",
+      "title": "Learn Responsive Design &nbsp;|&nbsp; web.dev"
+    },
+    {
+      "url": "https://web.dev/learn/performance",
+      "status": 200,
+      "final_url": "https://web.dev/learn/performance",
+      "title": "Learn Performance &nbsp;|&nbsp; web.dev"
+    },
+    {
+      "url": "https://www.ahrq.gov/evidencenow/tools/workflow-mapping.html",
+      "status": 403,
+      "final_url": "https://www.ahrq.gov/evidencenow/tools/workflow-mapping.html",
+      "title": "ERROR: The request could not be satisfied"
+    },
+    {
+      "url": "https://www.ahrq.gov/health-literacy/improve/precautions/index.html",
+      "status": 403,
+      "final_url": "https://www.ahrq.gov/health-literacy/improve/precautions/index.html",
+      "title": "ERROR: The request could not be satisfied"
+    },
+    {
+      "url": "https://www.cipd.org/en/knowledge/factsheets/reward-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/en/knowledge/factsheets/reward-factsheet/",
+      "title": "Reward | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/analytics-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/analytics-factsheet/",
+      "title": "People Analytics | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/engagement-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/engagement-factsheet/",
+      "title": "Employee Engagement &amp; Motivation | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/induction-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/induction-factsheet/",
+      "title": "Induction | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/learning-needs-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/learning-needs-factsheet/",
+      "title": "Learning needs analysis | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/performance-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/performance-factsheet/",
+      "title": "Performance Management | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/recruitment-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/recruitment-factsheet/",
+      "title": "Recruitment process | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/relations-employees-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/relations-employees-factsheet/",
+      "title": "Employee Relations | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/relationships-workplace-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/relationships-workplace-factsheet/",
+      "title": "Personal relationships in the workplace | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/selection-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/selection-factsheet/",
+      "title": "Selection Methods | CIPD"
+    },
+    {
+      "url": "https://www.cipd.org/uk/knowledge/factsheets/workforce-planning-factsheet/",
+      "status": 200,
+      "final_url": "https://www.cipd.org/uk/knowledge/factsheets/workforce-planning-factsheet/",
+      "title": "Workforce planning | Factsheets | CIPD"
+    },
+    {
+      "url": "https://www.cms.gov/training-education/medicare-learning-networkr-mln/resources-training/mln-publications-multimedia",
+      "status": 403,
+      "final_url": "https://www.cms.gov/training-education/medicare-learning-networkr-mln/resources-training/mln-publications-multimedia",
+      "title": "Access Denied"
+    },
+    {
+      "url": "https://www.hhs.gov/hipaa/for-professionals/training/index.html",
+      "status": 403,
+      "final_url": "https://www.hhs.gov/hipaa/for-professionals/training/index.html",
+      "title": "Access Denied"
+    },
+    {
+      "url": "https://www.law.cornell.edu/wex/alternative_dispute_resolution",
+      "status": 200,
+      "final_url": "https://www.law.cornell.edu/wex/alternative_dispute_resolution",
+      "title": "alternative dispute resolution | Wex | US Law | LII / Legal Information Institute"
+    },
+    {
+      "url": "https://www.law.cornell.edu/wex/contract",
+      "status": 200,
+      "final_url": "https://www.law.cornell.edu/wex/contract",
+      "title": "contract | Wex | US Law | LII / Legal Information Institute"
+    },
+    {
+      "url": "https://www.law.georgetown.edu/academics/academic-resources/the-writing-center/guides-and-handouts/",
+      "status": 403,
+      "final_url": "https://www.law.georgetown.edu/academics/academic-resources/the-writing-center/guides-and-handouts/",
+      "title": "403 - Forbidden"
+    },
+    {
+      "url": "https://www.mongodb.com/docs/manual/introduction/",
+      "status": 200,
+      "final_url": "https://www.mongodb.com/docs/manual/",
+      "title": "What is MongoDB? - Database Manual - MongoDB Docs"
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en/full-report.html",
+      "status": 403,
+      "final_url": "https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en/full-report.html",
+      "title": "Just a moment..."
+    },
+    {
+      "url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html",
+      "status": 403,
+      "final_url": "https://www.oecd.org/en/topics/sub-issues/due-diligence-guidance-for-responsible-business-conduct.html",
+      "title": "Just a moment..."
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/tutorial.html",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/docs/current/tutorial.html",
+      "title": "PostgreSQL: Documentation: 18: Part I. Tutorial"
+    },
+    {
+      "url": "https://www.sap.com/resources/what-is-hris",
+      "status": 403,
+      "final_url": "https://www.sap.com/resources/what-is-hris",
+      "title": "Access Denied"
+    },
+    {
+      "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "status": 200,
+      "final_url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "title": "TypeScript: Handbook - The TypeScript Handbook"
+    },
+    {
+      "url": "https://www.w3.org/WAI/tutorials/",
+      "status": 200,
+      "final_url": "https://www.w3.org/WAI/tutorials/",
+      "title": "Tutorials | Web Accessibility Initiative (WAI) | W3C"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789241501958",
+      "status": 200,
+      "final_url": "https://www.who.int/publications/i/item/9789241501958",
+      "title": "Patient safety curriculum guide: multi-professional edition"
+    }
+  ]
+}
